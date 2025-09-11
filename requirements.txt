@@ -1,0 +1,11 @@
+# Python dependencies for Data Annotator project
+
+# Core dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Optional: For better JSON handling
+# ujson>=5.8.0
+
+# Optional: For progress bars
+# tqdm>=4.66.0

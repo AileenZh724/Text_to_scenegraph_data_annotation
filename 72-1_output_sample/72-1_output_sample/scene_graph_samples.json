@@ -1,0 +1,157 @@
+[
+    [
+        {
+            "time": "T1",
+            "nodes": [
+                { "id": "boy",  "attributes": ["young", "red_shirt"] },
+                { "id": "dog",  "attributes": ["brown"             ] },
+                { "id": "park", "attributes": ["sunny"             ] }
+            ],
+            "edges": [ ["boy", "in", "park"], ["dog", "in", "park"], ["boy", "waves_at", "dog"] ]
+        },
+        {
+            "time": "T2",
+            "nodes": [
+                { "id": "boy",  "attributes": ["young", "red_shirt"                ] },
+                { "id": "dog",  "attributes": ["brown", "running",   "wagging_tail"] },
+                { "id": "park", "attributes": ["sunny"                             ] }
+            ],
+            "edges": [ ["boy", "in", "park"], ["dog", "in", "park"], ["dog", "runs_toward", "boy"] ]
+        },
+        {
+            "time": "T3",
+            "nodes": [
+                { "id": "boy",  "attributes": ["young", "red_shirt", "kneeling"] },
+                { "id": "dog",  "attributes": ["brown"                         ] },
+                { "id": "park", "attributes": ["sunny"                         ] }
+            ],
+            "edges": [ ["boy", "in", "park"], ["dog", "in", "park"], ["boy", "pets", "dog"] ]
+        }
+    ],
+    [
+        {
+            "time": "T1",
+            "nodes": [
+                { "id": "cat",        "attributes": ["fluffy", "white", "sitting"] },
+                { "id": "windowsill", "attributes": [                            ] },
+                { "id": "rain",       "attributes": [                            ] }
+            ],
+            "edges": [ ["cat", "sits_on", "windowsill"], ["cat", "watches", "rain"] ]
+        },
+        {
+            "time": "T2",
+            "nodes": [
+                { "id": "cat",        "attributes": ["fluffy",  "white", "jumping"] },
+                { "id": "windowsill", "attributes": [                             ] },
+                { "id": "bowl",       "attributes": ["of_milk"                    ] }
+            ],
+            "edges": [ ["cat", "jumps_down_from", "windowsill"], ["cat", "walks_toward", "bowl"] ]
+        },
+        {
+            "time": "T3",
+            "nodes": [
+                { "id": "cat",  "attributes": ["fluffy",  "white", "walking"] },
+                { "id": "bowl", "attributes": ["of_milk"                    ] }
+            ],
+            "edges": [ ["cat", "walks_toward", "milk"] ]
+        }
+    ],
+    [
+        {
+            "time": "T1",
+            "nodes": [
+                { "id": "girl",    "attributes": ["pedaling"] },
+                { "id": "bicycle", "attributes": ["blue"    ] },
+                { "id": "street",  "attributes": ["quiet"   ] }
+            ],
+            "edges": [ ["girl", "pedals", "bicycle"], ["girl", "on", "street"], ["bicycle", "on", "street"] ]
+        },
+        {
+            "time": "T2",
+            "nodes": [
+                { "id": "girl",     "attributes": ["slowing", "tying_shoelace"] },
+                { "id": "bicycle",  "attributes": ["blue"                     ] },
+                { "id": "mailbox",  "attributes": [                           ] },
+                { "id": "shoelace", "attributes": [                           ] }
+            ],
+            "edges": [ ["girl", "near", "mailbox"], ["girl", "ties", "shoelace"], ["bicycle", "on", "street"] ]
+        },
+        {
+            "time": "T3",
+            "nodes": [
+                { "id": "girl",     "attributes": ["pedaling", "small_grin"] },
+                { "id": "bicycle",  "attributes": ["blue"                  ] },
+                { "id": "street",   "attributes": ["quiet"                 ] },
+                { "id": "shoelace", "attributes": ["fastened"              ] }
+            ],
+            "edges": [ ["girl", "pedals", "bicycle"], ["girl", "on", "street"] ]
+        }
+    ],
+    [
+        {
+            "time": "T1",
+            "nodes": [
+                { "id": "girl", "attributes": [        ] },
+                { "id": "kite", "attributes": ["yellow"] },
+                { "id": "hill", "attributes": ["windy" ] }
+            ],
+            "edges": [ ["girl", "with", "kite"], ["girl", "stands_on", "hill"] ]
+        },
+        {
+            "time": "T2",
+            "nodes": [
+                { "id": "girl",  "attributes": [                   ] },
+                { "id": "kite",  "attributes": ["yellow", "soaring"] },
+                { "id": "trees", "attributes": [                   ] }
+            ],
+            "edges": [ ["girl", "lets_go_of", "kite"], ["kite", "soars_above", "trees"] ]
+        },
+        {
+            "time": "T3",
+            "nodes": [
+                { "id": "girl", "attributes": ["running"] },
+                { "id": "kite", "attributes": ["yellow" ] },
+                { "id": "hill", "attributes": ["windy"  ] }
+            ],
+            "edges": [ ["girl", "runs_down", "hill"], ["girl", "chases", "kite"] ]
+        }
+    ],
+    [
+        {
+            "time": "T1",
+            "nodes": [
+                { "id": "woman",   "attributes": ["blue_apron"] },
+                { "id": "window",  "attributes": [            ] },
+                { "id": "kitchen", "attributes": ["small"     ] }
+            ],
+            "edges": [ ["woman", "opens", "window"], ["window", "in", "kitchen"] ]
+        },
+        {
+            "time": "T2",
+            "nodes": [
+                { "id": "cat",        "attributes": ["black",     "perched"] },
+                { "id": "windowsill", "attributes": [                      ] },
+                { "id": "steam",      "attributes": ["rising"              ] },
+                { "id": "kettle",     "attributes": ["whistling"           ] }
+            ],
+            "edges": [ ["cat", "on", "windowsill"], ["cat", "watches", "steam"], ["steam", "from", "kettle"] ]
+        },
+        {
+            "time": "T3",
+            "nodes": [
+                { "id": "woman", "attributes": ["blue_apron"] },
+                { "id": "cup",   "attributes": ["small"     ] },
+                { "id": "table", "attributes": ["wooden"    ] }
+            ],
+            "edges": [ ["woman", "sets", "cup"], ["cup", "on", "table"] ]
+        },
+        {
+            "time": "T4",
+            "nodes": [
+                { "id": "cat", "attributes": ["black", "leaping"] },
+                { "id": "cup", "attributes": ["small"           ] }
+            ],
+            "edges": [ ["cat", "leaps_down_to", "cup"], ["cat", "sniffs", "cup"] ]
+        }
+    ]
+]

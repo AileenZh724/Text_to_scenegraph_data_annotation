@@ -1,0 +1,513 @@
+2025-09-12 02:33:03,424 - INFO - Processing 100 rows from formatted_test_output.csv
+2025-09-12 02:33:03,425 - INFO - Processing row 1/100: In a dimly lit kitchen, a cutting board sits atop ...
+2025-09-12 02:33:03,425 - INFO - Calling Gemini API for text: In a dimly lit kitchen, a cutting board sits atop the counter, next to a sharp knife and a half-peel...
+2025-09-12 02:33:09,182 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "kitchen",
+        "attributes": [
+          "dimly_lit"
+        ]
+      },
+      {
+        "id": "cutting_board",
+        "attribu...
+2025-09-12 02:33:09,194 - INFO - Successfully generated scene graph with 3 time phases
+2025-09-12 02:33:09,195 - INFO - Row 1: Successfully generated scene graph
+2025-09-12 02:33:09,195 - INFO - Processing row 2/100: A vibrant garden blooms with colorful flowers, inc...
+2025-09-12 02:33:09,195 - INFO - Calling Gemini API for text: A vibrant garden blooms with colorful flowers, including bright yellow tulips and deep red roses. A ...
+2025-09-12 02:33:13,479 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "garden",
+        "attributes": [
+          "vibrant",
+          "blooming"
+        ]
+      },
+      {
+        "id": "flowers",
+   ...
+2025-09-12 02:33:13,479 - INFO - Successfully generated scene graph with 2 time phases
+2025-09-12 02:33:13,480 - INFO - Row 2: Successfully generated scene graph
+2025-09-12 02:33:13,480 - INFO - Processing row 3/100: On a cluttered workbench in a garage, a set of wre...
+2025-09-12 02:33:13,481 - INFO - Calling Gemini API for text: On a cluttered workbench in a garage, a set of wrenches is spread out next to a clump of greasy engi...
+2025-09-12 02:33:17,495 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "workbench",
+        "attributes": [
+          "cluttered"
+        ]
+      },
+      {
+        "id": "garage",
+        "attributes":...
+2025-09-12 02:33:17,495 - INFO - Successfully generated scene graph with 1 time phases
+2025-09-12 02:33:17,497 - INFO - Row 3: Successfully generated scene graph
+2025-09-12 02:33:17,497 - INFO - Processing row 4/100: In a cozy library, a plush armchair is positioned ...
+2025-09-12 02:33:17,497 - INFO - Calling Gemini API for text: In a cozy library, a plush armchair is positioned next to a wooden bookshelf filled with dusty tomes...
+2025-09-12 02:33:21,481 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "library",
+        "attributes": [
+          "cozy"
+        ]
+      },
+      {
+        "id": "armchair",
+        "attributes": [
+  ...
+2025-09-12 02:33:21,482 - INFO - Successfully generated scene graph with 2 time phases
+2025-09-12 02:33:21,483 - INFO - Row 4: Successfully generated scene graph
+2025-09-12 02:33:21,483 - INFO - Processing row 5/100: A child’s playroom is scattered with vibrant toys,...
+2025-09-12 02:33:21,483 - INFO - Calling Gemini API for text: A child’s playroom is scattered with vibrant toys, including a stuffed dinosaur and a stack of color...
+2025-09-12 02:33:25,995 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "playroom",
+        "attributes": [
+          "child's"
+        ]
+      },
+      {
+        "id": "toys",
+        "attributes": [
+  ...
+2025-09-12 02:33:25,996 - INFO - Successfully generated scene graph with 1 time phases
+2025-09-12 02:33:25,998 - INFO - Row 5: Successfully generated scene graph
+2025-09-12 02:33:25,998 - INFO - Processing row 6/100: In a bright and airy office, a modern desk hosts a...
+2025-09-12 02:33:25,998 - INFO - Calling Gemini API for text: In a bright and airy office, a modern desk hosts a sleek computer monitor, with a keyboard and mouse...
+2025-09-12 02:33:29,382 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "office",
+        "attributes": [
+          "bright",
+          "airy"
+        ]
+      },
+      {
+        "id": "desk",
+        "at...
+2025-09-12 02:33:29,382 - INFO - Successfully generated scene graph with 1 time phases
+2025-09-12 02:33:29,384 - INFO - Row 6: Successfully generated scene graph
+2025-09-12 02:33:29,384 - INFO - Processing row 7/100: A serene beach scene features a colorful beach umb...
+2025-09-12 02:33:29,384 - INFO - Calling Gemini API for text: A serene beach scene features a colorful beach umbrella and a striped towel spread on the sand. A co...
+2025-09-12 02:33:33,908 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "beach",
+        "attributes": [
+          "serene"
+        ]
+      },
+      {
+        "id": "umbrella",
+        "attributes": [
+  ...
+2025-09-12 02:33:33,909 - INFO - Successfully generated scene graph with 2 time phases
+2025-09-12 02:33:33,910 - INFO - Row 7: Successfully generated scene graph
+2025-09-12 02:33:33,910 - INFO - Processing row 8/100: On a picnic blanket spread out in a verdant park, ...
+2025-09-12 02:33:33,910 - INFO - Calling Gemini API for text: On a picnic blanket spread out in a verdant park, a wicker basket overflows with fresh fruits and sa...
+2025-09-12 02:33:37,831 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "blanket",
+        "attributes": [
+          "picnic"
+        ]
+      },
+      {
+        "id": "park",
+        "attributes": [
+    ...
+2025-09-12 02:33:37,831 - INFO - Successfully generated scene graph with 1 time phases
+2025-09-12 02:33:37,832 - INFO - Row 8: Successfully generated scene graph
+2025-09-12 02:33:37,832 - INFO - Processing row 9/100: In a stylish barbershop, a vintage barber chair si...
+2025-09-12 02:33:37,833 - INFO - Calling Gemini API for text: In a stylish barbershop, a vintage barber chair sits under a barber pole, with scissors and combs ne...
+2025-09-12 02:33:43,097 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "barbershop",
+        "attributes": [
+          "stylish"
+        ]
+      },
+      {
+        "id": "chair",
+        "attributes": [...
+2025-09-12 02:33:43,097 - INFO - Successfully generated scene graph with 2 time phases
+2025-09-12 02:33:43,099 - INFO - Row 9: Successfully generated scene graph
+2025-09-12 02:33:43,099 - INFO - Processing row 10/100: A rustic farmhouse kitchen features a wooden table...
+2025-09-12 02:33:43,099 - INFO - Calling Gemini API for text: A rustic farmhouse kitchen features a wooden table set with a checkered tablecloth, where a fruit bo...
+2025-09-12 02:33:47,421 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "kitchen",
+        "attributes": [
+          "rustic",
+          "farmhouse"
+        ]
+      },
+      {
+        "id": "table",
+    ...
+2025-09-12 02:33:47,421 - INFO - Successfully generated scene graph with 2 time phases
+2025-09-12 02:33:47,422 - INFO - Row 10: Successfully generated scene graph
+2025-09-12 02:33:47,423 - INFO - Processing row 11/100: An art studio is alive with creativity, showcasing...
+2025-09-12 02:33:47,423 - INFO - Calling Gemini API for text: An art studio is alive with creativity, showcasing a canvas propped against an easel. Paint tubes an...
+2025-09-12 02:33:52,165 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "studio",
+        "attributes": [
+          "art",
+          "alive",
+          "creative"
+        ]
+      },
+      {
+        "id":...
+2025-09-12 02:33:52,165 - INFO - Successfully generated scene graph with 2 time phases
+2025-09-12 02:33:52,167 - INFO - Row 11: Successfully generated scene graph
+2025-09-12 02:33:52,167 - INFO - Processing row 12/100: In a botanical garden, a large fountain surrounded...
+2025-09-12 02:33:52,167 - INFO - Calling Gemini API for text: In a botanical garden, a large fountain surrounded by colorful flowers gushes water, while a stone p...
+2025-09-12 02:33:56,831 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "garden",
+        "attributes": [
+          "botanical"
+        ]
+      },
+      {
+        "id": "fountain",
+        "attributes": ...
+2025-09-12 02:33:56,831 - INFO - Successfully generated scene graph with 3 time phases
+2025-09-12 02:33:56,833 - INFO - Row 12: Successfully generated scene graph
+2025-09-12 02:33:56,833 - INFO - Processing row 13/100: On a wooden dock by a tranquil lake, a fishing rod...
+2025-09-12 02:33:56,833 - INFO - Calling Gemini API for text: On a wooden dock by a tranquil lake, a fishing rod leans against a cooler, with a tackle box sitting...
+2025-09-12 02:34:00,860 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "dock",
+        "attributes": [
+          "wooden"
+        ]
+      },
+      {
+        "id": "lake",
+        "attributes": [
+       ...
+2025-09-12 02:34:00,861 - INFO - Successfully generated scene graph with 2 time phases
+2025-09-12 02:34:00,862 - INFO - Row 13: Successfully generated scene graph
+2025-09-12 02:34:00,862 - INFO - Processing row 14/100: A minimalist dining room showcases a clean wooden ...
+2025-09-12 02:34:00,863 - INFO - Calling Gemini API for text: A minimalist dining room showcases a clean wooden table set with porcelain dishes and silverware, wi...
+2025-09-12 02:34:04,800 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "dining_room",
+        "attributes": [
+          "minimalist"
+        ]
+      },
+      {
+        "id": "table",
+        "attributes...
+2025-09-12 02:34:04,801 - INFO - Successfully generated scene graph with 2 time phases
+2025-09-12 02:34:04,802 - INFO - Row 14: Successfully generated scene graph
+2025-09-12 02:34:04,802 - INFO - Processing row 15/100: In a cozy bedroom, a bed is adorned with fluffy pi...
+2025-09-12 02:34:04,803 - INFO - Calling Gemini API for text: In a cozy bedroom, a bed is adorned with fluffy pillows and a soft quilt, while a bedside table hold...
+2025-09-12 02:34:09,098 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "bedroom",
+        "attributes": [
+          "cozy"
+        ]
+      },
+      {
+        "id": "bed",
+        "attributes": [
+       ...
+2025-09-12 02:34:09,099 - INFO - Successfully generated scene graph with 1 time phases
+2025-09-12 02:34:09,101 - INFO - Row 15: Successfully generated scene graph
+2025-09-12 02:34:09,101 - INFO - Processing row 16/100: A tech-savvy living room features a large flat-scr...
+2025-09-12 02:34:09,101 - INFO - Calling Gemini API for text: A tech-savvy living room features a large flat-screen TV mounted on the wall, with a gaming console ...
+2025-09-12 02:34:12,745 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "living_room",
+        "attributes": [
+          "tech-savvy"
+        ]
+      },
+      {
+        "id": "TV",
+        "attributes": ...
+2025-09-12 02:34:12,746 - INFO - Successfully generated scene graph with 1 time phases
+2025-09-12 02:34:12,747 - INFO - Row 16: Successfully generated scene graph
+2025-09-12 02:34:12,747 - INFO - Processing row 17/100: A vibrant farmer's market buzzes with activity, wh...
+2025-09-12 02:34:12,747 - INFO - Calling Gemini API for text: A vibrant farmer's market buzzes with activity, where wooden stalls display fresh produce, artisan b...
+2025-09-12 02:34:16,859 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "market",
+        "attributes": [
+          "vibrant",
+          "farmer's",
+          "buzzing"
+        ]
+      },
+      {
+       ...
+2025-09-12 02:34:16,860 - INFO - Successfully generated scene graph with 2 time phases
+2025-09-12 02:34:16,862 - INFO - Row 17: Successfully generated scene graph
+2025-09-12 02:34:16,862 - INFO - Processing row 18/100: Nestled in a corner of a café, a small wooden roun...
+2025-09-12 02:34:16,863 - INFO - Calling Gemini API for text: Nestled in a corner of a café, a small wooden round table holds a slice of cake and a fork beside a ...
+2025-09-12 02:34:21,172 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "table",
+        "attributes": [
+          "small",
+          "wooden",
+          "round"
+        ]
+      },
+      {
+        "id": ...
+2025-09-12 02:34:21,173 - INFO - Successfully generated scene graph with 2 time phases
+2025-09-12 02:34:21,174 - INFO - Row 18: Successfully generated scene graph
+2025-09-12 02:34:21,174 - INFO - Processing row 19/100: In a child’s bedroom, a race car bed is framed by ...
+2025-09-12 02:34:21,175 - INFO - Calling Gemini API for text: In a child’s bedroom, a race car bed is framed by posters of superheroes. Toys are scattered around ...
+2025-09-12 02:34:25,148 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "bedroom",
+        "attributes": [
+          "childs"
+        ]
+      },
+      {
+        "id": "bed",
+        "attributes": [
+     ...
+2025-09-12 02:34:25,149 - INFO - Successfully generated scene graph with 3 time phases
+2025-09-12 02:34:25,151 - INFO - Row 19: Successfully generated scene graph
+2025-09-12 02:34:25,152 - INFO - Processing row 20/100: An upscale jewelry store showcases sparkling rings...
+2025-09-12 02:34:25,152 - INFO - Calling Gemini API for text: An upscale jewelry store showcases sparkling rings and necklaces in glass display cases. A plush car...
+2025-09-12 02:34:29,987 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "store",
+        "attributes": [
+          "upscale",
+          "jewelry"
+        ]
+      },
+      {
+        "id": "rings",
+       ...
+2025-09-12 02:34:29,988 - INFO - Successfully generated scene graph with 3 time phases
+2025-09-12 02:34:29,990 - INFO - Row 20: Successfully generated scene graph
+2025-09-12 02:34:29,990 - INFO - Processing row 21/100: A bustling city sidewalk is alive with activity, w...
+2025-09-12 02:34:29,990 - INFO - Calling Gemini API for text: A bustling city sidewalk is alive with activity, where a food cart serves hot dogs and pretzels. Peo...
+2025-09-12 02:34:30,397 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=AIzaSyCwuAI1nykQnax8Pf1eob-DwSeh6xPdZN4
+2025-09-12 02:34:30,399 - ERROR - Row 21: Failed to generate scene graph
+2025-09-12 02:34:30,400 - INFO - Processing row 22/100: On a scenic hiking trail, a wooden bench overlooks...
+2025-09-12 02:34:30,400 - INFO - Calling Gemini API for text: On a scenic hiking trail, a wooden bench overlooks a breathtaking valley filled with rolling hills a...
+2025-09-12 02:34:35,707 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "trail",
+        "attributes": [
+          "scenic",
+          "hiking"
+        ]
+      },
+      {
+        "id": "bench",
+        "...
+2025-09-12 02:34:35,707 - INFO - Successfully generated scene graph with 3 time phases
+2025-09-12 02:34:35,709 - INFO - Row 22: Successfully generated scene graph
+2025-09-12 02:34:35,709 - INFO - Processing row 23/100: In a quaint brewery, wooden barrels line the walls...
+2025-09-12 02:34:35,709 - INFO - Calling Gemini API for text: In a quaint brewery, wooden barrels line the walls alongside tables with patrons enjoying craft beer...
+2025-09-12 02:34:36,120 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=AIzaSyCwuAI1nykQnax8Pf1eob-DwSeh6xPdZN4
+2025-09-12 02:34:36,122 - ERROR - Row 23: Failed to generate scene graph
+2025-09-12 02:34:36,122 - INFO - Processing row 24/100: An antique shop is filled with intriguing items, i...
+2025-09-12 02:34:36,122 - INFO - Calling Gemini API for text: An antique shop is filled with intriguing items, including vintage clocks, old books, and ornate fur...
+2025-09-12 02:34:39,888 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "shop",
+        "attributes": [
+          "antique",
+          "filled"
+        ]
+      },
+      {
+        "id": "items",
+        "...
+2025-09-12 02:34:39,889 - INFO - Successfully generated scene graph with 2 time phases
+2025-09-12 02:34:39,890 - INFO - Row 24: Successfully generated scene graph
+2025-09-12 02:34:39,891 - INFO - Processing row 25/100: In a bustling hospital waiting room, plastic chair...
+2025-09-12 02:34:39,891 - INFO - Calling Gemini API for text: In a bustling hospital waiting room, plastic chairs are arranged around small tables with magazines ...
+2025-09-12 02:34:40,329 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=AIzaSyCwuAI1nykQnax8Pf1eob-DwSeh6xPdZN4
+2025-09-12 02:34:40,330 - ERROR - Row 25: Failed to generate scene graph
+2025-09-12 02:34:40,330 - INFO - Processing row 26/100: A picturesque marina features sleek boats moored a...
+2025-09-12 02:34:40,330 - INFO - Calling Gemini API for text: A picturesque marina features sleek boats moored along a dock, with colorful buoys bobbing gently in...
+2025-09-12 02:34:40,918 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=AIzaSyCwuAI1nykQnax8Pf1eob-DwSeh6xPdZN4
+2025-09-12 02:34:40,920 - ERROR - Row 26: Failed to generate scene graph
+2025-09-12 02:34:40,920 - INFO - Processing row 27/100: At a sunny rooftop terrace, modern furniture provi...
+2025-09-12 02:34:40,920 - INFO - Calling Gemini API for text: At a sunny rooftop terrace, modern furniture provides a space for relaxation, with potted plants add...
+2025-09-12 02:34:42,198 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=AIzaSyCwuAI1nykQnax8Pf1eob-DwSeh6xPdZN4
+2025-09-12 02:34:42,200 - ERROR - Row 27: Failed to generate scene graph
+2025-09-12 02:34:42,200 - INFO - Processing row 28/100: In a vibrant art gallery, walls are adorned with u...
+2025-09-12 02:34:42,201 - INFO - Calling Gemini API for text: In a vibrant art gallery, walls are adorned with unique paintings and sculptures. Visitors wander th...
+2025-09-12 02:34:43,472 - ERROR - API request failed: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=AIzaSyCwuAI1nykQnax8Pf1eob-DwSeh6xPdZN4
+2025-09-12 02:34:43,473 - ERROR - Row 28: Failed to generate scene graph
+2025-09-12 02:34:43,474 - INFO - Processing row 29/100: An enchanting bookstore welcomes visitors with its...
+2025-09-12 02:34:43,474 - INFO - Calling Gemini API for text: An enchanting bookstore welcomes visitors with its wooden shelves filled with countless volumes. A c...
+2025-09-12 02:34:48,641 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "bookstore",
+        "attributes": [
+          "enchanting"
+        ]
+      },
+      {
+        "id": "visitors",
+        "attribute...
+2025-09-12 02:34:48,641 - INFO - Successfully generated scene graph with 2 time phases
+2025-09-12 02:34:48,642 - INFO - Row 29: Successfully generated scene graph
+2025-09-12 02:34:48,643 - INFO - Processing row 30/100: A pristine swimming pool area features sun lounger...
+2025-09-12 02:34:48,643 - INFO - Calling Gemini API for text: A pristine swimming pool area features sun loungers arranged neatly beside a shimmering blue expanse...
+2025-09-12 02:34:53,051 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "pool_area",
+        "attributes": [
+          "pristine"
+        ]
+      },
+      {
+        "id": "sun_loungers",
+        "attribu...
+2025-09-12 02:34:53,052 - INFO - Successfully generated scene graph with 2 time phases
+2025-09-12 02:34:53,053 - INFO - Row 30: Successfully generated scene graph
+2025-09-12 02:34:53,053 - INFO - Processing row 31/100: In a vintage diner, shiny chrome fixtures compleme...
+2025-09-12 02:34:53,053 - INFO - Calling Gemini API for text: In a vintage diner, shiny chrome fixtures complement bright red booths and a checkered floor. A juke...
+2025-09-12 02:34:57,193 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "diner",
+        "attributes": [
+          "vintage"
+        ]
+      },
+      {
+        "id": "fixtures",
+        "attributes": [
+ ...
+2025-09-12 02:34:57,194 - INFO - Successfully generated scene graph with 3 time phases
+2025-09-12 02:34:57,195 - INFO - Row 31: Successfully generated scene graph
+2025-09-12 02:34:57,195 - INFO - Processing row 32/100: A snowy mountain landscape is dotted with tall pin...
+2025-09-12 02:34:57,195 - INFO - Calling Gemini API for text: A snowy mountain landscape is dotted with tall pine trees, where a wooden cabin stands with smoke cu...
+2025-09-12 02:35:00,980 - INFO - Generated text: ```json
+[
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "landscape",
+        "attributes": [
+          "snowy",
+          "mountain"
+        ]
+      },
+      {
+        "id": "trees",
+    ...
+2025-09-12 02:35:00,980 - INFO - Successfully generated scene graph with 2 time phases
+2025-09-12 02:35:00,981 - INFO - Row 32: Successfully generated scene graph
+2025-09-12 02:35:00,982 - INFO - Processing row 33/100: On a suburban street, a charming white picket fenc...
+2025-09-12 02:35:00,982 - INFO - Calling Gemini API for text: On a suburban street, a charming white picket fence encloses a colorful garden bursting with bloomin...
