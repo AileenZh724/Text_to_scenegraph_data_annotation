@@ -1,0 +1,45 @@
+2025-09-12 09:45:26,318 - INFO - API connection test successful
+2025-09-12 09:45:26,321 - INFO - Processing 100 rows from formatted_test_output.csv
+2025-09-12 09:45:26,322 - INFO - Processing row 1/100: In a dimly lit kitchen, a cutting board sits atop the counter, next to a sharp knife and a half-peel...
+2025-09-12 09:45:26,322 - INFO - Calling DeepSeek API for text: In a dimly lit kitchen, a cutting board sits atop the counter, next to a sharp knife and a half-peel...
+2025-09-12 09:45:53,564 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "kitchen",
+        "attributes": [
+          "dimly_lit"
+        ]
+      },
+      {
+        "id": "cutting_board",
+        "attributes": []...
+2025-09-12 09:45:53,577 - INFO - Successfully parsed JSON with 0 items
+2025-09-12 09:45:53,578 - ERROR - Failed to extract valid JSON from generated text
+2025-09-12 09:45:53,580 - ERROR - Row 1: Failed to generate scene graph
+2025-09-12 09:45:53,582 - INFO - Row 1: Saved to unmarked_dataset.csv
+2025-09-12 09:45:53,583 - INFO - Consecutive failures: 1, waiting 5 seconds...
+2025-09-12 09:45:55,620 - INFO - Processing row 2/100: A vibrant garden blooms with colorful flowers, including bright yellow tulips and deep red roses. A ...
+2025-09-12 09:45:55,621 - INFO - Calling DeepSeek API for text: A vibrant garden blooms with colorful flowers, including bright yellow tulips and deep red roses. A ...
+2025-09-12 09:46:20,901 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "garden",
+        "attributes": [
+          "vibrant",
+          "blooming"
+        ]
+      },
+      {
+        "id": "flowers",
+        "at...
+2025-09-12 09:46:20,901 - INFO - Successfully parsed JSON with 0 items
+2025-09-12 09:46:20,902 - ERROR - Failed to extract valid JSON from generated text
+2025-09-12 09:46:20,903 - ERROR - Row 2: Failed to generate scene graph
+2025-09-12 09:46:20,905 - INFO - Row 2: Saved to unmarked_dataset.csv
+2025-09-12 09:46:20,905 - INFO - Consecutive failures: 2, waiting 7 seconds...
+2025-09-12 09:46:24,990 - INFO - Processing row 3/100: On a cluttered workbench in a garage, a set of wrenches is spread out next to a clump of greasy engi...
+2025-09-12 09:46:24,991 - INFO - Calling DeepSeek API for text: On a cluttered workbench in a garage, a set of wrenches is spread out next to a clump of greasy engi...

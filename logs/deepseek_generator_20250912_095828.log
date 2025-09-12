@@ -1,0 +1,1874 @@
+2025-09-12 09:58:33,418 - INFO - API connection test successful
+2025-09-12 09:58:33,422 - INFO - Created backup: unmarked_dataset.csv.backup_20250912_095833
+2025-09-12 09:58:33,424 - INFO - Processing 100 rows from formatted_test_output.csv
+2025-09-12 09:58:33,424 - INFO - Processing row 1/100: In a dimly lit kitchen, a cutting board sits atop the counter, next to a sharp knife and a half-peel...
+2025-09-12 09:58:33,424 - INFO - Calling DeepSeek API for text: In a dimly lit kitchen, a cutting board sits atop the counter, next to a sharp knife and a half-peel...
+2025-09-12 09:58:58,711 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "kitchen",
+        "attributes": [
+          "dimly_lit"
+        ]
+      },
+      {
+        "id": "cutting_board",
+        "attributes": []...
+2025-09-12 09:58:58,711 - INFO - Successfully received response from API
+2025-09-12 09:58:58,713 - INFO - Row 1: Successfully generated scene graph
+2025-09-12 09:58:58,715 - INFO - Row 1: Saved to unmarked_dataset.csv
+2025-09-12 09:59:01,716 - INFO - Processing row 2/100: A vibrant garden blooms with colorful flowers, including bright yellow tulips and deep red roses. A ...
+2025-09-12 09:59:01,717 - INFO - Calling DeepSeek API for text: A vibrant garden blooms with colorful flowers, including bright yellow tulips and deep red roses. A ...
+2025-09-12 09:59:23,732 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "garden",
+        "attributes": [
+          "vibrant",
+          "blooming"
+        ]
+      },
+      {
+        "id": "flowers",
+        "at...
+2025-09-12 09:59:23,732 - INFO - Successfully received response from API
+2025-09-12 09:59:23,734 - INFO - Row 2: Successfully generated scene graph
+2025-09-12 09:59:23,739 - INFO - Row 2: Saved to unmarked_dataset.csv
+2025-09-12 09:59:26,752 - INFO - Processing row 3/100: On a cluttered workbench in a garage, a set of wrenches is spread out next to a clump of greasy engi...
+2025-09-12 09:59:26,752 - INFO - Calling DeepSeek API for text: On a cluttered workbench in a garage, a set of wrenches is spread out next to a clump of greasy engi...
+2025-09-12 09:59:42,093 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "workbench",
+        "attributes": [
+          "cluttered"
+        ]
+      },
+      {
+        "id": "wrenches",
+        "attributes": [
+   ...
+2025-09-12 09:59:42,093 - INFO - Successfully received response from API
+2025-09-12 09:59:42,095 - INFO - Row 3: Successfully generated scene graph
+2025-09-12 09:59:42,098 - INFO - Row 3: Saved to unmarked_dataset.csv
+2025-09-12 09:59:45,102 - INFO - Processing row 4/100: In a cozy library, a plush armchair is positioned next to a wooden bookshelf filled with dusty tomes...
+2025-09-12 09:59:45,103 - INFO - Calling DeepSeek API for text: In a cozy library, a plush armchair is positioned next to a wooden bookshelf filled with dusty tomes...
+2025-09-12 10:00:03,992 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "library",
+        "attributes": [
+          "cozy"
+        ]
+      },
+      {
+        "id": "armchair",
+        "attributes": [
+          ...
+2025-09-12 10:00:03,992 - INFO - Successfully received response from API
+2025-09-12 10:00:03,994 - INFO - Row 4: Successfully generated scene graph
+2025-09-12 10:00:03,997 - INFO - Row 4: Saved to unmarked_dataset.csv
+2025-09-12 10:00:07,006 - INFO - Processing row 5/100: A child’s playroom is scattered with vibrant toys, including a stuffed dinosaur and a stack of color...
+2025-09-12 10:00:07,007 - INFO - Calling DeepSeek API for text: A child’s playroom is scattered with vibrant toys, including a stuffed dinosaur and a stack of color...
+2025-09-12 10:00:25,970 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "playroom",
+        "attributes": [
+          "child's"
+        ]
+      },
+      {
+        "id": "toys",
+        "attributes": [
+          ...
+2025-09-12 10:00:25,971 - INFO - Successfully received response from API
+2025-09-12 10:00:25,973 - INFO - Row 5: Successfully generated scene graph
+2025-09-12 10:00:25,976 - INFO - Row 5: Saved to unmarked_dataset.csv
+2025-09-12 10:00:28,979 - INFO - Processing row 6/100: In a bright and airy office, a modern desk hosts a sleek computer monitor, with a keyboard and mouse...
+2025-09-12 10:00:28,979 - INFO - Calling DeepSeek API for text: In a bright and airy office, a modern desk hosts a sleek computer monitor, with a keyboard and mouse...
+2025-09-12 10:00:51,944 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "office",
+        "attributes": [
+          "bright",
+          "airy"
+        ]
+      },
+      {
+        "id": "desk",
+        "attributes...
+2025-09-12 10:00:51,945 - INFO - Successfully received response from API
+2025-09-12 10:00:51,946 - INFO - Row 6: Successfully generated scene graph
+2025-09-12 10:00:51,948 - INFO - Row 6: Saved to unmarked_dataset.csv
+2025-09-12 10:00:55,108 - INFO - Processing row 7/100: A serene beach scene features a colorful beach umbrella and a striped towel spread on the sand. A co...
+2025-09-12 10:00:55,109 - INFO - Calling DeepSeek API for text: A serene beach scene features a colorful beach umbrella and a striped towel spread on the sand. A co...
+2025-09-12 10:01:11,060 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "beach_scene",
+        "attributes": [
+          "serene"
+        ]
+      },
+      {
+        "id": "beach_umbrella",
+        "attributes": ...
+2025-09-12 10:01:11,061 - INFO - Successfully received response from API
+2025-09-12 10:01:11,062 - INFO - Row 7: Successfully generated scene graph
+2025-09-12 10:01:11,064 - INFO - Row 7: Saved to unmarked_dataset.csv
+2025-09-12 10:01:14,184 - INFO - Processing row 8/100: On a picnic blanket spread out in a verdant park, a wicker basket overflows with fresh fruits and sa...
+2025-09-12 10:01:14,184 - INFO - Calling DeepSeek API for text: On a picnic blanket spread out in a verdant park, a wicker basket overflows with fresh fruits and sa...
+2025-09-12 10:01:33,697 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "picnic_blanket",
+        "attributes": [
+          "spread_out"
+        ]
+      },
+      {
+        "id": "park",
+        "attributes": [
+ ...
+2025-09-12 10:01:33,698 - INFO - Successfully received response from API
+2025-09-12 10:01:33,699 - INFO - Row 8: Successfully generated scene graph
+2025-09-12 10:01:33,701 - INFO - Row 8: Saved to unmarked_dataset.csv
+2025-09-12 10:01:36,886 - INFO - Processing row 9/100: In a stylish barbershop, a vintage barber chair sits under a barber pole, with scissors and combs ne...
+2025-09-12 10:01:36,887 - INFO - Calling DeepSeek API for text: In a stylish barbershop, a vintage barber chair sits under a barber pole, with scissors and combs ne...
+2025-09-12 10:02:15,351 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "barbershop",
+        "attributes": [
+          "stylish"
+        ]
+      },
+      {
+        "id": "barber_chair",
+        "attributes": [
+...
+2025-09-12 10:02:15,352 - INFO - Successfully received response from API
+2025-09-12 10:02:15,353 - INFO - Row 9: Successfully generated scene graph
+2025-09-12 10:02:15,355 - INFO - Row 9: Saved to unmarked_dataset.csv
+2025-09-12 10:02:18,527 - INFO - Processing row 10/100: A rustic farmhouse kitchen features a wooden table set with a checkered tablecloth, where a fruit bo...
+2025-09-12 10:02:18,527 - INFO - Calling DeepSeek API for text: A rustic farmhouse kitchen features a wooden table set with a checkered tablecloth, where a fruit bo...
+2025-09-12 10:02:36,829 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "kitchen",
+        "attributes": [
+          "rustic",
+          "farmhouse"
+        ]
+      },
+      {
+        "id": "table",
+        "att...
+2025-09-12 10:02:36,829 - INFO - Successfully received response from API
+2025-09-12 10:02:36,831 - INFO - Row 10: Successfully generated scene graph
+2025-09-12 10:02:36,833 - INFO - Row 10: Saved to unmarked_dataset.csv
+2025-09-12 10:02:39,838 - INFO - Processing row 11/100: An art studio is alive with creativity, showcasing a canvas propped against an easel. Paint tubes an...
+2025-09-12 10:02:39,839 - INFO - Calling DeepSeek API for text: An art studio is alive with creativity, showcasing a canvas propped against an easel. Paint tubes an...
+2025-09-12 10:02:58,991 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "art_studio",
+        "attributes": [
+          "alive_with_creativity"
+        ]
+      },
+      {
+        "id": "canvas",
+        "attribu...
+2025-09-12 10:02:58,991 - INFO - Successfully received response from API
+2025-09-12 10:02:58,993 - INFO - Row 11: Successfully generated scene graph
+2025-09-12 10:02:58,996 - INFO - Row 11: Saved to unmarked_dataset.csv
+2025-09-12 10:03:02,016 - INFO - Processing row 12/100: In a botanical garden, a large fountain surrounded by colorful flowers gushes water, while a stone p...
+2025-09-12 10:03:02,017 - INFO - Calling DeepSeek API for text: In a botanical garden, a large fountain surrounded by colorful flowers gushes water, while a stone p...
+2025-09-12 10:03:21,760 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "botanical_garden",
+        "attributes": []
+      },
+      {
+        "id": "fountain",
+        "attributes": [
+          "large",
+        ...
+2025-09-12 10:03:21,760 - INFO - Successfully received response from API
+2025-09-12 10:03:21,761 - INFO - Row 12: Successfully generated scene graph
+2025-09-12 10:03:21,764 - INFO - Row 12: Saved to unmarked_dataset.csv
+2025-09-12 10:03:21,843 - INFO - Processing row 13/100: On a wooden dock by a tranquil lake, a fishing rod leans against a cooler, with a tackle box sitting...
+2025-09-12 10:03:21,844 - INFO - Calling DeepSeek API for text: On a wooden dock by a tranquil lake, a fishing rod leans against a cooler, with a tackle box sitting...
+2025-09-12 10:03:37,398 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "dock",
+        "attributes": [
+          "wooden"
+        ]
+      },
+      {
+        "id": "lake",
+        "attributes": [
+          "tran...
+2025-09-12 10:03:37,399 - INFO - Successfully received response from API
+2025-09-12 10:03:37,400 - INFO - Row 13: Successfully generated scene graph
+2025-09-12 10:03:37,403 - INFO - Row 13: Saved to unmarked_dataset.csv
+2025-09-12 10:03:40,477 - INFO - Processing row 14/100: A minimalist dining room showcases a clean wooden table set with porcelain dishes and silverware, wi...
+2025-09-12 10:03:40,478 - INFO - Calling DeepSeek API for text: A minimalist dining room showcases a clean wooden table set with porcelain dishes and silverware, wi...
+2025-09-12 10:03:55,907 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "dining_room",
+        "attributes": [
+          "minimalist"
+        ]
+      },
+      {
+        "id": "table",
+        "attributes": [
+   ...
+2025-09-12 10:03:55,907 - INFO - Successfully received response from API
+2025-09-12 10:03:55,908 - INFO - Row 14: Successfully generated scene graph
+2025-09-12 10:03:55,912 - INFO - Row 14: Saved to unmarked_dataset.csv
+2025-09-12 10:03:58,921 - INFO - Processing row 15/100: In a cozy bedroom, a bed is adorned with fluffy pillows and a soft quilt, while a bedside table hold...
+2025-09-12 10:03:58,922 - INFO - Calling DeepSeek API for text: In a cozy bedroom, a bed is adorned with fluffy pillows and a soft quilt, while a bedside table hold...
+2025-09-12 10:04:24,754 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "bedroom",
+        "attributes": [
+          "cozy"
+        ]
+      },
+      {
+        "id": "bed",
+        "attributes": [
+          "ador...
+2025-09-12 10:04:24,754 - INFO - Successfully received response from API
+2025-09-12 10:04:24,755 - INFO - Row 15: Successfully generated scene graph
+2025-09-12 10:04:24,759 - INFO - Row 15: Saved to unmarked_dataset.csv
+2025-09-12 10:04:27,760 - INFO - Processing row 16/100: A tech-savvy living room features a large flat-screen TV mounted on the wall, with a gaming console ...
+2025-09-12 10:04:27,760 - INFO - Calling DeepSeek API for text: A tech-savvy living room features a large flat-screen TV mounted on the wall, with a gaming console ...
+2025-09-12 10:04:48,167 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "living_room",
+        "attributes": [
+          "tech-savvy"
+        ]
+      },
+      {
+        "id": "tv",
+        "attributes": [
+      ...
+2025-09-12 10:04:48,168 - INFO - Successfully received response from API
+2025-09-12 10:04:48,170 - INFO - Row 16: Successfully generated scene graph
+2025-09-12 10:04:48,174 - INFO - Row 16: Saved to unmarked_dataset.csv
+2025-09-12 10:04:51,175 - INFO - Processing row 17/100: A vibrant farmer's market buzzes with activity, where wooden stalls display fresh produce, artisan b...
+2025-09-12 10:04:51,176 - INFO - Calling DeepSeek API for text: A vibrant farmer's market buzzes with activity, where wooden stalls display fresh produce, artisan b...
+2025-09-12 10:05:19,260 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "market",
+        "attributes": [
+          "vibrant",
+          "farmer's"
+        ]
+      },
+      {
+        "id": "stalls",
+        "att...
+2025-09-12 10:05:19,260 - INFO - Successfully received response from API
+2025-09-12 10:05:19,262 - INFO - Row 17: Successfully generated scene graph
+2025-09-12 10:05:19,265 - INFO - Row 17: Saved to unmarked_dataset.csv
+2025-09-12 10:05:19,318 - INFO - Processing row 18/100: Nestled in a corner of a café, a small wooden round table holds a slice of cake and a fork beside a ...
+2025-09-12 10:05:19,319 - INFO - Calling DeepSeek API for text: Nestled in a corner of a café, a small wooden round table holds a slice of cake and a fork beside a ...
+2025-09-12 10:05:38,203 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "table",
+        "attributes": [
+          "small",
+          "wooden",
+          "round"
+        ]
+      },
+      {
+        "id": "cake_sl...
+2025-09-12 10:05:38,204 - INFO - Successfully received response from API
+2025-09-12 10:05:38,205 - INFO - Row 18: Successfully generated scene graph
+2025-09-12 10:05:38,208 - INFO - Row 18: Saved to unmarked_dataset.csv
+2025-09-12 10:05:41,246 - INFO - Processing row 19/100: In a child’s bedroom, a race car bed is framed by posters of superheroes. Toys are scattered around ...
+2025-09-12 10:05:41,246 - INFO - Calling DeepSeek API for text: In a child’s bedroom, a race car bed is framed by posters of superheroes. Toys are scattered around ...
+2025-09-12 10:05:55,836 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "bedroom",
+        "attributes": [
+          "child's"
+        ]
+      },
+      {
+        "id": "race_car_bed",
+        "attributes": []
+  ...
+2025-09-12 10:05:55,836 - INFO - Successfully received response from API
+2025-09-12 10:05:55,838 - INFO - Row 19: Successfully generated scene graph
+2025-09-12 10:05:55,841 - INFO - Row 19: Saved to unmarked_dataset.csv
+2025-09-12 10:05:58,843 - INFO - Processing row 20/100: An upscale jewelry store showcases sparkling rings and necklaces in glass display cases. A plush car...
+2025-09-12 10:05:58,843 - INFO - Calling DeepSeek API for text: An upscale jewelry store showcases sparkling rings and necklaces in glass display cases. A plush car...
+2025-09-12 10:06:15,671 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "jewelry_store",
+        "attributes": ["upscale"]
+      },
+      {
+        "id": "rings",
+        "attributes": ["sparkling"]
+      },
+   ...
+2025-09-12 10:06:15,671 - INFO - Successfully received response from API
+2025-09-12 10:06:15,673 - INFO - Row 20: Successfully generated scene graph
+2025-09-12 10:06:15,677 - INFO - Row 20: Saved to unmarked_dataset.csv
+2025-09-12 10:06:18,681 - INFO - Processing row 21/100: A bustling city sidewalk is alive with activity, where a food cart serves hot dogs and pretzels. Peo...
+2025-09-12 10:06:18,682 - INFO - Calling DeepSeek API for text: A bustling city sidewalk is alive with activity, where a food cart serves hot dogs and pretzels. Peo...
+2025-09-12 10:06:42,793 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "sidewalk",
+        "attributes": [
+          "city",
+          "bustling"
+        ]
+      },
+      {
+        "id": "food_cart",
+        "a...
+2025-09-12 10:06:42,793 - INFO - Successfully received response from API
+2025-09-12 10:06:42,795 - INFO - Row 21: Successfully generated scene graph
+2025-09-12 10:06:42,798 - INFO - Row 21: Saved to unmarked_dataset.csv
+2025-09-12 10:06:45,803 - INFO - Processing row 22/100: On a scenic hiking trail, a wooden bench overlooks a breathtaking valley filled with rolling hills a...
+2025-09-12 10:06:45,803 - INFO - Calling DeepSeek API for text: On a scenic hiking trail, a wooden bench overlooks a breathtaking valley filled with rolling hills a...
+2025-09-12 10:06:58,188 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "hiking_trail",
+        "attributes": [
+          "scenic"
+        ]
+      },
+      {
+        "id": "bench",
+        "attributes": [
+      ...
+2025-09-12 10:06:58,189 - INFO - Successfully received response from API
+2025-09-12 10:06:58,190 - INFO - Row 22: Successfully generated scene graph
+2025-09-12 10:06:58,194 - INFO - Row 22: Saved to unmarked_dataset.csv
+2025-09-12 10:07:01,195 - INFO - Processing row 23/100: In a quaint brewery, wooden barrels line the walls alongside tables with patrons enjoying craft beer...
+2025-09-12 10:07:01,196 - INFO - Calling DeepSeek API for text: In a quaint brewery, wooden barrels line the walls alongside tables with patrons enjoying craft beer...
+2025-09-12 10:07:27,031 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "brewery",
+        "attributes": [
+          "quaint"
+        ]
+      },
+      {
+        "id": "barrels",
+        "attributes": [
+         ...
+2025-09-12 10:07:27,032 - INFO - Successfully received response from API
+2025-09-12 10:07:27,033 - INFO - Row 23: Successfully generated scene graph
+2025-09-12 10:07:27,036 - INFO - Row 23: Saved to unmarked_dataset.csv
+2025-09-12 10:07:30,045 - INFO - Processing row 24/100: An antique shop is filled with intriguing items, including vintage clocks, old books, and ornate fur...
+2025-09-12 10:07:30,046 - INFO - Calling DeepSeek API for text: An antique shop is filled with intriguing items, including vintage clocks, old books, and ornate fur...
+2025-09-12 10:07:59,481 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "antique_shop",
+        "attributes": [
+          "filled_with_intriguing_items"
+        ]
+      },
+      {
+        "id": "vintage_clocks",...
+2025-09-12 10:07:59,481 - INFO - Successfully received response from API
+2025-09-12 10:07:59,482 - INFO - Row 24: Successfully generated scene graph
+2025-09-12 10:07:59,486 - INFO - Row 24: Saved to unmarked_dataset.csv
+2025-09-12 10:08:02,486 - INFO - Processing row 25/100: In a bustling hospital waiting room, plastic chairs are arranged around small tables with magazines ...
+2025-09-12 10:08:02,487 - INFO - Calling DeepSeek API for text: In a bustling hospital waiting room, plastic chairs are arranged around small tables with magazines ...
+2025-09-12 10:08:21,542 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "hospital_waiting_room",
+        "attributes": [
+          "bustling"
+        ]
+      },
+      {
+        "id": "plastic_chairs",
+        "a...
+2025-09-12 10:08:21,542 - INFO - Successfully received response from API
+2025-09-12 10:08:21,544 - INFO - Row 25: Successfully generated scene graph
+2025-09-12 10:08:21,547 - INFO - Row 25: Saved to unmarked_dataset.csv
+2025-09-12 10:08:24,554 - INFO - Processing row 26/100: A picturesque marina features sleek boats moored along a dock, with colorful buoys bobbing gently in...
+2025-09-12 10:08:24,554 - INFO - Calling DeepSeek API for text: A picturesque marina features sleek boats moored along a dock, with colorful buoys bobbing gently in...
+2025-09-12 10:08:43,541 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "marina",
+        "attributes": [
+          "picturesque"
+        ]
+      },
+      {
+        "id": "boats",
+        "attributes": [
+       ...
+2025-09-12 10:08:43,542 - INFO - Successfully received response from API
+2025-09-12 10:08:43,543 - INFO - Row 26: Successfully generated scene graph
+2025-09-12 10:08:43,546 - INFO - Row 26: Saved to unmarked_dataset.csv
+2025-09-12 10:08:46,554 - INFO - Processing row 27/100: At a sunny rooftop terrace, modern furniture provides a space for relaxation, with potted plants add...
+2025-09-12 10:08:46,555 - INFO - Calling DeepSeek API for text: At a sunny rooftop terrace, modern furniture provides a space for relaxation, with potted plants add...
+2025-09-12 10:09:01,820 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "rooftop_terrace",
+        "attributes": [
+          "sunny"
+        ]
+      },
+      {
+        "id": "modern_furniture",
+        "attribut...
+2025-09-12 10:09:01,820 - INFO - Successfully received response from API
+2025-09-12 10:09:01,821 - INFO - Row 27: Successfully generated scene graph
+2025-09-12 10:09:01,825 - INFO - Row 27: Saved to unmarked_dataset.csv
+2025-09-12 10:09:04,841 - INFO - Processing row 28/100: In a vibrant art gallery, walls are adorned with unique paintings and sculptures. Visitors wander th...
+2025-09-12 10:09:04,841 - INFO - Calling DeepSeek API for text: In a vibrant art gallery, walls are adorned with unique paintings and sculptures. Visitors wander th...
+2025-09-12 10:09:28,568 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "art_gallery",
+        "attributes": [
+          "vibrant"
+        ]
+      },
+      {
+        "id": "walls",
+        "attributes": []
+     ...
+2025-09-12 10:09:28,568 - INFO - Successfully received response from API
+2025-09-12 10:09:28,569 - INFO - Row 28: Successfully generated scene graph
+2025-09-12 10:09:28,573 - INFO - Row 28: Saved to unmarked_dataset.csv
+2025-09-12 10:09:31,580 - INFO - Processing row 29/100: An enchanting bookstore welcomes visitors with its wooden shelves filled with countless volumes. A c...
+2025-09-12 10:09:31,581 - INFO - Calling DeepSeek API for text: An enchanting bookstore welcomes visitors with its wooden shelves filled with countless volumes. A c...
+2025-09-12 10:09:51,235 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "bookstore",
+        "attributes": [
+          "enchanting"
+        ]
+      },
+      {
+        "id": "visitors",
+        "attributes": []
+ ...
+2025-09-12 10:09:51,235 - INFO - Successfully received response from API
+2025-09-12 10:09:51,236 - INFO - Row 29: Successfully generated scene graph
+2025-09-12 10:09:51,241 - INFO - Row 29: Saved to unmarked_dataset.csv
+2025-09-12 10:09:54,246 - INFO - Processing row 30/100: A pristine swimming pool area features sun loungers arranged neatly beside a shimmering blue expanse...
+2025-09-12 10:09:54,247 - INFO - Calling DeepSeek API for text: A pristine swimming pool area features sun loungers arranged neatly beside a shimmering blue expanse...
+2025-09-12 10:10:12,596 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "swimming_pool_area",
+        "attributes": [
+          "pristine"
+        ]
+      },
+      {
+        "id": "sun_loungers",
+        "attrib...
+2025-09-12 10:10:12,597 - INFO - Successfully received response from API
+2025-09-12 10:10:12,599 - INFO - Row 30: Successfully generated scene graph
+2025-09-12 10:10:12,603 - INFO - Row 30: Saved to unmarked_dataset.csv
+2025-09-12 10:10:15,612 - INFO - Processing row 31/100: In a vintage diner, shiny chrome fixtures complement bright red booths and a checkered floor. A juke...
+2025-09-12 10:10:15,612 - INFO - Calling DeepSeek API for text: In a vintage diner, shiny chrome fixtures complement bright red booths and a checkered floor. A juke...
+2025-09-12 10:10:42,568 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "diner",
+        "attributes": [
+          "vintage"
+        ]
+      },
+      {
+        "id": "fixtures",
+        "attributes": [
+         ...
+2025-09-12 10:10:42,569 - INFO - Successfully received response from API
+2025-09-12 10:10:42,570 - INFO - Row 31: Successfully generated scene graph
+2025-09-12 10:10:42,573 - INFO - Row 31: Saved to unmarked_dataset.csv
+2025-09-12 10:10:45,578 - INFO - Processing row 32/100: A snowy mountain landscape is dotted with tall pine trees, where a wooden cabin stands with smoke cu...
+2025-09-12 10:10:45,579 - INFO - Calling DeepSeek API for text: A snowy mountain landscape is dotted with tall pine trees, where a wooden cabin stands with smoke cu...
+2025-09-12 10:11:03,812 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "mountain_landscape",
+        "attributes": [
+          "snowy"
+        ]
+      },
+      {
+        "id": "pine_trees",
+        "attributes"...
+2025-09-12 10:11:03,812 - INFO - Successfully received response from API
+2025-09-12 10:11:03,814 - INFO - Row 32: Successfully generated scene graph
+2025-09-12 10:11:03,817 - INFO - Row 32: Saved to unmarked_dataset.csv
+2025-09-12 10:11:06,818 - INFO - Processing row 33/100: On a suburban street, a charming white picket fence encloses a colorful garden bursting with bloomin...
+2025-09-12 10:11:06,818 - INFO - Calling DeepSeek API for text: On a suburban street, a charming white picket fence encloses a colorful garden bursting with bloomin...
+2025-09-12 10:11:19,311 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "street",
+        "attributes": [
+          "suburban"
+        ]
+      },
+      {
+        "id": "fence",
+        "attributes": [
+          ...
+2025-09-12 10:11:19,311 - INFO - Successfully received response from API
+2025-09-12 10:11:19,312 - INFO - Row 33: Successfully generated scene graph
+2025-09-12 10:11:19,316 - INFO - Row 33: Saved to unmarked_dataset.csv
+2025-09-12 10:11:22,323 - INFO - Processing row 34/100: A cozy café features small tables with mismatched chairs and chalkboard menus. Aromas of freshly bak...
+2025-09-12 10:11:22,323 - INFO - Calling DeepSeek API for text: A cozy café features small tables with mismatched chairs and chalkboard menus. Aromas of freshly bak...
+2025-09-12 10:11:39,681 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "cafe",
+        "attributes": [
+          "cozy"
+        ]
+      },
+      {
+        "id": "tables",
+        "attributes": [
+          "smal...
+2025-09-12 10:11:39,682 - INFO - Successfully received response from API
+2025-09-12 10:11:39,683 - INFO - Row 34: Successfully generated scene graph
+2025-09-12 10:11:39,687 - INFO - Row 34: Saved to unmarked_dataset.csv
+2025-09-12 10:11:42,687 - INFO - Processing row 35/100: A high-tech laboratory showcases gleaming equipment and glass beakers filled with colorful liquids. ...
+2025-09-12 10:11:42,688 - INFO - Calling DeepSeek API for text: A high-tech laboratory showcases gleaming equipment and glass beakers filled with colorful liquids. ...
+2025-09-12 10:12:15,734 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "laboratory",
+        "attributes": [
+          "high-tech"
+        ]
+      },
+      {
+        "id": "equipment",
+        "attributes": [
+ ...
+2025-09-12 10:12:15,734 - INFO - Successfully received response from API
+2025-09-12 10:12:15,736 - INFO - Row 35: Successfully generated scene graph
+2025-09-12 10:12:15,741 - INFO - Row 35: Saved to unmarked_dataset.csv
+2025-09-12 10:12:18,747 - INFO - Processing row 36/100: In a vibrant night market, stalls teem with colorful street food offerings and handmade crafts. Lant...
+2025-09-12 10:12:18,748 - INFO - Calling DeepSeek API for text: In a vibrant night market, stalls teem with colorful street food offerings and handmade crafts. Lant...
+2025-09-12 10:12:38,876 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "night_market",
+        "attributes": [
+          "vibrant"
+        ]
+      },
+      {
+        "id": "stalls",
+        "attributes": [
+    ...
+2025-09-12 10:12:38,876 - INFO - Successfully received response from API
+2025-09-12 10:12:38,877 - INFO - Row 36: Successfully generated scene graph
+2025-09-12 10:12:38,881 - INFO - Row 36: Saved to unmarked_dataset.csv
+2025-09-12 10:12:41,886 - INFO - Processing row 37/100: A serene yoga studio is filled with soft natural light, where mats are neatly rolled out on a polish...
+2025-09-12 10:12:41,886 - INFO - Calling DeepSeek API for text: A serene yoga studio is filled with soft natural light, where mats are neatly rolled out on a polish...
+2025-09-12 10:12:54,853 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "yoga_studio",
+        "attributes": [
+          "serene"
+        ]
+      },
+      {
+        "id": "light",
+        "attributes": [
+       ...
+2025-09-12 10:12:54,854 - INFO - Successfully received response from API
+2025-09-12 10:12:54,855 - INFO - Row 37: Successfully generated scene graph
+2025-09-12 10:12:54,858 - INFO - Row 37: Saved to unmarked_dataset.csv
+2025-09-12 10:12:57,867 - INFO - Processing row 38/100: In a music studio, a grand piano sits in the center surrounded by microphones and musical instrument...
+2025-09-12 10:12:57,867 - INFO - Calling DeepSeek API for text: In a music studio, a grand piano sits in the center surrounded by microphones and musical instrument...
+2025-09-12 10:13:12,919 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "grand_piano",
+        "attributes": []
+      },
+      {
+        "id": "microphones",
+        "attributes": []
+      },
+      {
+        "id...
+2025-09-12 10:13:12,920 - INFO - Successfully received response from API
+2025-09-12 10:13:12,921 - INFO - Row 38: Successfully generated scene graph
+2025-09-12 10:13:12,926 - INFO - Row 38: Saved to unmarked_dataset.csv
+2025-09-12 10:13:15,933 - INFO - Processing row 39/100: A ski resort boasts cozy chalets and stunning mountain views, with skiers gliding down slopes. A fir...
+2025-09-12 10:13:15,934 - INFO - Calling DeepSeek API for text: A ski resort boasts cozy chalets and stunning mountain views, with skiers gliding down slopes. A fir...
+2025-09-12 10:13:39,184 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "ski_resort",
+        "attributes": [
+          "cozy_chalets",
+          "stunning_mountain_views"
+        ]
+      },
+      {
+        "id"...
+2025-09-12 10:13:39,184 - INFO - Successfully received response from API
+2025-09-12 10:13:39,186 - INFO - Row 39: Successfully generated scene graph
+2025-09-12 10:13:39,191 - INFO - Row 39: Saved to unmarked_dataset.csv
+2025-09-12 10:13:42,201 - INFO - Processing row 40/100: A charming tea shop features shelves lined with jars of loose-leaf teas and tea accessories. A small...
+2025-09-12 10:13:42,201 - INFO - Calling DeepSeek API for text: A charming tea shop features shelves lined with jars of loose-leaf teas and tea accessories. A small...
+2025-09-12 10:14:03,601 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "tea_shop",
+        "attributes": [
+          "charming"
+        ]
+      },
+      {
+        "id": "shelves",
+        "attributes": [
+      ...
+2025-09-12 10:14:03,602 - INFO - Successfully received response from API
+2025-09-12 10:14:03,603 - INFO - Row 40: Successfully generated scene graph
+2025-09-12 10:14:03,608 - INFO - Row 40: Saved to unmarked_dataset.csv
+2025-09-12 10:14:06,618 - INFO - Processing row 41/100: In an urban loft, industrial elements like exposed brick and metal beams create a modern aesthetic. ...
+2025-09-12 10:14:06,618 - INFO - Calling DeepSeek API for text: In an urban loft, industrial elements like exposed brick and metal beams create a modern aesthetic. ...
+2025-09-12 10:14:24,892 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "urban_loft",
+        "attributes": [
+          "industrial_elements",
+          "modern_aesthetic"
+        ]
+      },
+      {
+        "id"...
+2025-09-12 10:14:24,892 - INFO - Successfully received response from API
+2025-09-12 10:14:24,893 - INFO - Row 41: Successfully generated scene graph
+2025-09-12 10:14:24,897 - INFO - Row 41: Saved to unmarked_dataset.csv
+2025-09-12 10:14:27,901 - INFO - Processing row 42/100: A serene lake cabin is equipped with a wooden porch swing facing the tranquil water. Inside, a stone...
+2025-09-12 10:14:27,901 - INFO - Calling DeepSeek API for text: A serene lake cabin is equipped with a wooden porch swing facing the tranquil water. Inside, a stone...
+2025-09-12 10:14:45,549 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "cabin",
+        "attributes": [
+          "serene",
+          "lake"
+        ]
+      },
+      {
+        "id": "porch_swing",
+        "attr...
+2025-09-12 10:14:45,550 - INFO - Successfully received response from API
+2025-09-12 10:14:45,551 - INFO - Row 42: Successfully generated scene graph
+2025-09-12 10:14:45,557 - INFO - Row 42: Saved to unmarked_dataset.csv
+2025-09-12 10:14:48,561 - INFO - Processing row 43/100: An expansive gym features rows of weightlifting equipment, treadmills, and yoga mats. Mirrored walls...
+2025-09-12 10:14:48,561 - INFO - Calling DeepSeek API for text: An expansive gym features rows of weightlifting equipment, treadmills, and yoga mats. Mirrored walls...
+2025-09-12 10:15:08,380 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "gym",
+        "attributes": [
+          "expansive"
+        ]
+      },
+      {
+        "id": "weightlifting_equipment",
+        "attribute...
+2025-09-12 10:15:08,381 - INFO - Successfully received response from API
+2025-09-12 10:15:08,383 - INFO - Row 43: Successfully generated scene graph
+2025-09-12 10:15:08,388 - INFO - Row 43: Saved to unmarked_dataset.csv
+2025-09-12 10:15:11,390 - INFO - Processing row 44/100: A botanical conservatory is filled with lush greenery and vibrant flowers under a glass dome. Paths ...
+2025-09-12 10:15:11,391 - INFO - Calling DeepSeek API for text: A botanical conservatory is filled with lush greenery and vibrant flowers under a glass dome. Paths ...
+2025-09-12 10:15:29,737 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "conservatory",
+        "attributes": [
+          "botanical",
+          "glass_dome"
+        ]
+      },
+      {
+        "id": "greenery",
+...
+2025-09-12 10:15:29,737 - INFO - Successfully received response from API
+2025-09-12 10:15:29,738 - INFO - Row 44: Successfully generated scene graph
+2025-09-12 10:15:29,743 - INFO - Row 44: Saved to unmarked_dataset.csv
+2025-09-12 10:15:32,836 - INFO - Processing row 45/100: In a quaint bakery, the air is filled with the sweet scent of baked goods. Display cases showcase a ...
+2025-09-12 10:15:32,837 - INFO - Calling DeepSeek API for text: In a quaint bakery, the air is filled with the sweet scent of baked goods. Display cases showcase a ...
+2025-09-12 10:15:49,095 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "bakery",
+        "attributes": [
+          "quaint"
+        ]
+      },
+      {
+        "id": "air",
+        "attributes": [
+          "swe...
+2025-09-12 10:15:49,096 - INFO - Successfully received response from API
+2025-09-12 10:15:49,098 - INFO - Row 45: Successfully generated scene graph
+2025-09-12 10:15:49,102 - INFO - Row 45: Saved to unmarked_dataset.csv
+2025-09-12 10:15:52,142 - INFO - Processing row 46/100: A peaceful countryside field stretches out, dotted with grazing sheep and wildflowers. A rustic wood...
+2025-09-12 10:15:52,143 - INFO - Calling DeepSeek API for text: A peaceful countryside field stretches out, dotted with grazing sheep and wildflowers. A rustic wood...
+2025-09-12 10:16:09,407 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "countryside_field",
+        "attributes": [
+          "peaceful"
+        ]
+      },
+      {
+        "id": "sheep",
+        "attributes": [...
+2025-09-12 10:16:09,407 - INFO - Successfully received response from API
+2025-09-12 10:16:09,408 - INFO - Row 46: Successfully generated scene graph
+2025-09-12 10:16:09,412 - INFO - Row 46: Saved to unmarked_dataset.csv
+2025-09-12 10:16:12,413 - INFO - Processing row 47/100: An upscale cosmetics store showcases elegantly displayed beauty products on sleek counters. Staff pr...
+2025-09-12 10:16:12,413 - INFO - Calling DeepSeek API for text: An upscale cosmetics store showcases elegantly displayed beauty products on sleek counters. Staff pr...
+2025-09-12 10:16:35,676 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "cosmetics_store",
+        "attributes": [
+          "upscale"
+        ]
+      },
+      {
+        "id": "beauty_products",
+        "attribu...
+2025-09-12 10:16:35,676 - INFO - Successfully received response from API
+2025-09-12 10:16:35,677 - INFO - Row 47: Successfully generated scene graph
+2025-09-12 10:16:35,681 - INFO - Row 47: Saved to unmarked_dataset.csv
+2025-09-12 10:16:38,690 - INFO - Processing row 48/100: In a vibrant playground, children laugh and play on swings and slides, with colorful equipment filli...
+2025-09-12 10:16:38,691 - INFO - Calling DeepSeek API for text: In a vibrant playground, children laugh and play on swings and slides, with colorful equipment filli...
+2025-09-12 10:17:09,268 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "playground",
+        "attributes": [
+          "vibrant"
+        ]
+      },
+      {
+        "id": "children",
+        "attributes": [
+    ...
+2025-09-12 10:17:09,268 - INFO - Successfully received response from API
+2025-09-12 10:17:09,269 - INFO - Row 48: Successfully generated scene graph
+2025-09-12 10:17:09,274 - INFO - Row 48: Saved to unmarked_dataset.csv
+2025-09-12 10:17:09,345 - INFO - Processing row 49/100: In a historical museum, ancient artifacts are displayed in glass cases, with placards providing deta...
+2025-09-12 10:17:09,345 - INFO - Calling DeepSeek API for text: In a historical museum, ancient artifacts are displayed in glass cases, with placards providing deta...
+2025-09-12 10:17:30,194 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "museum",
+        "attributes": [
+          "historical"
+        ]
+      },
+      {
+        "id": "artifacts",
+        "attributes": [
+    ...
+2025-09-12 10:17:30,194 - INFO - Successfully received response from API
+2025-09-12 10:17:30,195 - INFO - Row 49: Successfully generated scene graph
+2025-09-12 10:17:30,200 - INFO - Row 49: Saved to unmarked_dataset.csv
+2025-09-12 10:17:33,300 - INFO - Processing row 50/100: A bustling airport terminal features rows of check-in kiosks and departure gates, with travelers man...
+2025-09-12 10:17:33,300 - INFO - Calling DeepSeek API for text: A bustling airport terminal features rows of check-in kiosks and departure gates, with travelers man...
+2025-09-12 10:17:51,831 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "airport_terminal",
+        "attributes": [
+          "bustling"
+        ]
+      },
+      {
+        "id": "check-in_kiosks",
+        "attri...
+2025-09-12 10:17:51,832 - INFO - Successfully received response from API
+2025-09-12 10:17:51,833 - INFO - Row 50: Successfully generated scene graph
+2025-09-12 10:17:51,838 - INFO - Row 50: Saved to unmarked_dataset.csv
+2025-09-12 10:17:54,863 - INFO - Processing row 51/100: At a majestic waterfall, crystal-clear water cascades over rocks, surrounded by lush vegetation. A r...
+2025-09-12 10:17:54,864 - INFO - Calling DeepSeek API for text: At a majestic waterfall, crystal-clear water cascades over rocks, surrounded by lush vegetation. A r...
+2025-09-12 10:18:21,651 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "waterfall",
+        "attributes": [
+          "majestic"
+        ]
+      },
+      {
+        "id": "water",
+        "attributes": [
+       ...
+2025-09-12 10:18:21,651 - INFO - Successfully received response from API
+2025-09-12 10:18:21,653 - INFO - Row 51: Successfully generated scene graph
+2025-09-12 10:18:21,659 - INFO - Row 51: Saved to unmarked_dataset.csv
+2025-09-12 10:18:24,724 - INFO - Processing row 52/100: A charming bed-and-breakfast features a cozy room adorned with vintage decor. A floral quilt covers ...
+2025-09-12 10:18:24,725 - INFO - Calling DeepSeek API for text: A charming bed-and-breakfast features a cozy room adorned with vintage decor. A floral quilt covers ...
+2025-09-12 10:18:40,031 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "bed-and-breakfast",
+        "attributes": [
+          "charming"
+        ]
+      },
+      {
+        "id": "room",
+        "attributes": [
+...
+2025-09-12 10:18:40,032 - INFO - Successfully received response from API
+2025-09-12 10:18:40,034 - INFO - Row 52: Successfully generated scene graph
+2025-09-12 10:18:40,039 - INFO - Row 52: Saved to unmarked_dataset.csv
+2025-09-12 10:18:43,094 - INFO - Processing row 53/100: In a bustling concert venue, a large stage is set with instruments awaiting the performance. Colorfu...
+2025-09-12 10:18:43,094 - INFO - Calling DeepSeek API for text: In a bustling concert venue, a large stage is set with instruments awaiting the performance. Colorfu...
+2025-09-12 10:19:01,137 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "concert_venue",
+        "attributes": [
+          "bustling"
+        ]
+      },
+      {
+        "id": "stage",
+        "attributes": [
+   ...
+2025-09-12 10:19:01,137 - INFO - Successfully received response from API
+2025-09-12 10:19:01,139 - INFO - Row 53: Successfully generated scene graph
+2025-09-12 10:19:01,143 - INFO - Row 53: Saved to unmarked_dataset.csv
+2025-09-12 10:19:04,145 - INFO - Processing row 54/100: An inviting winery features rows of grapevines stretching across rolling hills. A rustic tasting roo...
+2025-09-12 10:19:04,145 - INFO - Calling DeepSeek API for text: An inviting winery features rows of grapevines stretching across rolling hills. A rustic tasting roo...
+2025-09-12 10:19:23,188 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "winery",
+        "attributes": [
+          "inviting"
+        ]
+      },
+      {
+        "id": "grapevines",
+        "attributes": [
+     ...
+2025-09-12 10:19:23,188 - INFO - Successfully received response from API
+2025-09-12 10:19:23,189 - INFO - Row 54: Successfully generated scene graph
+2025-09-12 10:19:23,194 - INFO - Row 54: Saved to unmarked_dataset.csv
+2025-09-12 10:19:26,209 - INFO - Processing row 55/100: At an animal shelter, the sound of barking dogs fills the air as volunteers tend to the furry reside...
+2025-09-12 10:19:26,210 - INFO - Calling DeepSeek API for text: At an animal shelter, the sound of barking dogs fills the air as volunteers tend to the furry reside...
+2025-09-12 10:19:41,019 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "animal_shelter",
+        "attributes": []
+      },
+      {
+        "id": "dogs",
+        "attributes": [
+          "barking"
+        ]
+   ...
+2025-09-12 10:19:41,019 - INFO - Successfully received response from API
+2025-09-12 10:19:41,020 - INFO - Row 55: Successfully generated scene graph
+2025-09-12 10:19:41,026 - INFO - Row 55: Saved to unmarked_dataset.csv
+2025-09-12 10:19:44,027 - INFO - Processing row 56/100: On a serene oceanfront balcony, a table is set for two with plates of fresh seafood and a chilled bo...
+2025-09-12 10:19:44,027 - INFO - Calling DeepSeek API for text: On a serene oceanfront balcony, a table is set for two with plates of fresh seafood and a chilled bo...
+2025-09-12 10:20:01,753 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "balcony",
+        "attributes": [
+          "serene",
+          "oceanfront"
+        ]
+      },
+      {
+        "id": "table",
+        "at...
+2025-09-12 10:20:01,753 - INFO - Successfully received response from API
+2025-09-12 10:20:01,755 - INFO - Row 56: Successfully generated scene graph
+2025-09-12 10:20:01,760 - INFO - Row 56: Saved to unmarked_dataset.csv
+2025-09-12 10:20:04,766 - INFO - Processing row 57/100: In a modern hospital room, a neatly made bed with crisp white linens awaits a patient. Various medic...
+2025-09-12 10:20:04,767 - INFO - Calling DeepSeek API for text: In a modern hospital room, a neatly made bed with crisp white linens awaits a patient. Various medic...
+2025-09-12 10:20:20,216 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "hospital_room",
+        "attributes": [
+          "modern"
+        ]
+      },
+      {
+        "id": "bed",
+        "attributes": [
+       ...
+2025-09-12 10:20:20,217 - INFO - Successfully received response from API
+2025-09-12 10:20:20,218 - INFO - Row 57: Successfully generated scene graph
+2025-09-12 10:20:20,223 - INFO - Row 57: Saved to unmarked_dataset.csv
+2025-09-12 10:20:23,224 - INFO - Processing row 58/100: A lively dance studio features mirrors lining the walls, with wooden floors polished for movement. B...
+2025-09-12 10:20:23,224 - INFO - Calling DeepSeek API for text: A lively dance studio features mirrors lining the walls, with wooden floors polished for movement. B...
+2025-09-12 10:20:49,633 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "dance_studio",
+        "attributes": [
+          "lively"
+        ]
+      },
+      {
+        "id": "mirrors",
+        "attributes": []
+   ...
+2025-09-12 10:20:49,634 - INFO - Successfully received response from API
+2025-09-12 10:20:49,635 - INFO - Row 58: Successfully generated scene graph
+2025-09-12 10:20:49,639 - INFO - Row 58: Saved to unmarked_dataset.csv
+2025-09-12 10:20:52,649 - INFO - Processing row 59/100: At a family reunion site, picnic tables are adorned with checkered tablecloths, holding bowls of pas...
+2025-09-12 10:20:52,649 - INFO - Calling DeepSeek API for text: At a family reunion site, picnic tables are adorned with checkered tablecloths, holding bowls of pas...
+2025-09-12 10:21:13,298 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "family_reunion_site",
+        "attributes": []
+      },
+      {
+        "id": "picnic_tables",
+        "attributes": [
+          "adorned_...
+2025-09-12 10:21:13,299 - INFO - Successfully received response from API
+2025-09-12 10:21:13,300 - INFO - Row 59: Successfully generated scene graph
+2025-09-12 10:21:13,305 - INFO - Row 59: Saved to unmarked_dataset.csv
+2025-09-12 10:21:16,318 - INFO - Processing row 60/100: In a quaint quilting shop, colorful fabrics hang from the walls while baskets filled with threads oc...
+2025-09-12 10:21:16,318 - INFO - Calling DeepSeek API for text: In a quaint quilting shop, colorful fabrics hang from the walls while baskets filled with threads oc...
+2025-09-12 10:21:51,938 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "quilting_shop",
+        "attributes": [
+          "quaint"
+        ]
+      },
+      {
+        "id": "fabrics",
+        "attributes": [
+   ...
+2025-09-12 10:21:51,938 - INFO - Successfully received response from API
+2025-09-12 10:21:51,940 - INFO - Row 60: Successfully generated scene graph
+2025-09-12 10:21:51,944 - INFO - Row 60: Saved to unmarked_dataset.csv
+2025-09-12 10:21:54,972 - INFO - Processing row 61/100: A contemporary art studio buzzes with energy, where artists are immersed in their work. Canvases on ...
+2025-09-12 10:21:54,972 - INFO - Calling DeepSeek API for text: A contemporary art studio buzzes with energy, where artists are immersed in their work. Canvases on ...
+2025-09-12 10:22:10,736 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "art_studio",
+        "attributes": [
+          "contemporary",
+          "buzzing_with_energy"
+        ]
+      },
+      {
+        "id": "a...
+2025-09-12 10:22:10,736 - INFO - Successfully received response from API
+2025-09-12 10:22:10,737 - INFO - Row 61: Successfully generated scene graph
+2025-09-12 10:22:10,742 - INFO - Row 61: Saved to unmarked_dataset.csv
+2025-09-12 10:22:13,743 - INFO - Processing row 62/100: On a vibrant city street, a lovely café spills out onto the sidewalk with colorful chairs and tables...
+2025-09-12 10:22:13,744 - INFO - Calling DeepSeek API for text: On a vibrant city street, a lovely café spills out onto the sidewalk with colorful chairs and tables...
+2025-09-12 10:22:47,843 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "city_street",
+        "attributes": [
+          "vibrant"
+        ]
+      },
+      {
+        "id": "cafe",
+        "attributes": [
+       ...
+2025-09-12 10:22:47,844 - INFO - Successfully received response from API
+2025-09-12 10:22:47,845 - INFO - Row 62: Successfully generated scene graph
+2025-09-12 10:22:47,852 - INFO - Row 62: Saved to unmarked_dataset.csv
+2025-09-12 10:22:50,865 - INFO - Processing row 63/100: An expansive skate park features ramps and rails for skaters to practice their tricks. Spectators li...
+2025-09-12 10:22:50,865 - INFO - Calling DeepSeek API for text: An expansive skate park features ramps and rails for skaters to practice their tricks. Spectators li...
+2025-09-12 10:23:16,311 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "skate_park",
+        "attributes": [
+          "expansive"
+        ]
+      },
+      {
+        "id": "ramps",
+        "attributes": []
+    ...
+2025-09-12 10:23:16,312 - INFO - Successfully received response from API
+2025-09-12 10:23:16,313 - INFO - Row 63: Successfully generated scene graph
+2025-09-12 10:23:16,318 - INFO - Row 63: Saved to unmarked_dataset.csv
+2025-09-12 10:23:19,325 - INFO - Processing row 64/100: In a charming nursery school, colorful artwork adorns the walls, while small tables hold crayons and...
+2025-09-12 10:23:19,326 - INFO - Calling DeepSeek API for text: In a charming nursery school, colorful artwork adorns the walls, while small tables hold crayons and...
+2025-09-12 10:23:42,315 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "nursery_school",
+        "attributes": [
+          "charming"
+        ]
+      },
+      {
+        "id": "artwork",
+        "attributes": [
+...
+2025-09-12 10:23:42,316 - INFO - Successfully received response from API
+2025-09-12 10:23:42,317 - INFO - Row 64: Successfully generated scene graph
+2025-09-12 10:23:42,323 - INFO - Row 64: Saved to unmarked_dataset.csv
+2025-09-12 10:23:45,355 - INFO - Processing row 65/100: An outdoor pool area features lounge chairs arranged around a sparkling pool, with fluffy towels dra...
+2025-09-12 10:23:45,356 - INFO - Calling DeepSeek API for text: An outdoor pool area features lounge chairs arranged around a sparkling pool, with fluffy towels dra...
+2025-09-12 10:24:12,202 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "pool_area",
+        "attributes": [
+          "outdoor"
+        ]
+      },
+      {
+        "id": "lounge_chairs",
+        "attributes": [
+...
+2025-09-12 10:24:12,203 - INFO - Successfully received response from API
+2025-09-12 10:24:12,204 - INFO - Row 65: Successfully generated scene graph
+2025-09-12 10:24:12,209 - INFO - Row 65: Saved to unmarked_dataset.csv
+2025-09-12 10:24:15,210 - INFO - Processing row 66/100: A historic lighthouse stands tall on a rocky shore, surrounded by crashing waves and seagulls flying...
+2025-09-12 10:24:15,211 - INFO - Calling DeepSeek API for text: A historic lighthouse stands tall on a rocky shore, surrounded by crashing waves and seagulls flying...
+2025-09-12 10:24:38,337 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "lighthouse",
+        "attributes": [
+          "historic",
+          "tall"
+        ]
+      },
+      {
+        "id": "shore",
+        "att...
+2025-09-12 10:24:38,337 - INFO - Successfully received response from API
+2025-09-12 10:24:38,338 - INFO - Row 66: Successfully generated scene graph
+2025-09-12 10:24:38,344 - INFO - Row 66: Saved to unmarked_dataset.csv
+2025-09-12 10:24:41,350 - INFO - Processing row 67/100: In a serene meditation space, cushions and mats are neatly arranged for tranquility. Soft ambient li...
+2025-09-12 10:24:41,350 - INFO - Calling DeepSeek API for text: In a serene meditation space, cushions and mats are neatly arranged for tranquility. Soft ambient li...
+2025-09-12 10:25:02,865 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "cushions",
+        "attributes": [
+          "neatly_arranged"
+        ]
+      },
+      {
+        "id": "mats",
+        "attributes": [
+  ...
+2025-09-12 10:25:02,866 - INFO - Successfully received response from API
+2025-09-12 10:25:02,867 - INFO - Row 67: Successfully generated scene graph
+2025-09-12 10:25:02,872 - INFO - Row 67: Saved to unmarked_dataset.csv
+2025-09-12 10:25:02,924 - INFO - Processing row 68/100: A stylish clothing boutique showcases racks of dresses, shoes, and accessories, with mirrors positio...
+2025-09-12 10:25:02,925 - INFO - Calling DeepSeek API for text: A stylish clothing boutique showcases racks of dresses, shoes, and accessories, with mirrors positio...
+2025-09-12 10:25:18,230 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "boutique",
+        "attributes": [
+          "stylish",
+          "clothing"
+        ]
+      },
+      {
+        "id": "racks",
+        "at...
+2025-09-12 10:25:18,230 - INFO - Successfully received response from API
+2025-09-12 10:25:18,231 - INFO - Row 68: Successfully generated scene graph
+2025-09-12 10:25:18,237 - INFO - Row 68: Saved to unmarked_dataset.csv
+2025-09-12 10:25:21,244 - INFO - Processing row 69/100: At a picturesque picnic area, a checkered blanket is laid out beneath a shady tree, featuring an ass...
+2025-09-12 10:25:21,244 - INFO - Calling DeepSeek API for text: At a picturesque picnic area, a checkered blanket is laid out beneath a shady tree, featuring an ass...
+2025-09-12 10:25:40,120 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "picnic_area",
+        "attributes": [
+          "picturesque"
+        ]
+      },
+      {
+        "id": "blanket",
+        "attributes": [
+...
+2025-09-12 10:25:40,120 - INFO - Successfully received response from API
+2025-09-12 10:25:40,121 - INFO - Row 69: Successfully generated scene graph
+2025-09-12 10:25:40,127 - INFO - Row 69: Saved to unmarked_dataset.csv
+2025-09-12 10:25:43,143 - INFO - Processing row 70/100: In an expansive warehouse, rows of stacked shelves hold an assortment of materials and supplies. For...
+2025-09-12 10:25:43,144 - INFO - Calling DeepSeek API for text: In an expansive warehouse, rows of stacked shelves hold an assortment of materials and supplies. For...
+2025-09-12 10:26:22,643 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "warehouse",
+        "attributes": [
+          "expansive"
+        ]
+      },
+      {
+        "id": "shelves",
+        "attributes": [
+    ...
+2025-09-12 10:26:22,644 - INFO - Successfully received response from API
+2025-09-12 10:26:22,645 - INFO - Row 70: Successfully generated scene graph
+2025-09-12 10:26:22,651 - INFO - Row 70: Saved to unmarked_dataset.csv
+2025-09-12 10:26:25,679 - INFO - Processing row 71/100: A charming chocolate shop tempts customers with glass cases filled with artisan chocolates and pastr...
+2025-09-12 10:26:25,679 - INFO - Calling DeepSeek API for text: A charming chocolate shop tempts customers with glass cases filled with artisan chocolates and pastr...
+2025-09-12 10:26:44,551 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "chocolate_shop",
+        "attributes": [
+          "charming"
+        ]
+      },
+      {
+        "id": "glass_cases",
+        "attributes"...
+2025-09-12 10:26:44,551 - INFO - Successfully received response from API
+2025-09-12 10:26:44,552 - INFO - Row 71: Successfully generated scene graph
+2025-09-12 10:26:44,559 - INFO - Row 71: Saved to unmarked_dataset.csv
+2025-09-12 10:26:47,581 - INFO - Processing row 72/100: In a botanical research lab, various plants are neatly arranged under bright grow lights. Cloning eq...
+2025-09-12 10:26:47,583 - INFO - Calling DeepSeek API for text: In a botanical research lab, various plants are neatly arranged under bright grow lights. Cloning eq...
+2025-09-12 10:27:02,177 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "plants",
+        "attributes": [
+          "various",
+          "neatly_arranged"
+        ]
+      },
+      {
+        "id": "grow_lights",
+...
+2025-09-12 10:27:02,177 - INFO - Successfully received response from API
+2025-09-12 10:27:02,179 - INFO - Row 72: Successfully generated scene graph
+2025-09-12 10:27:02,186 - INFO - Row 72: Saved to unmarked_dataset.csv
+2025-09-12 10:27:05,188 - INFO - Processing row 73/100: At a scenic lookout point, wooden benches face beautiful mountain vistas, offering visitors a place ...
+2025-09-12 10:27:05,189 - INFO - Calling DeepSeek API for text: At a scenic lookout point, wooden benches face beautiful mountain vistas, offering visitors a place ...
+2025-09-12 10:27:27,369 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "lookout_point",
+        "attributes": [
+          "scenic"
+        ]
+      },
+      {
+        "id": "benches",
+        "attributes": [
+   ...
+2025-09-12 10:27:27,370 - INFO - Successfully received response from API
+2025-09-12 10:27:27,372 - INFO - Row 73: Successfully generated scene graph
+2025-09-12 10:27:27,378 - INFO - Row 73: Saved to unmarked_dataset.csv
+2025-09-12 10:27:30,389 - INFO - Processing row 74/100: In a cozy knitting circle, balls of vibrant yarn sit in baskets, while members chat softly about the...
+2025-09-12 10:27:30,389 - INFO - Calling DeepSeek API for text: In a cozy knitting circle, balls of vibrant yarn sit in baskets, while members chat softly about the...
+2025-09-12 10:27:52,954 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "knitting_circle",
+        "attributes": [
+          "cozy"
+        ]
+      },
+      {
+        "id": "yarn_balls",
+        "attributes": [
+...
+2025-09-12 10:27:52,955 - INFO - Successfully received response from API
+2025-09-12 10:27:52,956 - INFO - Row 74: Successfully generated scene graph
+2025-09-12 10:27:52,962 - INFO - Row 74: Saved to unmarked_dataset.csv
+2025-09-12 10:27:55,963 - INFO - Processing row 75/100: A trendy rooftop bar showcases stunning city views as customers sip cocktails surrounded by flickeri...
+2025-09-12 10:27:55,963 - INFO - Calling DeepSeek API for text: A trendy rooftop bar showcases stunning city views as customers sip cocktails surrounded by flickeri...
+2025-09-12 10:28:10,395 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "rooftop_bar",
+        "attributes": [
+          "trendy"
+        ]
+      },
+      {
+        "id": "city_views",
+        "attributes": [
+  ...
+2025-09-12 10:28:10,395 - INFO - Successfully received response from API
+2025-09-12 10:28:10,396 - INFO - Row 75: Successfully generated scene graph
+2025-09-12 10:28:10,403 - INFO - Row 75: Saved to unmarked_dataset.csv
+2025-09-12 10:28:13,414 - INFO - Processing row 76/100: On a sunny balcony, potted herbs thrive in sunlight next to a grill. A bistro table is set for brunc...
+2025-09-12 10:28:13,415 - INFO - Calling DeepSeek API for text: On a sunny balcony, potted herbs thrive in sunlight next to a grill. A bistro table is set for brunc...
+2025-09-12 10:28:32,092 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "balcony",
+        "attributes": [
+          "sunny"
+        ]
+      },
+      {
+        "id": "herbs",
+        "attributes": [
+          "p...
+2025-09-12 10:28:32,093 - INFO - Successfully received response from API
+2025-09-12 10:28:32,094 - INFO - Row 76: Successfully generated scene graph
+2025-09-12 10:28:32,100 - INFO - Row 76: Saved to unmarked_dataset.csv
+2025-09-12 10:28:35,104 - INFO - Processing row 77/100: In a well-stocked library, reinforced shelves line the walls filled with categorically organized boo...
+2025-09-12 10:28:35,104 - INFO - Calling DeepSeek API for text: In a well-stocked library, reinforced shelves line the walls filled with categorically organized boo...
+2025-09-12 10:28:51,362 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "library",
+        "attributes": [
+          "well-stocked"
+        ]
+      },
+      {
+        "id": "shelves",
+        "attributes": [
+   ...
+2025-09-12 10:28:51,362 - INFO - Successfully received response from API
+2025-09-12 10:28:51,363 - INFO - Row 77: Successfully generated scene graph
+2025-09-12 10:28:51,369 - INFO - Row 77: Saved to unmarked_dataset.csv
+2025-09-12 10:28:54,379 - INFO - Processing row 78/100: An inviting sushi restaurant features wooden sushi counter seating where chefs prepare fresh rolls. ...
+2025-09-12 10:28:54,380 - INFO - Calling DeepSeek API for text: An inviting sushi restaurant features wooden sushi counter seating where chefs prepare fresh rolls. ...
+2025-09-12 10:29:09,211 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "sushi_restaurant",
+        "attributes": [
+          "inviting"
+        ]
+      },
+      {
+        "id": "sushi_counter_seating",
+        ...
+2025-09-12 10:29:09,211 - INFO - Successfully received response from API
+2025-09-12 10:29:09,212 - INFO - Row 78: Successfully generated scene graph
+2025-09-12 10:29:09,219 - INFO - Row 78: Saved to unmarked_dataset.csv
+2025-09-12 10:29:12,220 - INFO - Processing row 79/100: In a dynamic science classroom, lab benches are equipped with beakers and scientific apparatus. Stud...
+2025-09-12 10:29:12,220 - INFO - Calling DeepSeek API for text: In a dynamic science classroom, lab benches are equipped with beakers and scientific apparatus. Stud...
+2025-09-12 10:29:29,455 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "science_classroom",
+        "attributes": [
+          "dynamic"
+        ]
+      },
+      {
+        "id": "lab_benches",
+        "attribute...
+2025-09-12 10:29:29,455 - INFO - Successfully received response from API
+2025-09-12 10:29:29,456 - INFO - Row 79: Successfully generated scene graph
+2025-09-12 10:29:29,463 - INFO - Row 79: Saved to unmarked_dataset.csv
+2025-09-12 10:29:29,519 - INFO - Processing row 80/100: A tranquil zen garden features meticulously raked gravel paths surrounded by smooth stones and caref...
+2025-09-12 10:29:29,519 - INFO - Calling DeepSeek API for text: A tranquil zen garden features meticulously raked gravel paths surrounded by smooth stones and caref...
+2025-09-12 10:30:16,449 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "zen_garden",
+        "attributes": [
+          "tranquil"
+        ]
+      },
+      {
+        "id": "gravel_paths",
+        "attributes": [...
+2025-09-12 10:30:16,450 - INFO - Successfully received response from API
+2025-09-12 10:30:16,451 - INFO - Row 80: Successfully generated scene graph
+2025-09-12 10:30:16,457 - INFO - Row 80: Saved to unmarked_dataset.csv
+2025-09-12 10:30:19,460 - INFO - Processing row 81/100: In a botanical garden’s tropical section, exotic plants flourish under a glass dome. Visitors wander...
+2025-09-12 10:30:19,461 - INFO - Calling DeepSeek API for text: In a botanical garden’s tropical section, exotic plants flourish under a glass dome. Visitors wander...
+2025-09-12 10:30:46,703 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "botanical_garden",
+        "attributes": [
+          "tropical_section"
+        ]
+      },
+      {
+        "id": "exotic_plants",
+        ...
+2025-09-12 10:30:46,703 - INFO - Successfully received response from API
+2025-09-12 10:30:46,705 - INFO - Row 81: Successfully generated scene graph
+2025-09-12 10:30:46,711 - INFO - Row 81: Saved to unmarked_dataset.csv
+2025-09-12 10:30:49,712 - INFO - Processing row 82/100: A lively festival ground bursts with colors from stalls selling crafts and artisan foods. Crowds gat...
+2025-09-12 10:30:49,713 - INFO - Calling DeepSeek API for text: A lively festival ground bursts with colors from stalls selling crafts and artisan foods. Crowds gat...
+2025-09-12 10:31:08,946 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "festival_ground",
+        "attributes": [
+          "lively"
+        ]
+      },
+      {
+        "id": "stalls",
+        "attributes": [
+  ...
+2025-09-12 10:31:08,946 - INFO - Successfully received response from API
+2025-09-12 10:31:08,948 - INFO - Row 82: Successfully generated scene graph
+2025-09-12 10:31:08,954 - INFO - Row 82: Saved to unmarked_dataset.csv
+2025-09-12 10:31:11,959 - INFO - Processing row 83/100: In a historic train station, ornate architecture enchants with intricate moldings and benches for wa...
+2025-09-12 10:31:11,959 - INFO - Calling DeepSeek API for text: In a historic train station, ornate architecture enchants with intricate moldings and benches for wa...
+2025-09-12 10:31:26,871 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "train_station",
+        "attributes": [
+          "historic",
+          "ornate_architecture",
+          "intricate_moldings"
+        ]
+  ...
+2025-09-12 10:31:26,872 - INFO - Successfully received response from API
+2025-09-12 10:31:26,873 - INFO - Row 83: Successfully generated scene graph
+2025-09-12 10:31:26,880 - INFO - Row 83: Saved to unmarked_dataset.csv
+2025-09-12 10:31:29,883 - INFO - Processing row 84/100: A retro video game arcade features rows of bright machines and pinball tables buzzing with activity....
+2025-09-12 10:31:29,884 - INFO - Calling DeepSeek API for text: A retro video game arcade features rows of bright machines and pinball tables buzzing with activity....
+2025-09-12 10:31:49,343 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "arcade",
+        "attributes": [
+          "retro",
+          "video_game"
+        ]
+      },
+      {
+        "id": "machines",
+        "a...
+2025-09-12 10:31:49,344 - INFO - Successfully received response from API
+2025-09-12 10:31:49,345 - INFO - Row 84: Successfully generated scene graph
+2025-09-12 10:31:49,353 - INFO - Row 84: Saved to unmarked_dataset.csv
+2025-09-12 10:31:52,356 - INFO - Processing row 85/100: In a busy restaurant kitchen, chefs move efficiently among sizzling pans and chopping boards. The at...
+2025-09-12 10:31:52,357 - INFO - Calling DeepSeek API for text: In a busy restaurant kitchen, chefs move efficiently among sizzling pans and chopping boards. The at...
+2025-09-12 10:32:13,710 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "restaurant_kitchen",
+        "attributes": [
+          "busy"
+        ]
+      },
+      {
+        "id": "chefs",
+        "attributes": [
+  ...
+2025-09-12 10:32:13,710 - INFO - Successfully received response from API
+2025-09-12 10:32:13,712 - INFO - Row 85: Successfully generated scene graph
+2025-09-12 10:32:13,719 - INFO - Row 85: Saved to unmarked_dataset.csv
+2025-09-12 10:32:16,720 - INFO - Processing row 86/100: At a traditional holiday market, stalls brim with handmade ornaments and festive treats, while cheer...
+2025-09-12 10:32:16,721 - INFO - Calling DeepSeek API for text: At a traditional holiday market, stalls brim with handmade ornaments and festive treats, while cheer...
+2025-09-12 10:32:37,280 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "market",
+        "attributes": [
+          "traditional",
+          "holiday"
+        ]
+      },
+      {
+        "id": "stalls",
+        "...
+2025-09-12 10:32:37,280 - INFO - Successfully received response from API
+2025-09-12 10:32:37,282 - INFO - Row 86: Successfully generated scene graph
+2025-09-12 10:32:37,290 - INFO - Row 86: Saved to unmarked_dataset.csv
+2025-09-12 10:32:40,293 - INFO - Processing row 87/100: A cozy reading room features a large bay window with soft cushions, inviting readers to curl up with...
+2025-09-12 10:32:40,294 - INFO - Calling DeepSeek API for text: A cozy reading room features a large bay window with soft cushions, inviting readers to curl up with...
+2025-09-12 10:32:55,132 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "reading_room",
+        "attributes": [
+          "cozy"
+        ]
+      },
+      {
+        "id": "bay_window",
+        "attributes": [
+   ...
+2025-09-12 10:32:55,133 - INFO - Successfully received response from API
+2025-09-12 10:32:55,134 - INFO - Row 87: Successfully generated scene graph
+2025-09-12 10:32:55,140 - INFO - Row 87: Saved to unmarked_dataset.csv
+2025-09-12 10:32:55,083 - INFO - Processing row 88/100: On a sandy beach at sunset, a group of friends gathers around a bonfire, roasting marshmallows. A gu...
+2025-09-12 10:32:55,083 - INFO - Calling DeepSeek API for text: On a sandy beach at sunset, a group of friends gathers around a bonfire, roasting marshmallows. A gu...
+2025-09-12 10:33:14,056 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "beach",
+        "attributes": [
+          "sandy",
+          "sunset"
+        ]
+      },
+      {
+        "id": "group_of_friends",
+       ...
+2025-09-12 10:33:14,057 - INFO - Successfully received response from API
+2025-09-12 10:33:14,058 - INFO - Row 88: Successfully generated scene graph
+2025-09-12 10:33:14,065 - INFO - Row 88: Saved to unmarked_dataset.csv
+2025-09-12 10:33:17,070 - INFO - Processing row 89/100: In an expansive botanical garden, a fragrant rose garden bursts with an array of colors. Visitors st...
+2025-09-12 10:33:17,070 - INFO - Calling DeepSeek API for text: In an expansive botanical garden, a fragrant rose garden bursts with an array of colors. Visitors st...
+2025-09-12 10:33:48,058 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "botanical_garden",
+        "attributes": [
+          "expansive"
+        ]
+      },
+      {
+        "id": "rose_garden",
+        "attribut...
+2025-09-12 10:33:48,059 - INFO - Successfully received response from API
+2025-09-12 10:33:48,060 - INFO - Row 89: Successfully generated scene graph
+2025-09-12 10:33:48,067 - INFO - Row 89: Saved to unmarked_dataset.csv
+2025-09-12 10:33:51,072 - INFO - Processing row 90/100: A colorful toy store sparkles with shelves lined with action figures, dolls, and puzzles. A play are...
+2025-09-12 10:33:51,072 - INFO - Calling DeepSeek API for text: A colorful toy store sparkles with shelves lined with action figures, dolls, and puzzles. A play are...
+2025-09-12 10:34:23,019 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "toy_store",
+        "attributes": [
+          "colorful",
+          "sparkling"
+        ]
+      },
+      {
+        "id": "shelves",
+      ...
+2025-09-12 10:34:23,019 - INFO - Successfully received response from API
+2025-09-12 10:34:23,021 - INFO - Row 90: Successfully generated scene graph
+2025-09-12 10:34:23,027 - INFO - Row 90: Saved to unmarked_dataset.csv
+2025-09-12 10:34:26,032 - INFO - Processing row 91/100: In a modern co-working space, sleek desks are occupied by professionals focused on their work. Large...
+2025-09-12 10:34:26,033 - INFO - Calling DeepSeek API for text: In a modern co-working space, sleek desks are occupied by professionals focused on their work. Large...
+2025-09-12 10:34:54,800 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "co-working_space",
+        "attributes": [
+          "modern"
+        ]
+      },
+      {
+        "id": "desks",
+        "attributes": [
+  ...
+2025-09-12 10:34:54,801 - INFO - Successfully received response from API
+2025-09-12 10:34:54,802 - INFO - Row 91: Successfully generated scene graph
+2025-09-12 10:34:54,809 - INFO - Row 91: Saved to unmarked_dataset.csv
+2025-09-12 10:34:54,878 - INFO - Processing row 92/100: A grand opera house features an ornate stage adorned with lavish curtains and gilded decorations. Th...
+2025-09-12 10:34:54,878 - INFO - Calling DeepSeek API for text: A grand opera house features an ornate stage adorned with lavish curtains and gilded decorations. Th...
+2025-09-12 10:35:09,806 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "opera_house",
+        "attributes": [
+          "grand"
+        ]
+      },
+      {
+        "id": "stage",
+        "attributes": [
+        ...
+2025-09-12 10:35:09,806 - INFO - Successfully received response from API
+2025-09-12 10:35:09,807 - INFO - Row 92: Successfully generated scene graph
+2025-09-12 10:35:09,814 - INFO - Row 92: Saved to unmarked_dataset.csv
+2025-09-12 10:35:12,826 - INFO - Processing row 93/100: At a cozy outdoor café, wrought iron tables are adorned with flower vases, while patrons sip espress...
+2025-09-12 10:35:12,826 - INFO - Calling DeepSeek API for text: At a cozy outdoor café, wrought iron tables are adorned with flower vases, while patrons sip espress...
+2025-09-12 10:35:45,747 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "cafe",
+        "attributes": [
+          "cozy",
+          "outdoor"
+        ]
+      },
+      {
+        "id": "tables",
+        "attribute...
+2025-09-12 10:35:45,747 - INFO - Successfully received response from API
+2025-09-12 10:35:45,749 - INFO - Row 93: Successfully generated scene graph
+2025-09-12 10:35:45,756 - INFO - Row 93: Saved to unmarked_dataset.csv
+2025-09-12 10:35:48,783 - INFO - Processing row 94/100: A colorful carnival fills the fairgrounds with flashing lights and joyful laughter. Rides whir aroun...
+2025-09-12 10:35:48,784 - INFO - Calling DeepSeek API for text: A colorful carnival fills the fairgrounds with flashing lights and joyful laughter. Rides whir aroun...
+2025-09-12 10:36:14,176 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "carnival",
+        "attributes": [
+          "colorful"
+        ]
+      },
+      {
+        "id": "fairgrounds",
+        "attributes": []
+ ...
+2025-09-12 10:36:14,177 - INFO - Successfully received response from API
+2025-09-12 10:36:14,178 - INFO - Row 94: Successfully generated scene graph
+2025-09-12 10:36:14,185 - INFO - Row 94: Saved to unmarked_dataset.csv
+2025-09-12 10:36:17,191 - INFO - Processing row 95/100: In an expansive gymnasium, basketball players race down the court, practicing drills. Colorful banne...
+2025-09-12 10:36:17,192 - INFO - Calling DeepSeek API for text: In an expansive gymnasium, basketball players race down the court, practicing drills. Colorful banne...
+2025-09-12 10:36:36,200 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "gymnasium",
+        "attributes": [
+          "expansive"
+        ]
+      },
+      {
+        "id": "basketball_players",
+        "attribut...
+2025-09-12 10:36:36,200 - INFO - Successfully received response from API
+2025-09-12 10:36:36,201 - INFO - Row 95: Successfully generated scene graph
+2025-09-12 10:36:36,210 - INFO - Row 95: Saved to unmarked_dataset.csv
+2025-09-12 10:36:39,217 - INFO - Processing row 96/100: At a modern art exhibit, large sculptures line the floors while exhibit walls display thought-provok...
+2025-09-12 10:36:39,217 - INFO - Calling DeepSeek API for text: At a modern art exhibit, large sculptures line the floors while exhibit walls display thought-provok...
+2025-09-12 10:37:05,534 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "exhibit",
+        "attributes": [
+          "modern_art"
+        ]
+      },
+      {
+        "id": "sculptures",
+        "attributes": [
+  ...
+2025-09-12 10:37:05,535 - INFO - Successfully received response from API
+2025-09-12 10:37:05,536 - INFO - Row 96: Successfully generated scene graph
+2025-09-12 10:37:05,543 - INFO - Row 96: Saved to unmarked_dataset.csv
+2025-09-12 10:37:08,571 - INFO - Processing row 97/100: A scenic hike features a winding path through dense forest, where sunlight filters through the leave...
+2025-09-12 10:37:08,572 - INFO - Calling DeepSeek API for text: A scenic hike features a winding path through dense forest, where sunlight filters through the leave...
+2025-09-12 10:37:25,217 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "hike",
+        "attributes": [
+          "scenic"
+        ]
+      },
+      {
+        "id": "path",
+        "attributes": [
+          "wind...
+2025-09-12 10:37:25,218 - INFO - Successfully received response from API
+2025-09-12 10:37:25,219 - INFO - Row 97: Successfully generated scene graph
+2025-09-12 10:37:25,226 - INFO - Row 97: Saved to unmarked_dataset.csv
+2025-09-12 10:37:28,248 - INFO - Processing row 98/100: In a bustling flower shop, bright blooms fill the shelves with vases ready for delivery. A soft scen...
+2025-09-12 10:37:28,249 - INFO - Calling DeepSeek API for text: In a bustling flower shop, bright blooms fill the shelves with vases ready for delivery. A soft scen...
+2025-09-12 10:37:47,634 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "flower_shop",
+        "attributes": [
+          "bustling"
+        ]
+      },
+      {
+        "id": "blooms",
+        "attributes": [
+    ...
+2025-09-12 10:37:47,635 - INFO - Successfully received response from API
+2025-09-12 10:37:47,636 - INFO - Row 98: Successfully generated scene graph
+2025-09-12 10:37:47,643 - INFO - Row 98: Saved to unmarked_dataset.csv
+2025-09-12 10:37:50,668 - INFO - Processing row 99/100: In a large recreational center, families enjoy swimming at the indoor pool. Laughter and splashes fi...
+2025-09-12 10:37:50,668 - INFO - Calling DeepSeek API for text: In a large recreational center, families enjoy swimming at the indoor pool. Laughter and splashes fi...
+2025-09-12 10:38:11,281 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "recreational_center",
+        "attributes": [
+          "large"
+        ]
+      },
+      {
+        "id": "pool",
+        "attributes": [
+ ...
+2025-09-12 10:38:11,281 - INFO - Successfully received response from API
+2025-09-12 10:38:11,283 - INFO - Row 99: Successfully generated scene graph
+2025-09-12 10:38:11,291 - INFO - Row 99: Saved to unmarked_dataset.csv
+2025-09-12 10:38:14,313 - INFO - Processing row 100/100: A peaceful meditation garden features stone pathways leading to tranquil spots adorned with lanterns...
+2025-09-12 10:38:14,314 - INFO - Calling DeepSeek API for text: A peaceful meditation garden features stone pathways leading to tranquil spots adorned with lanterns...
+2025-09-12 10:38:37,564 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "meditation_garden",
+        "attributes": [
+          "peaceful"
+        ]
+      },
+      {
+        "id": "stone_pathways",
+        "attri...
+2025-09-12 10:38:37,565 - INFO - Successfully received response from API
+2025-09-12 10:38:37,566 - INFO - Row 100: Successfully generated scene graph
+2025-09-12 10:38:37,573 - INFO - Row 100: Saved to unmarked_dataset.csv
+2025-09-12 10:38:40,646 - INFO - Processing completed. Results saved to unmarked_dataset.csv

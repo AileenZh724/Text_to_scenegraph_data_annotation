@@ -1,0 +1,142 @@
+2025-09-12 09:42:43,574 - INFO - API connection test successful
+2025-09-12 09:42:43,579 - INFO - Processing 100 rows from formatted_test_output.csv
+2025-09-12 09:42:43,579 - INFO - Processing row 1/100: In a dimly lit kitchen, a cutting board sits atop the counter, next to a sharp knife and a half-peel...
+2025-09-12 09:42:43,579 - INFO - Calling DeepSeek API for text: In a dimly lit kitchen, a cutting board sits atop the counter, next to a sharp knife and a half-peel...
+2025-09-12 09:43:18,105 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "kitchen",
+        "attributes": [
+          "dimly_lit"
+        ]
+      },
+      {
+        "id": "cutting_board",
+        "attributes": []
+      },
+      {
+        "id": "counter",
+        "attributes": []
+      },
+      {
+        "id": "knife",
+        "attributes": [
+          "sharp"
+        ]
+      },
+      {
+        "id": "onion",
+        "attributes": [
+          "half-peeled"
+        ]
+      },
+      {
+        "id": "bowl",
+        "attributes": []
+      },
+      {
+        "id": "tomatoes",
+        "attributes": [
+          "ripe"
+        ]
+      },
+      {
+        "id": "pot",
+        "attributes": []
+      },
+      {
+        "id": "stove",
+        "attributes": []
+      },
+      {
+        "id": "collection",
+        "attributes": []
+      },
+      {
+        "id": "spices",
+        "attributes": []
+      },
+      {
+        "id": "jars",
+        "attributes": [
+          "small"
+        ]
+      }
+    ],
+    "edges": [
+      [
+        "cutting_board",
+        "sits_atop",
+        "counter"
+      ],
+      [
+        "cutting_board",
+        "next_to",
+        "knife"
+      ],
+      [
+        "cutting_board",
+        "next_to",
+        "onion"
+      ],
+      [
+        "bowl",
+        "contains",
+        "tomatoes"
+      ],
+      [
+        "bowl",
+        "rests_nearby",
+        "cutting_board"
+      ],
+      [
+        "pot",
+        "steams_on",
+        "stove"
+      ],
+      [
+        "pot",
+        "beside",
+        "collection"
+      ],
+      [
+        "collection",
+        "contains",
+        "spices"
+      ],
+      [
+        "collection",
+        "in",
+        "jars"
+      ],
+      [
+        "cutting_board",
+        "in",
+        "kitchen"
+      ],
+      [
+        "counter",
+        "in",
+        "kitchen"
+      ],
+      [
+        "bowl",
+        "in",
+        "kitchen"
+      ],
+      [
+        "stove",
+        "in",
+        "kitchen"
+      ]
+    ]
+  }
+]
+2025-09-12 09:43:18,118 - ERROR - Failed to extract valid JSON from generated text
+2025-09-12 09:43:18,120 - ERROR - Row 1: Failed to generate scene graph
+2025-09-12 09:43:18,122 - INFO - Row 1: Saved to test_single_row.csv
+2025-09-12 09:43:18,123 - INFO - Consecutive failures: 1, waiting 5 seconds...
+2025-09-12 09:43:23,123 - INFO - Processing row 2/100: A vibrant garden blooms with colorful flowers, including bright yellow tulips and deep red roses. A ...
+2025-09-12 09:43:23,124 - INFO - Calling DeepSeek API for text: A vibrant garden blooms with colorful flowers, including bright yellow tulips and deep red roses. A ...

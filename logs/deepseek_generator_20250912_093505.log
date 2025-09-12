@@ -1,0 +1,63 @@
+2025-09-12 09:35:10,093 - INFO - API connection test successful
+2025-09-12 09:35:10,097 - INFO - Processing 100 rows from formatted_test_output.csv
+2025-09-12 09:35:10,097 - INFO - Processing row 1/100: In a dimly lit kitchen, a cutting board sits atop the counter, next to a sharp knife and a half-peel...
+2025-09-12 09:35:10,097 - INFO - Calling DeepSeek API for text: In a dimly lit kitchen, a cutting board sits atop the counter, next to a sharp knife and a half-peel...
+2025-09-12 09:35:37,035 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "kitchen",
+        "attributes": [
+          "dimly_lit"
+        ]
+      },
+      {
+        "id": "cutting_board",
+        "attributes": []...
+2025-09-12 09:35:37,048 - ERROR - Failed to extract valid JSON from generated text
+2025-09-12 09:35:37,050 - ERROR - Row 1: Failed to generate scene graph
+2025-09-12 09:35:37,053 - INFO - Row 1: Saved to unmarked_dataset.csv
+2025-09-12 09:35:37,053 - INFO - Consecutive failures: 1, waiting 5 seconds...
+2025-09-12 09:35:42,063 - INFO - Processing row 2/100: A vibrant garden blooms with colorful flowers, including bright yellow tulips and deep red roses. A ...
+2025-09-12 09:35:42,063 - INFO - Calling DeepSeek API for text: A vibrant garden blooms with colorful flowers, including bright yellow tulips and deep red roses. A ...
+2025-09-12 09:36:05,886 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "garden",
+        "attributes": [
+          "vibrant",
+          "blooming"
+        ]
+      },
+      {
+        "id": "flowers",
+        "at...
+2025-09-12 09:36:05,886 - ERROR - Failed to extract valid JSON from generated text
+2025-09-12 09:36:05,887 - ERROR - Row 2: Failed to generate scene graph
+2025-09-12 09:36:05,890 - INFO - Row 2: Saved to unmarked_dataset.csv
+2025-09-12 09:36:05,890 - INFO - Consecutive failures: 2, waiting 7 seconds...
+2025-09-12 09:36:12,912 - INFO - Processing row 3/100: On a cluttered workbench in a garage, a set of wrenches is spread out next to a clump of greasy engi...
+2025-09-12 09:36:12,912 - INFO - Calling DeepSeek API for text: On a cluttered workbench in a garage, a set of wrenches is spread out next to a clump of greasy engi...
+2025-09-12 09:36:32,789 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "workbench",
+        "attributes": [
+          "cluttered"
+        ]
+      },
+      {
+        "id": "garage",
+        "attributes": []
+    ...
+2025-09-12 09:36:32,789 - ERROR - Failed to extract valid JSON from generated text
+2025-09-12 09:36:32,790 - ERROR - Row 3: Failed to generate scene graph
+2025-09-12 09:36:32,793 - INFO - Row 3: Saved to unmarked_dataset.csv
+2025-09-12 09:36:32,793 - INFO - Consecutive failures: 3, waiting 9 seconds...
+2025-09-12 09:36:38,841 - INFO - Processing row 4/100: In a cozy library, a plush armchair is positioned next to a wooden bookshelf filled with dusty tomes...
+2025-09-12 09:36:38,841 - INFO - Calling DeepSeek API for text: In a cozy library, a plush armchair is positioned next to a wooden bookshelf filled with dusty tomes...

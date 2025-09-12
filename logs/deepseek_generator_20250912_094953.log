@@ -1,0 +1,115 @@
+2025-09-12 09:49:56,997 - INFO - API connection test successful
+2025-09-12 09:49:57,000 - INFO - Created backup: unmarked_dataset.csv.backup_20250912_094956
+2025-09-12 09:49:57,002 - INFO - Processing 100 rows from formatted_test_output.csv
+2025-09-12 09:49:57,003 - INFO - Processing row 1/100: In a dimly lit kitchen, a cutting board sits atop the counter, next to a sharp knife and a half-peel...
+2025-09-12 09:49:57,003 - INFO - Calling DeepSeek API for text: In a dimly lit kitchen, a cutting board sits atop the counter, next to a sharp knife and a half-peel...
+2025-09-12 09:50:21,397 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "kitchen",
+        "attributes": [
+          "dimly_lit"
+        ]
+      },
+      {
+        "id": "cutting_board",
+        "attributes": []...
+2025-09-12 09:50:21,398 - WARNING - All 0 items failed validation
+2025-09-12 09:50:21,399 - WARNING - All 0 items failed validation
+2025-09-12 09:50:21,399 - WARNING - All 1 items failed validation
+2025-09-12 09:50:21,399 - WARNING - All 1 items failed validation
+2025-09-12 09:50:21,399 - WARNING - All 0 items failed validation
+2025-09-12 09:50:21,400 - WARNING - All 1 items failed validation
+2025-09-12 09:50:21,400 - WARNING - All 1 items failed validation
+2025-09-12 09:50:21,400 - WARNING - All 0 items failed validation
+2025-09-12 09:50:21,400 - WARNING - All 0 items failed validation
+2025-09-12 09:50:21,400 - WARNING - All 0 items failed validation
+2025-09-12 09:50:21,401 - WARNING - All 1 items failed validation
+2025-09-12 09:50:21,401 - WARNING - All 3 items failed validation
+2025-09-12 09:50:21,401 - WARNING - All 3 items failed validation
+2025-09-12 09:50:21,401 - WARNING - All 3 items failed validation
+2025-09-12 09:50:21,401 - WARNING - All 3 items failed validation
+2025-09-12 09:50:21,402 - WARNING - All 3 items failed validation
+2025-09-12 09:50:21,402 - WARNING - All 3 items failed validation
+2025-09-12 09:50:21,402 - WARNING - All 3 items failed validation
+2025-09-12 09:50:21,402 - WARNING - All 3 items failed validation
+2025-09-12 09:50:21,402 - WARNING - All 3 items failed validation
+2025-09-12 09:50:21,402 - WARNING - All 3 items failed validation
+2025-09-12 09:50:21,403 - WARNING - All 3 items failed validation
+2025-09-12 09:50:21,403 - WARNING - All 3 items failed validation
+2025-09-12 09:50:21,403 - INFO - Successfully parsed full text JSON with 1 valid items
+2025-09-12 09:50:21,403 - INFO - Successfully generated scene graph with 1 time phases
+2025-09-12 09:50:21,404 - INFO - Row 1: Successfully generated scene graph
+2025-09-12 09:50:21,407 - INFO - Row 1: Saved to unmarked_dataset.csv
+2025-09-12 09:50:24,556 - INFO - Processing row 2/100: A vibrant garden blooms with colorful flowers, including bright yellow tulips and deep red roses. A ...
+2025-09-12 09:50:24,557 - INFO - Calling DeepSeek API for text: A vibrant garden blooms with colorful flowers, including bright yellow tulips and deep red roses. A ...
+2025-09-12 09:50:46,376 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "garden",
+        "attributes": [
+          "vibrant",
+          "blooming"
+        ]
+      },
+      {
+        "id": "flowers",
+        "at...
+2025-09-12 09:50:46,377 - WARNING - All 1 items failed validation
+2025-09-12 09:50:46,377 - WARNING - All 1 items failed validation
+2025-09-12 09:50:46,377 - WARNING - All 1 items failed validation
+2025-09-12 09:50:46,378 - WARNING - All 1 items failed validation
+2025-09-12 09:50:46,378 - WARNING - All 1 items failed validation
+2025-09-12 09:50:46,378 - WARNING - All 1 items failed validation
+2025-09-12 09:50:46,378 - WARNING - All 0 items failed validation
+2025-09-12 09:50:46,379 - WARNING - All 1 items failed validation
+2025-09-12 09:50:46,379 - WARNING - All 3 items failed validation
+2025-09-12 09:50:46,379 - WARNING - All 3 items failed validation
+2025-09-12 09:50:46,379 - WARNING - All 3 items failed validation
+2025-09-12 09:50:46,380 - WARNING - All 3 items failed validation
+2025-09-12 09:50:46,380 - WARNING - All 3 items failed validation
+2025-09-12 09:50:46,380 - WARNING - All 3 items failed validation
+2025-09-12 09:50:46,380 - WARNING - All 3 items failed validation
+2025-09-12 09:50:46,381 - INFO - Successfully parsed full text JSON with 1 valid items
+2025-09-12 09:50:46,381 - INFO - Successfully generated scene graph with 1 time phases
+2025-09-12 09:50:46,382 - INFO - Row 2: Successfully generated scene graph
+2025-09-12 09:50:46,385 - INFO - Row 2: Saved to unmarked_dataset.csv
+2025-09-12 09:50:49,419 - INFO - Processing row 3/100: On a cluttered workbench in a garage, a set of wrenches is spread out next to a clump of greasy engi...
+2025-09-12 09:50:49,420 - INFO - Calling DeepSeek API for text: On a cluttered workbench in a garage, a set of wrenches is spread out next to a clump of greasy engi...
+2025-09-12 09:51:06,378 - INFO - Generated text: [
+  {
+    "time": "T1",
+    "nodes": [
+      {
+        "id": "workbench",
+        "attributes": [
+          "cluttered"
+        ]
+      },
+      {
+        "id": "garage",
+        "attributes": []
+    ...
+2025-09-12 09:51:06,378 - WARNING - All 0 items failed validation
+2025-09-12 09:51:06,379 - WARNING - All 2 items failed validation
+2025-09-12 09:51:06,379 - WARNING - All 2 items failed validation
+2025-09-12 09:51:06,379 - WARNING - All 1 items failed validation
+2025-09-12 09:51:06,379 - WARNING - All 2 items failed validation
+2025-09-12 09:51:06,380 - WARNING - All 0 items failed validation
+2025-09-12 09:51:06,380 - WARNING - All 3 items failed validation
+2025-09-12 09:51:06,380 - WARNING - All 3 items failed validation
+2025-09-12 09:51:06,380 - WARNING - All 3 items failed validation
+2025-09-12 09:51:06,380 - WARNING - All 3 items failed validation
+2025-09-12 09:51:06,381 - WARNING - All 3 items failed validation
+2025-09-12 09:51:06,381 - WARNING - All 3 items failed validation
+2025-09-12 09:51:06,381 - WARNING - All 3 items failed validation
+2025-09-12 09:51:06,381 - INFO - Successfully parsed full text JSON with 1 valid items
+2025-09-12 09:51:06,381 - INFO - Successfully generated scene graph with 1 time phases
+2025-09-12 09:51:06,382 - INFO - Row 3: Successfully generated scene graph
+2025-09-12 09:51:06,385 - INFO - Row 3: Saved to unmarked_dataset.csv
+2025-09-12 09:51:09,504 - INFO - Processing row 4/100: In a cozy library, a plush armchair is positioned next to a wooden bookshelf filled with dusty tomes...
+2025-09-12 09:51:09,505 - INFO - Calling DeepSeek API for text: In a cozy library, a plush armchair is positioned next to a wooden bookshelf filled with dusty tomes...

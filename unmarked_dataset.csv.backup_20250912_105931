@@ -1,0 +1,10048 @@
+id,input,scenegraph,is_reasonable,is_annotated
+item_0001,"In a dimly lit kitchen, a cutting board sits atop the counter, next to a sharp knife and a half-peeled onion. A bowl of ripe tomatoes rests nearby, while a pot steams on the stove beside a collection of spices in small jars.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""kitchen"",
+        ""attributes"": [
+          ""dimly_lit""
+        ]
+      },
+      {
+        ""id"": ""cutting_board"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""counter"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""knife"",
+        ""attributes"": [
+          ""sharp""
+        ]
+      },
+      {
+        ""id"": ""onion"",
+        ""attributes"": [
+          ""half-peeled""
+        ]
+      },
+      {
+        ""id"": ""bowl"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""tomatoes"",
+        ""attributes"": [
+          ""ripe""
+        ]
+      },
+      {
+        ""id"": ""pot"",
+        ""attributes"": [
+          ""steaming""
+        ]
+      },
+      {
+        ""id"": ""stove"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""collection"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""spices"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""jars"",
+        ""attributes"": [
+          ""small""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""cutting_board"",
+        ""sits_atop"",
+        ""counter""
+      ],
+      [
+        ""cutting_board"",
+        ""next_to"",
+        ""knife""
+      ],
+      [
+        ""cutting_board"",
+        ""next_to"",
+        ""onion""
+      ],
+      [
+        ""bowl"",
+        ""contains"",
+        ""tomatoes""
+      ],
+      [
+        ""bowl"",
+        ""rests_nearby"",
+        ""cutting_board""
+      ],
+      [
+        ""pot"",
+        ""steams_on"",
+        ""stove""
+      ],
+      [
+        ""pot"",
+        ""beside"",
+        ""collection""
+      ],
+      [
+        ""collection"",
+        ""contains"",
+        ""spices""
+      ],
+      [
+        ""spices"",
+        ""in"",
+        ""jars""
+      ],
+      [
+        ""cutting_board"",
+        ""in"",
+        ""kitchen""
+      ],
+      [
+        ""counter"",
+        ""in"",
+        ""kitchen""
+      ],
+      [
+        ""bowl"",
+        ""in"",
+        ""kitchen""
+      ],
+      [
+        ""stove"",
+        ""in"",
+        ""kitchen""
+      ]
+    ]
+  }
+]",true,false
+item_0002,"A vibrant garden blooms with colorful flowers, including bright yellow tulips and deep red roses. A wooden bench is tucked beneath an archway of ivy, with gardening gloves and a trowel lying beside a small watering can.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""garden"",
+        ""attributes"": [
+          ""vibrant"",
+          ""blooming""
+        ]
+      },
+      {
+        ""id"": ""flowers"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""tulips"",
+        ""attributes"": [
+          ""bright_yellow""
+        ]
+      },
+      {
+        ""id"": ""roses"",
+        ""attributes"": [
+          ""deep_red""
+        ]
+      },
+      {
+        ""id"": ""bench"",
+        ""attributes"": [
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""archway"",
+        ""attributes"": [
+          ""ivy""
+        ]
+      },
+      {
+        ""id"": ""gloves"",
+        ""attributes"": [
+          ""gardening""
+        ]
+      },
+      {
+        ""id"": ""trowel"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""watering_can"",
+        ""attributes"": [
+          ""small""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""garden"",
+        ""has"",
+        ""flowers""
+      ],
+      [
+        ""flowers"",
+        ""include"",
+        ""tulips""
+      ],
+      [
+        ""flowers"",
+        ""include"",
+        ""roses""
+      ],
+      [
+        ""bench"",
+        ""tucked_beneath"",
+        ""archway""
+      ],
+      [
+        ""gloves"",
+        ""beside"",
+        ""watering_can""
+      ],
+      [
+        ""trowel"",
+        ""beside"",
+        ""watering_can""
+      ],
+      [
+        ""gloves"",
+        ""lying"",
+        ""ground""
+      ],
+      [
+        ""trowel"",
+        ""lying"",
+        ""ground""
+      ]
+    ]
+  }
+]",true,false
+item_0003,"On a cluttered workbench in a garage, a set of wrenches is spread out next to a clump of greasy engine parts. An old radio plays softly in the background, and a toolbox stands closed and rusty against the wall.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""workbench"",
+        ""attributes"": [
+          ""cluttered""
+        ]
+      },
+      {
+        ""id"": ""wrenches"",
+        ""attributes"": [
+          ""set_of"",
+          ""spread_out""
+        ]
+      },
+      {
+        ""id"": ""engine_parts"",
+        ""attributes"": [
+          ""clump_of"",
+          ""greasy""
+        ]
+      },
+      {
+        ""id"": ""radio"",
+        ""attributes"": [
+          ""old""
+        ]
+      },
+      {
+        ""id"": ""toolbox"",
+        ""attributes"": [
+          ""closed"",
+          ""rusty""
+        ]
+      },
+      {
+        ""id"": ""garage"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""wall"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""workbench"",
+        ""in"",
+        ""garage""
+      ],
+      [
+        ""wrenches"",
+        ""on"",
+        ""workbench""
+      ],
+      [
+        ""engine_parts"",
+        ""on"",
+        ""workbench""
+      ],
+      [
+        ""wrenches"",
+        ""next_to"",
+        ""engine_parts""
+      ],
+      [
+        ""radio"",
+        ""plays"",
+        ""softly""
+      ],
+      [
+        ""radio"",
+        ""in"",
+        ""background""
+      ],
+      [
+        ""toolbox"",
+        ""stands_against"",
+        ""wall""
+      ]
+    ]
+  }
+]",true,false
+item_0004,"In a cozy library, a plush armchair is positioned next to a wooden bookshelf filled with dusty tomes. On a small side table, a steaming mug of tea rests beside an open book filled with colorful bookmarks.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""library"",
+        ""attributes"": [
+          ""cozy""
+        ]
+      },
+      {
+        ""id"": ""armchair"",
+        ""attributes"": [
+          ""plush""
+        ]
+      },
+      {
+        ""id"": ""bookshelf"",
+        ""attributes"": [
+          ""wooden"",
+          ""filled_with_dusty_tomes""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""armchair"",
+        ""in"",
+        ""library""
+      ],
+      [
+        ""bookshelf"",
+        ""in"",
+        ""library""
+      ],
+      [
+        ""armchair"",
+        ""positioned_next_to"",
+        ""bookshelf""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""library"",
+        ""attributes"": [
+          ""cozy""
+        ]
+      },
+      {
+        ""id"": ""side_table"",
+        ""attributes"": [
+          ""small""
+        ]
+      },
+      {
+        ""id"": ""mug_of_tea"",
+        ""attributes"": [
+          ""steaming""
+        ]
+      },
+      {
+        ""id"": ""book"",
+        ""attributes"": [
+          ""open"",
+          ""filled_with_colorful_bookmarks""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""side_table"",
+        ""in"",
+        ""library""
+      ],
+      [
+        ""mug_of_tea"",
+        ""on"",
+        ""side_table""
+      ],
+      [
+        ""book"",
+        ""on"",
+        ""side_table""
+      ],
+      [
+        ""mug_of_tea"",
+        ""rests_beside"",
+        ""book""
+      ]
+    ]
+  }
+]",true,false
+item_0005,"A child’s playroom is scattered with vibrant toys, including a stuffed dinosaur and a stack of colorful blocks. A small table is set with crayons and a coloring book, while a plush rug covers the wooden floor.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""playroom"",
+        ""attributes"": [
+          ""child's""
+        ]
+      },
+      {
+        ""id"": ""toys"",
+        ""attributes"": [
+          ""vibrant"",
+          ""scattered""
+        ]
+      },
+      {
+        ""id"": ""stuffed_dinosaur"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""stack_of_blocks"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""small_table"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""crayons"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""coloring_book"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""plush_rug"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""wooden_floor"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""toys"",
+        ""in"",
+        ""playroom""
+      ],
+      [
+        ""stuffed_dinosaur"",
+        ""is_a"",
+        ""toy""
+      ],
+      [
+        ""stack_of_blocks"",
+        ""is_a"",
+        ""toy""
+      ],
+      [
+        ""small_table"",
+        ""in"",
+        ""playroom""
+      ],
+      [
+        ""crayons"",
+        ""on"",
+        ""small_table""
+      ],
+      [
+        ""coloring_book"",
+        ""on"",
+        ""small_table""
+      ],
+      [
+        ""plush_rug"",
+        ""covers"",
+        ""wooden_floor""
+      ],
+      [
+        ""wooden_floor"",
+        ""in"",
+        ""playroom""
+      ]
+    ]
+  }
+]",true,false
+item_0006,"In a bright and airy office, a modern desk hosts a sleek computer monitor, with a keyboard and mouse alongside. An indoor plant sits in the corner, next to a window that reveals a view of bustling city streets.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""office"",
+        ""attributes"": [
+          ""bright"",
+          ""airy""
+        ]
+      },
+      {
+        ""id"": ""desk"",
+        ""attributes"": [
+          ""modern""
+        ]
+      },
+      {
+        ""id"": ""monitor"",
+        ""attributes"": [
+          ""sleek"",
+          ""computer""
+        ]
+      },
+      {
+        ""id"": ""keyboard"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""mouse"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""plant"",
+        ""attributes"": [
+          ""indoor""
+        ]
+      },
+      {
+        ""id"": ""corner"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""window"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""view"",
+        ""attributes"": [
+          ""city_streets"",
+          ""bustling""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""desk"",
+        ""in"",
+        ""office""
+      ],
+      [
+        ""monitor"",
+        ""hosted_by"",
+        ""desk""
+      ],
+      [
+        ""keyboard"",
+        ""alongside"",
+        ""monitor""
+      ],
+      [
+        ""mouse"",
+        ""alongside"",
+        ""monitor""
+      ],
+      [
+        ""plant"",
+        ""sits_in"",
+        ""corner""
+      ],
+      [
+        ""corner"",
+        ""in"",
+        ""office""
+      ],
+      [
+        ""plant"",
+        ""next_to"",
+        ""window""
+      ],
+      [
+        ""window"",
+        ""in"",
+        ""office""
+      ],
+      [
+        ""window"",
+        ""reveals"",
+        ""view""
+      ]
+    ]
+  }
+]",true,false
+item_0007,"A serene beach scene features a colorful beach umbrella and a striped towel spread on the sand. A cooler is parked nearby, with a beach ball and a pair of flip-flops resting close by.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""beach_scene"",
+        ""attributes"": [
+          ""serene""
+        ]
+      },
+      {
+        ""id"": ""beach_umbrella"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""towel"",
+        ""attributes"": [
+          ""striped""
+        ]
+      },
+      {
+        ""id"": ""sand"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""cooler"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""beach_ball"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""flip_flops"",
+        ""attributes"": [
+          ""pair""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""beach_umbrella"",
+        ""in"",
+        ""beach_scene""
+      ],
+      [
+        ""towel"",
+        ""in"",
+        ""beach_scene""
+      ],
+      [
+        ""towel"",
+        ""spread_on"",
+        ""sand""
+      ],
+      [
+        ""cooler"",
+        ""parked_nearby"",
+        ""beach_scene""
+      ],
+      [
+        ""beach_ball"",
+        ""resting_close_by"",
+        ""cooler""
+      ],
+      [
+        ""flip_flops"",
+        ""resting_close_by"",
+        ""cooler""
+      ]
+    ]
+  }
+]",true,false
+item_0008,"On a picnic blanket spread out in a verdant park, a wicker basket overflows with fresh fruits and sandwiches, alongside a bottle of lemonade. A frisbee lays nearby, waiting for its next throw.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""picnic_blanket"",
+        ""attributes"": [
+          ""spread_out""
+        ]
+      },
+      {
+        ""id"": ""park"",
+        ""attributes"": [
+          ""verdant""
+        ]
+      },
+      {
+        ""id"": ""wicker_basket"",
+        ""attributes"": [
+          ""overflowing""
+        ]
+      },
+      {
+        ""id"": ""fruits"",
+        ""attributes"": [
+          ""fresh""
+        ]
+      },
+      {
+        ""id"": ""sandwiches"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""bottle"",
+        ""attributes"": [
+          ""lemonade""
+        ]
+      },
+      {
+        ""id"": ""frisbee"",
+        ""attributes"": [
+          ""laying_nearby""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""picnic_blanket"",
+        ""in"",
+        ""park""
+      ],
+      [
+        ""wicker_basket"",
+        ""on"",
+        ""picnic_blanket""
+      ],
+      [
+        ""fruits"",
+        ""in"",
+        ""wicker_basket""
+      ],
+      [
+        ""sandwiches"",
+        ""in"",
+        ""wicker_basket""
+      ],
+      [
+        ""bottle"",
+        ""alongside"",
+        ""wicker_basket""
+      ],
+      [
+        ""frisbee"",
+        ""near"",
+        ""picnic_blanket""
+      ]
+    ]
+  }
+]",true,false
+item_0009,"In a stylish barbershop, a vintage barber chair sits under a barber pole, with scissors and combs neatly arranged on a metal tray. A mirror reflects the warm glow of hanging Edison bulbs above the scene.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""barbershop"",
+        ""attributes"": [
+          ""stylish""
+        ]
+      },
+      {
+        ""id"": ""barber_chair"",
+        ""attributes"": [
+          ""vintage""
+        ]
+      },
+      {
+        ""id"": ""barber_pole"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""scissors"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""combs"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""metal_tray"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""mirror"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""Edison_bulbs"",
+        ""attributes"": [
+          ""hanging"",
+          ""warm_glow""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""barber_chair"",
+        ""sits_under"",
+        ""barber_pole""
+      ],
+      [
+        ""barber_chair"",
+        ""in"",
+        ""barbershop""
+      ],
+      [
+        ""scissors"",
+        ""arranged_on"",
+        ""metal_tray""
+      ],
+      [
+        ""combs"",
+        ""arranged_on"",
+        ""metal_tray""
+      ],
+      [
+        ""scissors"",
+        ""neatly_arranged"",
+        ""metal_tray""
+      ],
+      [
+        ""combs"",
+        ""neatly_arranged"",
+        ""metal_tray""
+      ],
+      [
+        ""mirror"",
+        ""in"",
+        ""barbershop""
+      ],
+      [
+        ""Edison_bulbs"",
+        ""above"",
+        ""scene""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""barbershop"",
+        ""attributes"": [
+          ""stylish""
+        ]
+      },
+      {
+        ""id"": ""barber_chair"",
+        ""attributes"": [
+          ""vintage""
+        ]
+      },
+      {
+        ""id"": ""barber_pole"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""scissors"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""combs"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""metal_tray"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""mirror"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""Edison_bulbs"",
+        ""attributes"": [
+          ""hanging"",
+          ""warm_glow""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""barber_chair"",
+        ""sits_under"",
+        ""barber_pole""
+      ],
+      [
+        ""barber_chair"",
+        ""in"",
+        ""barbershop""
+      ],
+      [
+        ""scissors"",
+        ""arranged_on"",
+        ""metal_tray""
+      ],
+      [
+        ""combs"",
+        ""arranged_on"",
+        ""metal_tray""
+      ],
+      [
+        ""scissors"",
+        ""neatly_arranged"",
+        ""metal_tray""
+      ],
+      [
+        ""combs"",
+        ""neatly_arranged"",
+        ""metal_tray""
+      ],
+      [
+        ""mirror"",
+        ""reflects"",
+        ""warm_glow""
+      ],
+      [
+        ""warm_glow"",
+        ""from"",
+        ""Edison_bulbs""
+      ],
+      [
+        ""Edison_bulbs"",
+        ""above"",
+        ""scene""
+      ]
+    ]
+  }
+]",true,false
+item_0010,"A rustic farmhouse kitchen features a wooden table set with a checkered tablecloth, where a fruit bowl brims with apples and bananas. Nearby, a kettle whistles on the stove beside a jar of homemade jam.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""kitchen"",
+        ""attributes"": [
+          ""rustic"",
+          ""farmhouse""
+        ]
+      },
+      {
+        ""id"": ""table"",
+        ""attributes"": [
+          ""wooden"",
+          ""set_with_checkered_tablecloth""
+        ]
+      },
+      {
+        ""id"": ""fruit_bowl"",
+        ""attributes"": [
+          ""brimming""
+        ]
+      },
+      {
+        ""id"": ""apples"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""bananas"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""kettle"",
+        ""attributes"": [
+          ""whistling""
+        ]
+      },
+      {
+        ""id"": ""stove"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""jar"",
+        ""attributes"": [
+          ""homemade_jam""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""table"",
+        ""in"",
+        ""kitchen""
+      ],
+      [
+        ""fruit_bowl"",
+        ""on"",
+        ""table""
+      ],
+      [
+        ""apples"",
+        ""in"",
+        ""fruit_bowl""
+      ],
+      [
+        ""bananas"",
+        ""in"",
+        ""fruit_bowl""
+      ],
+      [
+        ""kettle"",
+        ""on"",
+        ""stove""
+      ],
+      [
+        ""stove"",
+        ""in"",
+        ""kitchen""
+      ],
+      [
+        ""jar"",
+        ""beside"",
+        ""stove""
+      ],
+      [
+        ""jar"",
+        ""in"",
+        ""kitchen""
+      ]
+    ]
+  }
+]",true,false
+item_0011,"An art studio is alive with creativity, showcasing a canvas propped against an easel. Paint tubes and brushes are scattered across a work bench covered in splatters of vibrant colors, alongside a sketchbook filled with ideas.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""art_studio"",
+        ""attributes"": [
+          ""alive_with_creativity""
+        ]
+      },
+      {
+        ""id"": ""canvas"",
+        ""attributes"": [
+          ""propped_against_easel""
+        ]
+      },
+      {
+        ""id"": ""easel"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""paint_tubes"",
+        ""attributes"": [
+          ""scattered""
+        ]
+      },
+      {
+        ""id"": ""brushes"",
+        ""attributes"": [
+          ""scattered""
+        ]
+      },
+      {
+        ""id"": ""work_bench"",
+        ""attributes"": [
+          ""covered_in_splatters"",
+          ""vibrant_colors""
+        ]
+      },
+      {
+        ""id"": ""sketchbook"",
+        ""attributes"": [
+          ""filled_with_ideas""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""canvas"",
+        ""propped_against"",
+        ""easel""
+      ],
+      [
+        ""paint_tubes"",
+        ""on"",
+        ""work_bench""
+      ],
+      [
+        ""brushes"",
+        ""on"",
+        ""work_bench""
+      ],
+      [
+        ""sketchbook"",
+        ""alongside"",
+        ""work_bench""
+      ],
+      [
+        ""canvas"",
+        ""in"",
+        ""art_studio""
+      ],
+      [
+        ""easel"",
+        ""in"",
+        ""art_studio""
+      ],
+      [
+        ""work_bench"",
+        ""in"",
+        ""art_studio""
+      ],
+      [
+        ""sketchbook"",
+        ""in"",
+        ""art_studio""
+      ]
+    ]
+  }
+]",true,false
+item_0012,"In a botanical garden, a large fountain surrounded by colorful flowers gushes water, while a stone path leads to a greenhouse filled with exotic plants. A bench beneath a shady tree invites visitors to relax.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""botanical_garden"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""fountain"",
+        ""attributes"": [
+          ""large"",
+          ""gushing_water""
+        ]
+      },
+      {
+        ""id"": ""flowers"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""stone_path"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""greenhouse"",
+        ""attributes"": [
+          ""filled_with_exotic_plants""
+        ]
+      },
+      {
+        ""id"": ""bench"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""tree"",
+        ""attributes"": [
+          ""shady""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""fountain"",
+        ""in"",
+        ""botanical_garden""
+      ],
+      [
+        ""fountain"",
+        ""surrounded_by"",
+        ""flowers""
+      ],
+      [
+        ""stone_path"",
+        ""in"",
+        ""botanical_garden""
+      ],
+      [
+        ""stone_path"",
+        ""leads_to"",
+        ""greenhouse""
+      ],
+      [
+        ""greenhouse"",
+        ""in"",
+        ""botanical_garden""
+      ],
+      [
+        ""bench"",
+        ""in"",
+        ""botanical_garden""
+      ],
+      [
+        ""bench"",
+        ""beneath"",
+        ""tree""
+      ],
+      [
+        ""tree"",
+        ""in"",
+        ""botanical_garden""
+      ]
+    ]
+  }
+]",true,false
+item_0013,"On a wooden dock by a tranquil lake, a fishing rod leans against a cooler, with a tackle box sitting nearby, ready for a day of fishing. Reflections of trees on the water create a stunning mirror image.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""dock"",
+        ""attributes"": [
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""lake"",
+        ""attributes"": [
+          ""tranquil""
+        ]
+      },
+      {
+        ""id"": ""fishing_rod"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""cooler"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""tackle_box"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""trees"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""water"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""dock"",
+        ""by"",
+        ""lake""
+      ],
+      [
+        ""fishing_rod"",
+        ""leans_against"",
+        ""cooler""
+      ],
+      [
+        ""tackle_box"",
+        ""sits_nearby"",
+        ""cooler""
+      ],
+      [
+        ""trees"",
+        ""reflect_on"",
+        ""water""
+      ],
+      [
+        ""reflections"",
+        ""create"",
+        ""mirror_image""
+      ]
+    ]
+  }
+]",true,false
+item_0014,"A minimalist dining room showcases a clean wooden table set with porcelain dishes and silverware, with a vase of fresh lilies in the center. A modern chandelier provides a warm glow overhead.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""dining_room"",
+        ""attributes"": [
+          ""minimalist""
+        ]
+      },
+      {
+        ""id"": ""table"",
+        ""attributes"": [
+          ""clean"",
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""dishes"",
+        ""attributes"": [
+          ""porcelain""
+        ]
+      },
+      {
+        ""id"": ""silverware"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""vase"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""lilies"",
+        ""attributes"": [
+          ""fresh""
+        ]
+      },
+      {
+        ""id"": ""chandelier"",
+        ""attributes"": [
+          ""modern""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""table"",
+        ""in"",
+        ""dining_room""
+      ],
+      [
+        ""dishes"",
+        ""set_on"",
+        ""table""
+      ],
+      [
+        ""silverware"",
+        ""set_on"",
+        ""table""
+      ],
+      [
+        ""vase"",
+        ""on"",
+        ""table""
+      ],
+      [
+        ""lilies"",
+        ""in"",
+        ""vase""
+      ],
+      [
+        ""chandelier"",
+        ""overhead"",
+        ""table""
+      ],
+      [
+        ""chandelier"",
+        ""in"",
+        ""dining_room""
+      ]
+    ]
+  }
+]",true,false
+item_0015,"In a cozy bedroom, a bed is adorned with fluffy pillows and a soft quilt, while a bedside table holds an alarm clock and a novel. A window with lace curtains allows soft sunlight to fill the space.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""bedroom"",
+        ""attributes"": [
+          ""cozy""
+        ]
+      },
+      {
+        ""id"": ""bed"",
+        ""attributes"": [
+          ""adorned_with_pillows"",
+          ""adorned_with_quilt""
+        ]
+      },
+      {
+        ""id"": ""pillows"",
+        ""attributes"": [
+          ""fluffy""
+        ]
+      },
+      {
+        ""id"": ""quilt"",
+        ""attributes"": [
+          ""soft""
+        ]
+      },
+      {
+        ""id"": ""bedside_table"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""alarm_clock"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""novel"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""window"",
+        ""attributes"": [
+          ""lace_curtains""
+        ]
+      },
+      {
+        ""id"": ""sunlight"",
+        ""attributes"": [
+          ""soft""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""bed"",
+        ""in"",
+        ""bedroom""
+      ],
+      [
+        ""bedside_table"",
+        ""in"",
+        ""bedroom""
+      ],
+      [
+        ""window"",
+        ""in"",
+        ""bedroom""
+      ],
+      [
+        ""bed"",
+        ""has"",
+        ""pillows""
+      ],
+      [
+        ""bed"",
+        ""has"",
+        ""quilt""
+      ],
+      [
+        ""bedside_table"",
+        ""holds"",
+        ""alarm_clock""
+      ],
+      [
+        ""bedside_table"",
+        ""holds"",
+        ""novel""
+      ],
+      [
+        ""window"",
+        ""has"",
+        ""lace_curtains""
+      ],
+      [
+        ""window"",
+        ""allows"",
+        ""sunlight""
+      ],
+      [
+        ""sunlight"",
+        ""fills"",
+        ""space""
+      ]
+    ]
+  }
+]",true,false
+item_0016,"A tech-savvy living room features a large flat-screen TV mounted on the wall, with a gaming console sitting on an entertainment unit. A comfortable sectional sofa is positioned for optimal viewing, and a coffee table holds snacks.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""living_room"",
+        ""attributes"": [
+          ""tech-savvy""
+        ]
+      },
+      {
+        ""id"": ""tv"",
+        ""attributes"": [
+          ""large"",
+          ""flat-screen""
+        ]
+      },
+      {
+        ""id"": ""gaming_console"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""entertainment_unit"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""sofa"",
+        ""attributes"": [
+          ""comfortable"",
+          ""sectional""
+        ]
+      },
+      {
+        ""id"": ""coffee_table"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""snacks"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""tv"",
+        ""mounted_on"",
+        ""wall""
+      ],
+      [
+        ""tv"",
+        ""in"",
+        ""living_room""
+      ],
+      [
+        ""gaming_console"",
+        ""sitting_on"",
+        ""entertainment_unit""
+      ],
+      [
+        ""gaming_console"",
+        ""in"",
+        ""living_room""
+      ],
+      [
+        ""entertainment_unit"",
+        ""in"",
+        ""living_room""
+      ],
+      [
+        ""sofa"",
+        ""positioned_for"",
+        ""optimal_viewing""
+      ],
+      [
+        ""sofa"",
+        ""in"",
+        ""living_room""
+      ],
+      [
+        ""coffee_table"",
+        ""holds"",
+        ""snacks""
+      ],
+      [
+        ""coffee_table"",
+        ""in"",
+        ""living_room""
+      ]
+    ]
+  }
+]",true,false
+item_0017,"A vibrant farmer's market buzzes with activity, where wooden stalls display fresh produce, artisan bread, and colorful flowers. Handwoven baskets are piled high, with shoppers examining the variety of goods.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""market"",
+        ""attributes"": [
+          ""vibrant"",
+          ""farmer's""
+        ]
+      },
+      {
+        ""id"": ""stalls"",
+        ""attributes"": [
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""produce"",
+        ""attributes"": [
+          ""fresh""
+        ]
+      },
+      {
+        ""id"": ""bread"",
+        ""attributes"": [
+          ""artisan""
+        ]
+      },
+      {
+        ""id"": ""flowers"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""baskets"",
+        ""attributes"": [
+          ""handwoven""
+        ]
+      },
+      {
+        ""id"": ""shoppers"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""market"",
+        ""buzzes_with"",
+        ""activity""
+      ],
+      [
+        ""stalls"",
+        ""display"",
+        ""produce""
+      ],
+      [
+        ""stalls"",
+        ""display"",
+        ""bread""
+      ],
+      [
+        ""stalls"",
+        ""display"",
+        ""flowers""
+      ],
+      [
+        ""baskets"",
+        ""piled_high"",
+        ""null""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""market"",
+        ""attributes"": [
+          ""vibrant"",
+          ""farmer's""
+        ]
+      },
+      {
+        ""id"": ""stalls"",
+        ""attributes"": [
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""produce"",
+        ""attributes"": [
+          ""fresh""
+        ]
+      },
+      {
+        ""id"": ""bread"",
+        ""attributes"": [
+          ""artisan""
+        ]
+      },
+      {
+        ""id"": ""flowers"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""baskets"",
+        ""attributes"": [
+          ""handwoven""
+        ]
+      },
+      {
+        ""id"": ""shoppers"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""goods"",
+        ""attributes"": [
+          ""variety""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""market"",
+        ""buzzes_with"",
+        ""activity""
+      ],
+      [
+        ""stalls"",
+        ""display"",
+        ""produce""
+      ],
+      [
+        ""stalls"",
+        ""display"",
+        ""bread""
+      ],
+      [
+        ""stalls"",
+        ""display"",
+        ""flowers""
+      ],
+      [
+        ""baskets"",
+        ""piled_high"",
+        ""null""
+      ],
+      [
+        ""shoppers"",
+        ""examining"",
+        ""goods""
+      ]
+    ]
+  }
+]",true,false
+item_0018,"Nestled in a corner of a café, a small wooden round table holds a slice of cake and a fork beside a steaming cappuccino. A vintage clock ticks softly on the wall, while the aroma of coffee fills the air.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""table"",
+        ""attributes"": [
+          ""small"",
+          ""wooden"",
+          ""round""
+        ]
+      },
+      {
+        ""id"": ""cake_slice"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""fork"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""cappuccino"",
+        ""attributes"": [
+          ""steaming""
+        ]
+      },
+      {
+        ""id"": ""clock"",
+        ""attributes"": [
+          ""vintage""
+        ]
+      },
+      {
+        ""id"": ""cafe"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""wall"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""aroma"",
+        ""attributes"": [
+          ""coffee""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""table"",
+        ""nestled_in"",
+        ""cafe""
+      ],
+      [
+        ""table"",
+        ""holds"",
+        ""cake_slice""
+      ],
+      [
+        ""table"",
+        ""holds"",
+        ""fork""
+      ],
+      [
+        ""table"",
+        ""holds"",
+        ""cappuccino""
+      ],
+      [
+        ""fork"",
+        ""beside"",
+        ""cappuccino""
+      ],
+      [
+        ""clock"",
+        ""on"",
+        ""wall""
+      ],
+      [
+        ""clock"",
+        ""ticks"",
+        ""softly""
+      ],
+      [
+        ""aroma"",
+        ""fills"",
+        ""air""
+      ]
+    ]
+  }
+]",true,false
+item_0019,"In a child’s bedroom, a race car bed is framed by posters of superheroes. Toys are scattered around a colorful rug, and a chest filled with stuffed animals rests against the wall, waiting for playtime.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""bedroom"",
+        ""attributes"": [
+          ""child's""
+        ]
+      },
+      {
+        ""id"": ""race_car_bed"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""posters"",
+        ""attributes"": [
+          ""superheroes""
+        ]
+      },
+      {
+        ""id"": ""toys"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""rug"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""chest"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""stuffed_animals"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""race_car_bed"",
+        ""in"",
+        ""bedroom""
+      ],
+      [
+        ""race_car_bed"",
+        ""framed_by"",
+        ""posters""
+      ],
+      [
+        ""toys"",
+        ""scattered_around"",
+        ""rug""
+      ],
+      [
+        ""chest"",
+        ""filled_with"",
+        ""stuffed_animals""
+      ],
+      [
+        ""chest"",
+        ""rests_against"",
+        ""wall""
+      ],
+      [
+        ""chest"",
+        ""waiting_for"",
+        ""playtime""
+      ]
+    ]
+  }
+]",true,false
+item_0020,"An upscale jewelry store showcases sparkling rings and necklaces in glass display cases. A plush carpet lines the floor, and elegant lighting casts a warm ambiance over the polished countertops adorned with accessories.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""jewelry_store"",
+        ""attributes"": [""upscale""]
+      },
+      {
+        ""id"": ""rings"",
+        ""attributes"": [""sparkling""]
+      },
+      {
+        ""id"": ""necklaces"",
+        ""attributes"": [""sparkling""]
+      },
+      {
+        ""id"": ""display_cases"",
+        ""attributes"": [""glass""]
+      },
+      {
+        ""id"": ""carpet"",
+        ""attributes"": [""plush""]
+      },
+      {
+        ""id"": ""lighting"",
+        ""attributes"": [""elegant""]
+      },
+      {
+        ""id"": ""countertops"",
+        ""attributes"": [""polished""]
+      },
+      {
+        ""id"": ""accessories"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [""jewelry_store"", ""showcases"", ""rings""],
+      [""jewelry_store"", ""showcases"", ""necklaces""],
+      [""rings"", ""in"", ""display_cases""],
+      [""necklaces"", ""in"", ""display_cases""],
+      [""carpet"", ""lines"", ""floor""],
+      [""lighting"", ""casts"", ""ambiance""],
+      [""ambiance"", ""has_attribute"", ""warm""],
+      [""countertops"", ""adorned_with"", ""accessories""]
+    ]
+  }
+]",true,false
+item_0021,"A bustling city sidewalk is alive with activity, where a food cart serves hot dogs and pretzels. People sit on benches enjoying their meals, and tall buildings loom overhead as a street musician plays nearby.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""sidewalk"",
+        ""attributes"": [
+          ""city"",
+          ""bustling""
+        ]
+      },
+      {
+        ""id"": ""food_cart"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""hot_dogs"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""pretzels"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""sidewalk"",
+        ""is_alive_with"",
+        ""activity""
+      ],
+      [
+        ""food_cart"",
+        ""on"",
+        ""sidewalk""
+      ],
+      [
+        ""food_cart"",
+        ""serves"",
+        ""hot_dogs""
+      ],
+      [
+        ""food_cart"",
+        ""serves"",
+        ""pretzels""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""people"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""benches"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""meals"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""sidewalk"",
+        ""attributes"": [
+          ""city"",
+          ""bustling""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""people"",
+        ""sit_on"",
+        ""benches""
+      ],
+      [
+        ""benches"",
+        ""on"",
+        ""sidewalk""
+      ],
+      [
+        ""people"",
+        ""enjoying"",
+        ""meals""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T3"",
+    ""nodes"": [
+      {
+        ""id"": ""buildings"",
+        ""attributes"": [
+          ""tall""
+        ]
+      },
+      {
+        ""id"": ""street_musician"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""sidewalk"",
+        ""attributes"": [
+          ""city"",
+          ""bustling""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""buildings"",
+        ""loom_overhead"",
+        ""sidewalk""
+      ],
+      [
+        ""street_musician"",
+        ""on"",
+        ""sidewalk""
+      ],
+      [
+        ""street_musician"",
+        ""plays"",
+        ""nearby""
+      ]
+    ]
+  }
+]",true,false
+item_0022,"On a scenic hiking trail, a wooden bench overlooks a breathtaking valley filled with rolling hills and colorful wildflowers. A backpack rests against the bench, while a water bottle sits nearby, waiting for a refreshing drink.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""hiking_trail"",
+        ""attributes"": [
+          ""scenic""
+        ]
+      },
+      {
+        ""id"": ""bench"",
+        ""attributes"": [
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""valley"",
+        ""attributes"": [
+          ""breathtaking"",
+          ""filled_with_rolling_hills"",
+          ""filled_with_colorful_wildflowers""
+        ]
+      },
+      {
+        ""id"": ""backpack"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""water_bottle"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""bench"",
+        ""on"",
+        ""hiking_trail""
+      ],
+      [
+        ""bench"",
+        ""overlooks"",
+        ""valley""
+      ],
+      [
+        ""backpack"",
+        ""rests_against"",
+        ""bench""
+      ],
+      [
+        ""water_bottle"",
+        ""sits_nearby"",
+        ""bench""
+      ],
+      [
+        ""water_bottle"",
+        ""waiting_for"",
+        ""refreshing_drink""
+      ]
+    ]
+  }
+]",true,false
+item_0023,"In a quaint brewery, wooden barrels line the walls alongside tables with patrons enjoying craft beers. A chalkboard menu hanging behind the bar lists today’s brews with lively descriptions.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""brewery"",
+        ""attributes"": [
+          ""quaint""
+        ]
+      },
+      {
+        ""id"": ""barrels"",
+        ""attributes"": [
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""walls"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""tables"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""patrons"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""beers"",
+        ""attributes"": [
+          ""craft""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""barrels"",
+        ""line"",
+        ""walls""
+      ],
+      [
+        ""barrels"",
+        ""alongside"",
+        ""tables""
+      ],
+      [
+        ""tables"",
+        ""with"",
+        ""patrons""
+      ],
+      [
+        ""patrons"",
+        ""enjoying"",
+        ""beers""
+      ],
+      [
+        ""barrels"",
+        ""in"",
+        ""brewery""
+      ],
+      [
+        ""tables"",
+        ""in"",
+        ""brewery""
+      ],
+      [
+        ""patrons"",
+        ""in"",
+        ""brewery""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""brewery"",
+        ""attributes"": [
+          ""quaint""
+        ]
+      },
+      {
+        ""id"": ""chalkboard_menu"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""bar"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""brews"",
+        ""attributes"": [
+          ""today's""
+        ]
+      },
+      {
+        ""id"": ""descriptions"",
+        ""attributes"": [
+          ""lively""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""chalkboard_menu"",
+        ""hanging"",
+        ""bar""
+      ],
+      [
+        ""chalkboard_menu"",
+        ""behind"",
+        ""bar""
+      ],
+      [
+        ""chalkboard_menu"",
+        ""lists"",
+        ""brews""
+      ],
+      [
+        ""brews"",
+        ""with"",
+        ""descriptions""
+      ],
+      [
+        ""chalkboard_menu"",
+        ""in"",
+        ""brewery""
+      ],
+      [
+        ""bar"",
+        ""in"",
+        ""brewery""
+      ]
+    ]
+  }
+]",true,false
+item_0024,"An antique shop is filled with intriguing items, including vintage clocks, old books, and ornate furniture. Dust motes dance in the sunlight streaming through the front window, illuminating the treasures within.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""antique_shop"",
+        ""attributes"": [
+          ""filled_with_intriguing_items""
+        ]
+      },
+      {
+        ""id"": ""vintage_clocks"",
+        ""attributes"": [
+          ""vintage""
+        ]
+      },
+      {
+        ""id"": ""old_books"",
+        ""attributes"": [
+          ""old""
+        ]
+      },
+      {
+        ""id"": ""ornate_furniture"",
+        ""attributes"": [
+          ""ornate""
+        ]
+      },
+      {
+        ""id"": ""dust_motes"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""sunlight"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""front_window"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""vintage_clocks"",
+        ""in"",
+        ""antique_shop""
+      ],
+      [
+        ""old_books"",
+        ""in"",
+        ""antique_shop""
+      ],
+      [
+        ""ornate_furniture"",
+        ""in"",
+        ""antique_shop""
+      ],
+      [
+        ""dust_motes"",
+        ""in"",
+        ""antique_shop""
+      ],
+      [
+        ""sunlight"",
+        ""streaming_through"",
+        ""front_window""
+      ],
+      [
+        ""dust_motes"",
+        ""dance_in"",
+        ""sunlight""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""antique_shop"",
+        ""attributes"": [
+          ""filled_with_intriguing_items""
+        ]
+      },
+      {
+        ""id"": ""vintage_clocks"",
+        ""attributes"": [
+          ""vintage""
+        ]
+      },
+      {
+        ""id"": ""old_books"",
+        ""attributes"": [
+          ""old""
+        ]
+      },
+      {
+        ""id"": ""ornate_furniture"",
+        ""attributes"": [
+          ""ornate""
+        ]
+      },
+      {
+        ""id"": ""sunlight"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""front_window"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""treasures"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""vintage_clocks"",
+        ""in"",
+        ""antique_shop""
+      ],
+      [
+        ""old_books"",
+        ""in"",
+        ""antique_shop""
+      ],
+      [
+        ""ornate_furniture"",
+        ""in"",
+        ""antique_shop""
+      ],
+      [
+        ""sunlight"",
+        ""streaming_through"",
+        ""front_window""
+      ],
+      [
+        ""sunlight"",
+        ""illuminating"",
+        ""treasures""
+      ],
+      [
+        ""treasures"",
+        ""within"",
+        ""antique_shop""
+      ]
+    ]
+  }
+]",true,false
+item_0025,"In a bustling hospital waiting room, plastic chairs are arranged around small tables with magazines and pamphlets. A soft play area for children sits in the corner, with colorful toys and a selection of books.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""hospital_waiting_room"",
+        ""attributes"": [
+          ""bustling""
+        ]
+      },
+      {
+        ""id"": ""plastic_chairs"",
+        ""attributes"": [
+          ""arranged""
+        ]
+      },
+      {
+        ""id"": ""small_tables"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""magazines"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""pamphlets"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""soft_play_area"",
+        ""attributes"": [
+          ""for_children""
+        ]
+      },
+      {
+        ""id"": ""colorful_toys"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""selection_of_books"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""plastic_chairs"",
+        ""arranged_around"",
+        ""small_tables""
+      ],
+      [
+        ""small_tables"",
+        ""with"",
+        ""magazines""
+      ],
+      [
+        ""small_tables"",
+        ""with"",
+        ""pamphlets""
+      ],
+      [
+        ""soft_play_area"",
+        ""sits_in"",
+        ""corner""
+      ],
+      [
+        ""soft_play_area"",
+        ""with"",
+        ""colorful_toys""
+      ],
+      [
+        ""soft_play_area"",
+        ""with"",
+        ""selection_of_books""
+      ],
+      [
+        ""plastic_chairs"",
+        ""in"",
+        ""hospital_waiting_room""
+      ],
+      [
+        ""small_tables"",
+        ""in"",
+        ""hospital_waiting_room""
+      ],
+      [
+        ""soft_play_area"",
+        ""in"",
+        ""hospital_waiting_room""
+      ]
+    ]
+  }
+]",true,false
+item_0026,"A picturesque marina features sleek boats moored along a dock, with colorful buoys bobbing gently in the water. The sky is painted with hues of pink and orange as the sun sets over the horizon.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""marina"",
+        ""attributes"": [
+          ""picturesque""
+        ]
+      },
+      {
+        ""id"": ""boats"",
+        ""attributes"": [
+          ""sleek"",
+          ""moored""
+        ]
+      },
+      {
+        ""id"": ""dock"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""buoys"",
+        ""attributes"": [
+          ""colorful"",
+          ""bobbing_gentle""
+        ]
+      },
+      {
+        ""id"": ""water"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""sky"",
+        ""attributes"": [
+          ""pink_orange_hues""
+        ]
+      },
+      {
+        ""id"": ""sun"",
+        ""attributes"": [
+          ""setting""
+        ]
+      },
+      {
+        ""id"": ""horizon"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""boats"",
+        ""moored_along"",
+        ""dock""
+      ],
+      [
+        ""boats"",
+        ""in"",
+        ""marina""
+      ],
+      [
+        ""dock"",
+        ""in"",
+        ""marina""
+      ],
+      [
+        ""buoys"",
+        ""in"",
+        ""water""
+      ],
+      [
+        ""water"",
+        ""in"",
+        ""marina""
+      ],
+      [
+        ""sun"",
+        ""sets_over"",
+        ""horizon""
+      ],
+      [
+        ""sky"",
+        ""painted_with"",
+        ""hues""
+      ]
+    ]
+  }
+]",true,false
+item_0027,"At a sunny rooftop terrace, modern furniture provides a space for relaxation, with potted plants adding a touch of greenery. A grill sits in one corner, while a panoramic view of the skyline dominates the scene.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""rooftop_terrace"",
+        ""attributes"": [
+          ""sunny""
+        ]
+      },
+      {
+        ""id"": ""modern_furniture"",
+        ""attributes"": [
+          ""modern""
+        ]
+      },
+      {
+        ""id"": ""potted_plants"",
+        ""attributes"": [
+          ""potted""
+        ]
+      },
+      {
+        ""id"": ""grill"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""panoramic_view"",
+        ""attributes"": [
+          ""panoramic""
+        ]
+      },
+      {
+        ""id"": ""skyline"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""modern_furniture"",
+        ""in"",
+        ""rooftop_terrace""
+      ],
+      [
+        ""modern_furniture"",
+        ""provides"",
+        ""space_for_relaxation""
+      ],
+      [
+        ""potted_plants"",
+        ""in"",
+        ""rooftop_terrace""
+      ],
+      [
+        ""potted_plants"",
+        ""adds"",
+        ""touch_of_greenery""
+      ],
+      [
+        ""grill"",
+        ""sits_in"",
+        ""corner""
+      ],
+      [
+        ""panoramic_view"",
+        ""of"",
+        ""skyline""
+      ],
+      [
+        ""panoramic_view"",
+        ""dominates"",
+        ""scene""
+      ]
+    ]
+  }
+]",true,false
+item_0028,"In a vibrant art gallery, walls are adorned with unique paintings and sculptures. Visitors wander through the space, discussing the pieces, while a stylish couch provides a place for contemplative viewing.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""art_gallery"",
+        ""attributes"": [
+          ""vibrant""
+        ]
+      },
+      {
+        ""id"": ""walls"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""paintings"",
+        ""attributes"": [
+          ""unique""
+        ]
+      },
+      {
+        ""id"": ""sculptures"",
+        ""attributes"": [
+          ""unique""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""walls"",
+        ""adorned_with"",
+        ""paintings""
+      ],
+      [
+        ""walls"",
+        ""adorned_with"",
+        ""sculptures""
+      ],
+      [
+        ""walls"",
+        ""in"",
+        ""art_gallery""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""art_gallery"",
+        ""attributes"": [
+          ""vibrant""
+        ]
+      },
+      {
+        ""id"": ""visitors"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""paintings"",
+        ""attributes"": [
+          ""unique""
+        ]
+      },
+      {
+        ""id"": ""sculptures"",
+        ""attributes"": [
+          ""unique""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""visitors"",
+        ""wander_through"",
+        ""art_gallery""
+      ],
+      [
+        ""visitors"",
+        ""discussing"",
+        ""paintings""
+      ],
+      [
+        ""visitors"",
+        ""discussing"",
+        ""sculptures""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T3"",
+    ""nodes"": [
+      {
+        ""id"": ""art_gallery"",
+        ""attributes"": [
+          ""vibrant""
+        ]
+      },
+      {
+        ""id"": ""couch"",
+        ""attributes"": [
+          ""stylish""
+        ]
+      },
+      {
+        ""id"": ""visitors"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""couch"",
+        ""in"",
+        ""art_gallery""
+      ],
+      [
+        ""couch"",
+        ""provides_place_for"",
+        ""viewing""
+      ],
+      [
+        ""visitors"",
+        ""viewing"",
+        ""art_gallery""
+      ]
+    ]
+  }
+]",true,false
+item_0029,"An enchanting bookstore welcomes visitors with its wooden shelves filled with countless volumes. A cozy reading nook is tucked away in a corner, complete with a plush armchair and a small lamp casting a warm glow.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""bookstore"",
+        ""attributes"": [
+          ""enchanting""
+        ]
+      },
+      {
+        ""id"": ""visitors"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""shelves"",
+        ""attributes"": [
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""volumes"",
+        ""attributes"": [
+          ""countless""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""bookstore"",
+        ""welcomes"",
+        ""visitors""
+      ],
+      [
+        ""shelves"",
+        ""in"",
+        ""bookstore""
+      ],
+      [
+        ""volumes"",
+        ""on"",
+        ""shelves""
+      ],
+      [
+        ""shelves"",
+        ""filled_with"",
+        ""volumes""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""reading_nook"",
+        ""attributes"": [
+          ""cozy""
+        ]
+      },
+      {
+        ""id"": ""corner"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""armchair"",
+        ""attributes"": [
+          ""plush""
+        ]
+      },
+      {
+        ""id"": ""lamp"",
+        ""attributes"": [
+          ""small""
+        ]
+      },
+      {
+        ""id"": ""glow"",
+        ""attributes"": [
+          ""warm""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""reading_nook"",
+        ""tucked_away_in"",
+        ""corner""
+      ],
+      [
+        ""reading_nook"",
+        ""has"",
+        ""armchair""
+      ],
+      [
+        ""reading_nook"",
+        ""has"",
+        ""lamp""
+      ],
+      [
+        ""lamp"",
+        ""casts"",
+        ""glow""
+      ]
+    ]
+  }
+]",true,false
+item_0030,"A pristine swimming pool area features sun loungers arranged neatly beside a shimmering blue expanse, with colorful floaties resting on the water. A small bar serves refreshing drinks under a shady gazebo.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""swimming_pool_area"",
+        ""attributes"": [
+          ""pristine""
+        ]
+      },
+      {
+        ""id"": ""sun_loungers"",
+        ""attributes"": [
+          ""arranged_neatly""
+        ]
+      },
+      {
+        ""id"": ""pool_water"",
+        ""attributes"": [
+          ""shimmering"",
+          ""blue""
+        ]
+      },
+      {
+        ""id"": ""floaties"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""bar"",
+        ""attributes"": [
+          ""small""
+        ]
+      },
+      {
+        ""id"": ""drinks"",
+        ""attributes"": [
+          ""refreshing""
+        ]
+      },
+      {
+        ""id"": ""gazebo"",
+        ""attributes"": [
+          ""shady""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""sun_loungers"",
+        ""beside"",
+        ""pool_water""
+      ],
+      [
+        ""floaties"",
+        ""resting_on"",
+        ""pool_water""
+      ],
+      [
+        ""bar"",
+        ""serves"",
+        ""drinks""
+      ],
+      [
+        ""bar"",
+        ""under"",
+        ""gazebo""
+      ],
+      [
+        ""all_objects"",
+        ""in"",
+        ""swimming_pool_area""
+      ]
+    ]
+  }
+]",true,false
+item_0031,"In a vintage diner, shiny chrome fixtures complement bright red booths and a checkered floor. A jukebox plays classic tunes, while a waitress serves plates piled high with burgers and fries.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""diner"",
+        ""attributes"": [
+          ""vintage""
+        ]
+      },
+      {
+        ""id"": ""fixtures"",
+        ""attributes"": [
+          ""shiny"",
+          ""chrome""
+        ]
+      },
+      {
+        ""id"": ""booths"",
+        ""attributes"": [
+          ""bright"",
+          ""red""
+        ]
+      },
+      {
+        ""id"": ""floor"",
+        ""attributes"": [
+          ""checkered""
+        ]
+      },
+      {
+        ""id"": ""jukebox"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""fixtures"",
+        ""in"",
+        ""diner""
+      ],
+      [
+        ""booths"",
+        ""in"",
+        ""diner""
+      ],
+      [
+        ""floor"",
+        ""in"",
+        ""diner""
+      ],
+      [
+        ""jukebox"",
+        ""in"",
+        ""diner""
+      ],
+      [
+        ""fixtures"",
+        ""complement"",
+        ""booths""
+      ],
+      [
+        ""fixtures"",
+        ""complement"",
+        ""floor""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""diner"",
+        ""attributes"": [
+          ""vintage""
+        ]
+      },
+      {
+        ""id"": ""jukebox"",
+        ""attributes"": [
+          ""playing_tunes""
+        ]
+      },
+      {
+        ""id"": ""tunes"",
+        ""attributes"": [
+          ""classic""
+        ]
+      },
+      {
+        ""id"": ""waitress"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""plates"",
+        ""attributes"": [
+          ""piled_high""
+        ]
+      },
+      {
+        ""id"": ""burgers"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""fries"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""jukebox"",
+        ""in"",
+        ""diner""
+      ],
+      [
+        ""waitress"",
+        ""in"",
+        ""diner""
+      ],
+      [
+        ""plates"",
+        ""in"",
+        ""diner""
+      ],
+      [
+        ""jukebox"",
+        ""plays"",
+        ""tunes""
+      ],
+      [
+        ""waitress"",
+        ""serves"",
+        ""plates""
+      ],
+      [
+        ""plates"",
+        ""piled_with"",
+        ""burgers""
+      ],
+      [
+        ""plates"",
+        ""piled_with"",
+        ""fries""
+      ]
+    ]
+  }
+]",true,false
+item_0032,"A snowy mountain landscape is dotted with tall pine trees, where a wooden cabin stands with smoke curling from the chimney. Skis and snowboards lean against the porch, while a sled rests nearby.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""mountain_landscape"",
+        ""attributes"": [
+          ""snowy""
+        ]
+      },
+      {
+        ""id"": ""pine_trees"",
+        ""attributes"": [
+          ""tall""
+        ]
+      },
+      {
+        ""id"": ""cabin"",
+        ""attributes"": [
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""smoke"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""chimney"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""skis"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""snowboards"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""porch"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""sled"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""pine_trees"",
+        ""dotted_in"",
+        ""mountain_landscape""
+      ],
+      [
+        ""cabin"",
+        ""stands_in"",
+        ""mountain_landscape""
+      ],
+      [
+        ""smoke"",
+        ""curling_from"",
+        ""chimney""
+      ],
+      [
+        ""chimney"",
+        ""part_of"",
+        ""cabin""
+      ],
+      [
+        ""skis"",
+        ""lean_against"",
+        ""porch""
+      ],
+      [
+        ""snowboards"",
+        ""lean_against"",
+        ""porch""
+      ],
+      [
+        ""sled"",
+        ""rests_near"",
+        ""porch""
+      ],
+      [
+        ""porch"",
+        ""part_of"",
+        ""cabin""
+      ]
+    ]
+  }
+]",true,false
+item_0033,"On a suburban street, a charming white picket fence encloses a colorful garden bursting with blooming flowers. A swing hangs from a sturdy tree, creating a picturesque scene of outdoor leisure.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""street"",
+        ""attributes"": [
+          ""suburban""
+        ]
+      },
+      {
+        ""id"": ""fence"",
+        ""attributes"": [
+          ""charming"",
+          ""white"",
+          ""picket""
+        ]
+      },
+      {
+        ""id"": ""garden"",
+        ""attributes"": [
+          ""colorful"",
+          ""bursting_with_flowers"",
+          ""blooming_flowers""
+        ]
+      },
+      {
+        ""id"": ""swing"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""tree"",
+        ""attributes"": [
+          ""sturdy""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""fence"",
+        ""on"",
+        ""street""
+      ],
+      [
+        ""fence"",
+        ""encloses"",
+        ""garden""
+      ],
+      [
+        ""swing"",
+        ""hangs_from"",
+        ""tree""
+      ],
+      [
+        ""tree"",
+        ""on"",
+        ""street""
+      ],
+      [
+        ""garden"",
+        ""on"",
+        ""street""
+      ]
+    ]
+  }
+]",true,false
+item_0034,"A cozy café features small tables with mismatched chairs and chalkboard menus. Aromas of freshly baked pastries and brewed coffee fill the air, with patrons chatting softly at their tables.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""cafe"",
+        ""attributes"": [
+          ""cozy""
+        ]
+      },
+      {
+        ""id"": ""tables"",
+        ""attributes"": [
+          ""small""
+        ]
+      },
+      {
+        ""id"": ""chairs"",
+        ""attributes"": [
+          ""mismatched""
+        ]
+      },
+      {
+        ""id"": ""menus"",
+        ""attributes"": [
+          ""chalkboard""
+        ]
+      },
+      {
+        ""id"": ""aromas"",
+        ""attributes"": [
+          ""freshly_baked_pastries"",
+          ""brewed_coffee""
+        ]
+      },
+      {
+        ""id"": ""patrons"",
+        ""attributes"": [
+          ""chatting_softly""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""cafe"",
+        ""features"",
+        ""tables""
+      ],
+      [
+        ""cafe"",
+        ""features"",
+        ""chairs""
+      ],
+      [
+        ""cafe"",
+        ""features"",
+        ""menus""
+      ],
+      [
+        ""tables"",
+        ""with"",
+        ""chairs""
+      ],
+      [
+        ""aromas"",
+        ""fill"",
+        ""air""
+      ],
+      [
+        ""patrons"",
+        ""at"",
+        ""tables""
+      ]
+    ]
+  }
+]",true,false
+item_0035,"A high-tech laboratory showcases gleaming equipment and glass beakers filled with colorful liquids. Computer screens display data, while a whiteboard is filled with complex formulas and diagrams.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""laboratory"",
+        ""attributes"": [
+          ""high-tech""
+        ]
+      },
+      {
+        ""id"": ""equipment"",
+        ""attributes"": [
+          ""gleaming""
+        ]
+      },
+      {
+        ""id"": ""glass_beakers"",
+        ""attributes"": [
+          ""filled_with_colorful_liquids""
+        ]
+      },
+      {
+        ""id"": ""computer_screens"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""whiteboard"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""laboratory"",
+        ""showcases"",
+        ""equipment""
+      ],
+      [
+        ""laboratory"",
+        ""showcases"",
+        ""glass_beakers""
+      ],
+      [
+        ""computer_screens"",
+        ""in"",
+        ""laboratory""
+      ],
+      [
+        ""whiteboard"",
+        ""in"",
+        ""laboratory""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""laboratory"",
+        ""attributes"": [
+          ""high-tech""
+        ]
+      },
+      {
+        ""id"": ""equipment"",
+        ""attributes"": [
+          ""gleaming""
+        ]
+      },
+      {
+        ""id"": ""glass_beakers"",
+        ""attributes"": [
+          ""filled_with_colorful_liquids""
+        ]
+      },
+      {
+        ""id"": ""computer_screens"",
+        ""attributes"": [
+          ""displaying_data""
+        ]
+      },
+      {
+        ""id"": ""whiteboard"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""laboratory"",
+        ""showcases"",
+        ""equipment""
+      ],
+      [
+        ""laboratory"",
+        ""showcases"",
+        ""glass_beakers""
+      ],
+      [
+        ""computer_screens"",
+        ""in"",
+        ""laboratory""
+      ],
+      [
+        ""whiteboard"",
+        ""in"",
+        ""laboratory""
+      ],
+      [
+        ""computer_screens"",
+        ""display"",
+        ""data""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T3"",
+    ""nodes"": [
+      {
+        ""id"": ""laboratory"",
+        ""attributes"": [
+          ""high-tech""
+        ]
+      },
+      {
+        ""id"": ""equipment"",
+        ""attributes"": [
+          ""gleaming""
+        ]
+      },
+      {
+        ""id"": ""glass_beakers"",
+        ""attributes"": [
+          ""filled_with_colorful_liquids""
+        ]
+      },
+      {
+        ""id"": ""computer_screens"",
+        ""attributes"": [
+          ""displaying_data""
+        ]
+      },
+      {
+        ""id"": ""whiteboard"",
+        ""attributes"": [
+          ""filled_with_formulas_diagrams""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""laboratory"",
+        ""showcases"",
+        ""equipment""
+      ],
+      [
+        ""laboratory"",
+        ""showcases"",
+        ""glass_beakers""
+      ],
+      [
+        ""computer_screens"",
+        ""in"",
+        ""laboratory""
+      ],
+      [
+        ""whiteboard"",
+        ""in"",
+        ""laboratory""
+      ],
+      [
+        ""computer_screens"",
+        ""display"",
+        ""data""
+      ],
+      [
+        ""whiteboard"",
+        ""filled_with"",
+        ""complex_formulas""
+      ],
+      [
+        ""whiteboard"",
+        ""filled_with"",
+        ""diagrams""
+      ]
+    ]
+  }
+]",true,false
+item_0036,"In a vibrant night market, stalls teem with colorful street food offerings and handmade crafts. Lanterns illuminate the scene, while families and friends laugh and sample delicious treats.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""night_market"",
+        ""attributes"": [
+          ""vibrant""
+        ]
+      },
+      {
+        ""id"": ""stalls"",
+        ""attributes"": [
+          ""teeming""
+        ]
+      },
+      {
+        ""id"": ""street_food"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""handmade_crafts"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""lanterns"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""families"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""friends"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""stalls"",
+        ""in"",
+        ""night_market""
+      ],
+      [
+        ""stalls"",
+        ""with"",
+        ""street_food""
+      ],
+      [
+        ""stalls"",
+        ""with"",
+        ""handmade_crafts""
+      ],
+      [
+        ""lanterns"",
+        ""illuminate"",
+        ""scene""
+      ],
+      [
+        ""families"",
+        ""in"",
+        ""night_market""
+      ],
+      [
+        ""friends"",
+        ""in"",
+        ""night_market""
+      ],
+      [
+        ""families"",
+        ""laugh"",
+        ""null""
+      ],
+      [
+        ""friends"",
+        ""laugh"",
+        ""null""
+      ],
+      [
+        ""families"",
+        ""sample"",
+        ""treats""
+      ],
+      [
+        ""friends"",
+        ""sample"",
+        ""treats""
+      ]
+    ]
+  }
+]",true,false
+item_0037,"A serene yoga studio is filled with soft natural light, where mats are neatly rolled out on a polished wooden floor. Potted plants add tranquility, and calming music plays softly in the background.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""yoga_studio"",
+        ""attributes"": [
+          ""serene""
+        ]
+      },
+      {
+        ""id"": ""light"",
+        ""attributes"": [
+          ""soft"",
+          ""natural""
+        ]
+      },
+      {
+        ""id"": ""mats"",
+        ""attributes"": [
+          ""neatly_rolled_out""
+        ]
+      },
+      {
+        ""id"": ""floor"",
+        ""attributes"": [
+          ""polished"",
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""potted_plants"",
+        ""attributes"": [
+          ""tranquil""
+        ]
+      },
+      {
+        ""id"": ""music"",
+        ""attributes"": [
+          ""calming"",
+          ""soft""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""yoga_studio"",
+        ""filled_with"",
+        ""light""
+      ],
+      [
+        ""mats"",
+        ""on"",
+        ""floor""
+      ],
+      [
+        ""potted_plants"",
+        ""add"",
+        ""tranquility""
+      ],
+      [
+        ""music"",
+        ""plays_in"",
+        ""background""
+      ]
+    ]
+  }
+]",true,false
+item_0038,"In a music studio, a grand piano sits in the center surrounded by microphones and musical instruments. Sheet music is scattered around, while soundproof walls create an acoustically perfect environment.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""grand_piano"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""microphones"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""musical_instruments"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""sheet_music"",
+        ""attributes"": [
+          ""scattered""
+        ]
+      },
+      {
+        ""id"": ""soundproof_walls"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""music_studio"",
+        ""attributes"": [
+          ""acoustically_perfect""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""grand_piano"",
+        ""in"",
+        ""music_studio""
+      ],
+      [
+        ""grand_piano"",
+        ""sits_in_center"",
+        ""music_studio""
+      ],
+      [
+        ""grand_piano"",
+        ""surrounded_by"",
+        ""microphones""
+      ],
+      [
+        ""grand_piano"",
+        ""surrounded_by"",
+        ""musical_instruments""
+      ],
+      [
+        ""sheet_music"",
+        ""scattered_around"",
+        ""music_studio""
+      ],
+      [
+        ""soundproof_walls"",
+        ""create"",
+        ""acoustically_perfect_environment""
+      ],
+      [
+        ""music_studio"",
+        ""has"",
+        ""soundproof_walls""
+      ]
+    ]
+  }
+]",true,false
+item_0039,"A ski resort boasts cozy chalets and stunning mountain views, with skiers gliding down slopes. A fire pit in the common area invites guests to gather, toasting marshmallows as the evening cools.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""ski_resort"",
+        ""attributes"": [
+          ""cozy_chalets"",
+          ""stunning_mountain_views""
+        ]
+      },
+      {
+        ""id"": ""skiers"",
+        ""attributes"": [
+          ""gliding""
+        ]
+      },
+      {
+        ""id"": ""slopes"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""ski_resort"",
+        ""has"",
+        ""chalets""
+      ],
+      [
+        ""ski_resort"",
+        ""has"",
+        ""mountain_views""
+      ],
+      [
+        ""skiers"",
+        ""gliding_down"",
+        ""slopes""
+      ],
+      [
+        ""skiers"",
+        ""at"",
+        ""ski_resort""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""fire_pit"",
+        ""attributes"": [
+          ""in_common_area""
+        ]
+      },
+      {
+        ""id"": ""guests"",
+        ""attributes"": [
+          ""gathering""
+        ]
+      },
+      {
+        ""id"": ""evening"",
+        ""attributes"": [
+          ""cooling""
+        ]
+      },
+      {
+        ""id"": ""ski_resort"",
+        ""attributes"": [
+          ""cozy_chalets"",
+          ""stunning_mountain_views""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""fire_pit"",
+        ""invites"",
+        ""guests""
+      ],
+      [
+        ""guests"",
+        ""gather_at"",
+        ""fire_pit""
+      ],
+      [
+        ""guests"",
+        ""toasting"",
+        ""marshmallows""
+      ],
+      [
+        ""evening"",
+        ""cools"",
+        ""null""
+      ],
+      [
+        ""fire_pit"",
+        ""at"",
+        ""ski_resort""
+      ]
+    ]
+  }
+]",true,false
+item_0040,A charming tea shop features shelves lined with jars of loose-leaf teas and tea accessories. A small seating area offers cozy tables for customers to enjoy their warm drinks along with pastries.,"[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""tea_shop"",
+        ""attributes"": [
+          ""charming""
+        ]
+      },
+      {
+        ""id"": ""shelves"",
+        ""attributes"": [
+          ""lined_with_jars""
+        ]
+      },
+      {
+        ""id"": ""jars"",
+        ""attributes"": [
+          ""loose-leaf_teas""
+        ]
+      },
+      {
+        ""id"": ""tea_accessories"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""shelves"",
+        ""in"",
+        ""tea_shop""
+      ],
+      [
+        ""jars"",
+        ""on"",
+        ""shelves""
+      ],
+      [
+        ""tea_accessories"",
+        ""on"",
+        ""shelves""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""tea_shop"",
+        ""attributes"": [
+          ""charming""
+        ]
+      },
+      {
+        ""id"": ""seating_area"",
+        ""attributes"": [
+          ""small""
+        ]
+      },
+      {
+        ""id"": ""tables"",
+        ""attributes"": [
+          ""cozy""
+        ]
+      },
+      {
+        ""id"": ""customers"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""warm_drinks"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""pastries"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""seating_area"",
+        ""in"",
+        ""tea_shop""
+      ],
+      [
+        ""tables"",
+        ""in"",
+        ""seating_area""
+      ],
+      [
+        ""customers"",
+        ""at"",
+        ""tables""
+      ],
+      [
+        ""customers"",
+        ""enjoy"",
+        ""warm_drinks""
+      ],
+      [
+        ""customers"",
+        ""enjoy"",
+        ""pastries""
+      ]
+    ]
+  }
+]",true,false
+item_0041,"In an urban loft, industrial elements like exposed brick and metal beams create a modern aesthetic. A large art piece hangs above a sleek sofa, while tall windows provide expansive views of the city.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""urban_loft"",
+        ""attributes"": [
+          ""industrial_elements"",
+          ""modern_aesthetic""
+        ]
+      },
+      {
+        ""id"": ""exposed_brick"",
+        ""attributes"": [
+          ""industrial_element""
+        ]
+      },
+      {
+        ""id"": ""metal_beams"",
+        ""attributes"": [
+          ""industrial_element""
+        ]
+      },
+      {
+        ""id"": ""large_art_piece"",
+        ""attributes"": [
+          ""hanging""
+        ]
+      },
+      {
+        ""id"": ""sleek_sofa"",
+        ""attributes"": [
+          ""sleek""
+        ]
+      },
+      {
+        ""id"": ""tall_windows"",
+        ""attributes"": [
+          ""expansive_views""
+        ]
+      },
+      {
+        ""id"": ""city"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""exposed_brick"",
+        ""in"",
+        ""urban_loft""
+      ],
+      [
+        ""metal_beams"",
+        ""in"",
+        ""urban_loft""
+      ],
+      [
+        ""large_art_piece"",
+        ""hangs_above"",
+        ""sleek_sofa""
+      ],
+      [
+        ""large_art_piece"",
+        ""in"",
+        ""urban_loft""
+      ],
+      [
+        ""sleek_sofa"",
+        ""in"",
+        ""urban_loft""
+      ],
+      [
+        ""tall_windows"",
+        ""in"",
+        ""urban_loft""
+      ],
+      [
+        ""tall_windows"",
+        ""provide_views_of"",
+        ""city""
+      ]
+    ]
+  }
+]",true,false
+item_0042,"A serene lake cabin is equipped with a wooden porch swing facing the tranquil water. Inside, a stone fireplace adds warmth to the cozy living area, with fishing gear and books clustered near the fire.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""cabin"",
+        ""attributes"": [
+          ""serene"",
+          ""lake""
+        ]
+      },
+      {
+        ""id"": ""porch_swing"",
+        ""attributes"": [
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""water"",
+        ""attributes"": [
+          ""tranquil""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""cabin"",
+        ""equipped_with"",
+        ""porch_swing""
+      ],
+      [
+        ""porch_swing"",
+        ""facing"",
+        ""water""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""cabin"",
+        ""attributes"": [
+          ""serene"",
+          ""lake""
+        ]
+      },
+      {
+        ""id"": ""fireplace"",
+        ""attributes"": [
+          ""stone""
+        ]
+      },
+      {
+        ""id"": ""living_area"",
+        ""attributes"": [
+          ""cozy""
+        ]
+      },
+      {
+        ""id"": ""fishing_gear"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""books"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""fireplace"",
+        ""inside"",
+        ""cabin""
+      ],
+      [
+        ""fireplace"",
+        ""adds_warmth_to"",
+        ""living_area""
+      ],
+      [
+        ""fishing_gear"",
+        ""clustered_near"",
+        ""fireplace""
+      ],
+      [
+        ""books"",
+        ""clustered_near"",
+        ""fireplace""
+      ]
+    ]
+  }
+]",true,false
+item_0043,"An expansive gym features rows of weightlifting equipment, treadmills, and yoga mats. Mirrored walls reflect dedicated attendees working out, while inspirational quotes adorn the walls for motivation.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""gym"",
+        ""attributes"": [
+          ""expansive""
+        ]
+      },
+      {
+        ""id"": ""weightlifting_equipment"",
+        ""attributes"": [
+          ""rows""
+        ]
+      },
+      {
+        ""id"": ""treadmills"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""yoga_mats"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""mirrored_walls"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""attendees"",
+        ""attributes"": [
+          ""dedicated"",
+          ""working_out""
+        ]
+      },
+      {
+        ""id"": ""inspirational_quotes"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""walls"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""gym"",
+        ""features"",
+        ""weightlifting_equipment""
+      ],
+      [
+        ""gym"",
+        ""features"",
+        ""treadmills""
+      ],
+      [
+        ""gym"",
+        ""features"",
+        ""yoga_mats""
+      ],
+      [
+        ""mirrored_walls"",
+        ""reflect"",
+        ""attendees""
+      ],
+      [
+        ""inspirational_quotes"",
+        ""adorn"",
+        ""walls""
+      ],
+      [
+        ""inspirational_quotes"",
+        ""for"",
+        ""motivation""
+      ]
+    ]
+  }
+]",true,false
+item_0044,"A botanical conservatory is filled with lush greenery and vibrant flowers under a glass dome. Paths meander through the displays, leading to tranquil seating areas with benches for reflection.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""conservatory"",
+        ""attributes"": [
+          ""botanical"",
+          ""glass_dome""
+        ]
+      },
+      {
+        ""id"": ""greenery"",
+        ""attributes"": [
+          ""lush""
+        ]
+      },
+      {
+        ""id"": ""flowers"",
+        ""attributes"": [
+          ""vibrant""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""conservatory"",
+        ""filled_with"",
+        ""greenery""
+      ],
+      [
+        ""conservatory"",
+        ""filled_with"",
+        ""flowers""
+      ],
+      [
+        ""greenery"",
+        ""under"",
+        ""glass_dome""
+      ],
+      [
+        ""flowers"",
+        ""under"",
+        ""glass_dome""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""paths"",
+        ""attributes"": [
+          ""meandering""
+        ]
+      },
+      {
+        ""id"": ""displays"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""seating_areas"",
+        ""attributes"": [
+          ""tranquil""
+        ]
+      },
+      {
+        ""id"": ""benches"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""paths"",
+        ""meander_through"",
+        ""displays""
+      ],
+      [
+        ""paths"",
+        ""lead_to"",
+        ""seating_areas""
+      ],
+      [
+        ""seating_areas"",
+        ""have"",
+        ""benches""
+      ],
+      [
+        ""benches"",
+        ""for"",
+        ""reflection""
+      ]
+    ]
+  }
+]",true,false
+item_0045,"In a quaint bakery, the air is filled with the sweet scent of baked goods. Display cases showcase a variety of pastries and cakes, while tables invite customers to sit and savor their treats.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""bakery"",
+        ""attributes"": [
+          ""quaint""
+        ]
+      },
+      {
+        ""id"": ""air"",
+        ""attributes"": [
+          ""sweet_scent"",
+          ""baked_goods_scent""
+        ]
+      },
+      {
+        ""id"": ""display_cases"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""pastries"",
+        ""attributes"": [
+          ""variety""
+        ]
+      },
+      {
+        ""id"": ""cakes"",
+        ""attributes"": [
+          ""variety""
+        ]
+      },
+      {
+        ""id"": ""tables"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""customers"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""air"",
+        ""filled_with"",
+        ""sweet_scent""
+      ],
+      [
+        ""air"",
+        ""in"",
+        ""bakery""
+      ],
+      [
+        ""display_cases"",
+        ""showcase"",
+        ""pastries""
+      ],
+      [
+        ""display_cases"",
+        ""showcase"",
+        ""cakes""
+      ],
+      [
+        ""display_cases"",
+        ""in"",
+        ""bakery""
+      ],
+      [
+        ""tables"",
+        ""invite"",
+        ""customers""
+      ],
+      [
+        ""tables"",
+        ""in"",
+        ""bakery""
+      ]
+    ]
+  }
+]",true,false
+item_0046,"A peaceful countryside field stretches out, dotted with grazing sheep and wildflowers. A rustic wooden fence outlines the property, while a farmhouse looms in the distance against a clear blue sky.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""countryside_field"",
+        ""attributes"": [
+          ""peaceful""
+        ]
+      },
+      {
+        ""id"": ""sheep"",
+        ""attributes"": [
+          ""grazing""
+        ]
+      },
+      {
+        ""id"": ""wildflowers"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""rustic_wooden_fence"",
+        ""attributes"": [
+          ""rustic"",
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""farmhouse"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""sky"",
+        ""attributes"": [
+          ""clear"",
+          ""blue""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""countryside_field"",
+        ""stretches_out"",
+        """"
+      ],
+      [
+        ""sheep"",
+        ""dotted_in"",
+        ""countryside_field""
+      ],
+      [
+        ""wildflowers"",
+        ""dotted_in"",
+        ""countryside_field""
+      ],
+      [
+        ""rustic_wooden_fence"",
+        ""outlines"",
+        ""property""
+      ],
+      [
+        ""farmhouse"",
+        ""looms_in"",
+        ""distance""
+      ],
+      [
+        ""farmhouse"",
+        ""against"",
+        ""sky""
+      ]
+    ]
+  }
+]",true,false
+item_0047,An upscale cosmetics store showcases elegantly displayed beauty products on sleek counters. Staff provide consultations to customers while glowing lights highlight the latest makeup collections.,"[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""cosmetics_store"",
+        ""attributes"": [
+          ""upscale""
+        ]
+      },
+      {
+        ""id"": ""beauty_products"",
+        ""attributes"": [
+          ""elegantly_displayed""
+        ]
+      },
+      {
+        ""id"": ""counters"",
+        ""attributes"": [
+          ""sleek""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""beauty_products"",
+        ""displayed_on"",
+        ""counters""
+      ],
+      [
+        ""beauty_products"",
+        ""in"",
+        ""cosmetics_store""
+      ],
+      [
+        ""counters"",
+        ""in"",
+        ""cosmetics_store""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""staff"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""customers"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""cosmetics_store"",
+        ""attributes"": [
+          ""upscale""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""staff"",
+        ""in"",
+        ""cosmetics_store""
+      ],
+      [
+        ""customers"",
+        ""in"",
+        ""cosmetics_store""
+      ],
+      [
+        ""staff"",
+        ""provide_consultations_to"",
+        ""customers""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T3"",
+    ""nodes"": [
+      {
+        ""id"": ""lights"",
+        ""attributes"": [
+          ""glowing""
+        ]
+      },
+      {
+        ""id"": ""makeup_collections"",
+        ""attributes"": [
+          ""latest""
+        ]
+      },
+      {
+        ""id"": ""cosmetics_store"",
+        ""attributes"": [
+          ""upscale""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""lights"",
+        ""in"",
+        ""cosmetics_store""
+      ],
+      [
+        ""makeup_collections"",
+        ""in"",
+        ""cosmetics_store""
+      ],
+      [
+        ""lights"",
+        ""highlight"",
+        ""makeup_collections""
+      ]
+    ]
+  }
+]",true,false
+item_0048,"In a vibrant playground, children laugh and play on swings and slides, with colorful equipment filling the area. Picnic tables under shady trees invite families to enjoy snacks together.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""playground"",
+        ""attributes"": [
+          ""vibrant""
+        ]
+      },
+      {
+        ""id"": ""children"",
+        ""attributes"": [
+          ""laughing"",
+          ""playing""
+        ]
+      },
+      {
+        ""id"": ""swings"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""slides"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""equipment"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""children"",
+        ""play_on"",
+        ""swings""
+      ],
+      [
+        ""children"",
+        ""play_on"",
+        ""slides""
+      ],
+      [
+        ""equipment"",
+        ""filling"",
+        ""playground""
+      ],
+      [
+        ""children"",
+        ""in"",
+        ""playground""
+      ],
+      [
+        ""swings"",
+        ""in"",
+        ""playground""
+      ],
+      [
+        ""slides"",
+        ""in"",
+        ""playground""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""playground"",
+        ""attributes"": [
+          ""vibrant""
+        ]
+      },
+      {
+        ""id"": ""picnic_tables"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""trees"",
+        ""attributes"": [
+          ""shady""
+        ]
+      },
+      {
+        ""id"": ""families"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""picnic_tables"",
+        ""under"",
+        ""trees""
+      ],
+      [
+        ""picnic_tables"",
+        ""in"",
+        ""playground""
+      ],
+      [
+        ""trees"",
+        ""in"",
+        ""playground""
+      ],
+      [
+        ""picnic_tables"",
+        ""invite"",
+        ""families""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T3"",
+    ""nodes"": [
+      {
+        ""id"": ""playground"",
+        ""attributes"": [
+          ""vibrant""
+        ]
+      },
+      {
+        ""id"": ""families"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""snacks"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""picnic_tables"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""families"",
+        ""enjoy"",
+        ""snacks""
+      ],
+      [
+        ""families"",
+        ""together"",
+        ""snacks""
+      ],
+      [
+        ""families"",
+        ""at"",
+        ""picnic_tables""
+      ],
+      [
+        ""picnic_tables"",
+        ""in"",
+        ""playground""
+      ]
+    ]
+  }
+]",true,false
+item_0049,"In a historical museum, ancient artifacts are displayed in glass cases, with placards providing detailed descriptions. Dim lighting allows visitors to appreciate the beauty of the exhibits without distraction.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""museum"",
+        ""attributes"": [
+          ""historical""
+        ]
+      },
+      {
+        ""id"": ""artifacts"",
+        ""attributes"": [
+          ""ancient""
+        ]
+      },
+      {
+        ""id"": ""glass_cases"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""placards"",
+        ""attributes"": [
+          ""detailed_descriptions""
+        ]
+      },
+      {
+        ""id"": ""lighting"",
+        ""attributes"": [
+          ""dim""
+        ]
+      },
+      {
+        ""id"": ""visitors"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""exhibits"",
+        ""attributes"": [
+          ""beautiful""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""artifacts"",
+        ""displayed_in"",
+        ""glass_cases""
+      ],
+      [
+        ""artifacts"",
+        ""in"",
+        ""museum""
+      ],
+      [
+        ""glass_cases"",
+        ""in"",
+        ""museum""
+      ],
+      [
+        ""placards"",
+        ""provide"",
+        ""detailed_descriptions""
+      ],
+      [
+        ""placards"",
+        ""with"",
+        ""artifacts""
+      ],
+      [
+        ""lighting"",
+        ""in"",
+        ""museum""
+      ],
+      [
+        ""visitors"",
+        ""in"",
+        ""museum""
+      ],
+      [
+        ""lighting"",
+        ""allows"",
+        ""appreciation""
+      ],
+      [
+        ""visitors"",
+        ""appreciate"",
+        ""exhibits""
+      ]
+    ]
+  }
+]",true,false
+item_0050,"A bustling airport terminal features rows of check-in kiosks and departure gates, with travelers maneuvering their luggage through the busy space. Large screens display flight information and boarding times.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""airport_terminal"",
+        ""attributes"": [
+          ""bustling""
+        ]
+      },
+      {
+        ""id"": ""check-in_kiosks"",
+        ""attributes"": [
+          ""rows""
+        ]
+      },
+      {
+        ""id"": ""departure_gates"",
+        ""attributes"": [
+          ""rows""
+        ]
+      },
+      {
+        ""id"": ""travelers"",
+        ""attributes"": [
+          ""maneuvering_luggage""
+        ]
+      },
+      {
+        ""id"": ""luggage"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""large_screens"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""flight_information"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""boarding_times"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""airport_terminal"",
+        ""features"",
+        ""check-in_kiosks""
+      ],
+      [
+        ""airport_terminal"",
+        ""features"",
+        ""departure_gates""
+      ],
+      [
+        ""travelers"",
+        ""maneuvering"",
+        ""luggage""
+      ],
+      [
+        ""travelers"",
+        ""in"",
+        ""airport_terminal""
+      ],
+      [
+        ""luggage"",
+        ""in"",
+        ""airport_terminal""
+      ],
+      [
+        ""large_screens"",
+        ""in"",
+        ""airport_terminal""
+      ],
+      [
+        ""large_screens"",
+        ""display"",
+        ""flight_information""
+      ],
+      [
+        ""large_screens"",
+        ""display"",
+        ""boarding_times""
+      ]
+    ]
+  }
+]",true,false
+item_0051,"At a majestic waterfall, crystal-clear water cascades over rocks, surrounded by lush vegetation. A rocky path leads enthusiasts closer, while the sound of rushing water provides a sense of tranquility.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""waterfall"",
+        ""attributes"": [
+          ""majestic""
+        ]
+      },
+      {
+        ""id"": ""water"",
+        ""attributes"": [
+          ""crystal_clear"",
+          ""cascading""
+        ]
+      },
+      {
+        ""id"": ""rocks"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""vegetation"",
+        ""attributes"": [
+          ""lush""
+        ]
+      },
+      {
+        ""id"": ""path"",
+        ""attributes"": [
+          ""rocky""
+        ]
+      },
+      {
+        ""id"": ""enthusiasts"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""water"",
+        ""cascades_over"",
+        ""rocks""
+      ],
+      [
+        ""waterfall"",
+        ""surrounded_by"",
+        ""vegetation""
+      ],
+      [
+        ""path"",
+        ""leads"",
+        ""enthusiasts""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""waterfall"",
+        ""attributes"": [
+          ""majestic""
+        ]
+      },
+      {
+        ""id"": ""water"",
+        ""attributes"": [
+          ""crystal_clear"",
+          ""cascading""
+        ]
+      },
+      {
+        ""id"": ""rocks"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""vegetation"",
+        ""attributes"": [
+          ""lush""
+        ]
+      },
+      {
+        ""id"": ""path"",
+        ""attributes"": [
+          ""rocky""
+        ]
+      },
+      {
+        ""id"": ""enthusiasts"",
+        ""attributes"": [
+          ""closer""
+        ]
+      },
+      {
+        ""id"": ""sound"",
+        ""attributes"": [
+          ""rushing_water""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""water"",
+        ""cascades_over"",
+        ""rocks""
+      ],
+      [
+        ""waterfall"",
+        ""surrounded_by"",
+        ""vegetation""
+      ],
+      [
+        ""path"",
+        ""leads"",
+        ""enthusiasts""
+      ],
+      [
+        ""enthusiasts"",
+        ""moving_closer"",
+        ""waterfall""
+      ],
+      [
+        ""sound"",
+        ""provides"",
+        ""tranquility""
+      ]
+    ]
+  }
+]",true,false
+item_0052,"A charming bed-and-breakfast features a cozy room adorned with vintage decor. A floral quilt covers the bed, while freshly cut flowers sit in a vase on the bedside table, enhancing the welcoming atmosphere.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""bed-and-breakfast"",
+        ""attributes"": [
+          ""charming""
+        ]
+      },
+      {
+        ""id"": ""room"",
+        ""attributes"": [
+          ""cozy"",
+          ""vintage_decor""
+        ]
+      },
+      {
+        ""id"": ""quilt"",
+        ""attributes"": [
+          ""floral""
+        ]
+      },
+      {
+        ""id"": ""bed"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""flowers"",
+        ""attributes"": [
+          ""freshly_cut""
+        ]
+      },
+      {
+        ""id"": ""vase"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""bedside_table"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""room"",
+        ""in"",
+        ""bed-and-breakfast""
+      ],
+      [
+        ""quilt"",
+        ""covers"",
+        ""bed""
+      ],
+      [
+        ""bed"",
+        ""in"",
+        ""room""
+      ],
+      [
+        ""flowers"",
+        ""in"",
+        ""vase""
+      ],
+      [
+        ""vase"",
+        ""on"",
+        ""bedside_table""
+      ],
+      [
+        ""bedside_table"",
+        ""in"",
+        ""room""
+      ]
+    ]
+  }
+]",true,false
+item_0053,"In a bustling concert venue, a large stage is set with instruments awaiting the performance. Colorful lights create an electric ambiance as fans eagerly gather, buzzing with excitement.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""concert_venue"",
+        ""attributes"": [
+          ""bustling""
+        ]
+      },
+      {
+        ""id"": ""stage"",
+        ""attributes"": [
+          ""large""
+        ]
+      },
+      {
+        ""id"": ""instruments"",
+        ""attributes"": [
+          ""awaiting_performance""
+        ]
+      },
+      {
+        ""id"": ""lights"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""ambiance"",
+        ""attributes"": [
+          ""electric""
+        ]
+      },
+      {
+        ""id"": ""fans"",
+        ""attributes"": [
+          ""eager"",
+          ""buzzing_with_excitement""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""stage"",
+        ""in"",
+        ""concert_venue""
+      ],
+      [
+        ""instruments"",
+        ""on"",
+        ""stage""
+      ],
+      [
+        ""lights"",
+        ""in"",
+        ""concert_venue""
+      ],
+      [
+        ""lights"",
+        ""create"",
+        ""ambiance""
+      ],
+      [
+        ""fans"",
+        ""in"",
+        ""concert_venue""
+      ],
+      [
+        ""fans"",
+        ""gather"",
+        ""concert_venue""
+      ]
+    ]
+  }
+]",true,false
+item_0054,"An inviting winery features rows of grapevines stretching across rolling hills. A rustic tasting room is adorned with wooden barrels, where visitors sip red and white wines while enjoying picturesque views.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""winery"",
+        ""attributes"": [
+          ""inviting""
+        ]
+      },
+      {
+        ""id"": ""grapevines"",
+        ""attributes"": [
+          ""rows""
+        ]
+      },
+      {
+        ""id"": ""hills"",
+        ""attributes"": [
+          ""rolling""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""winery"",
+        ""features"",
+        ""grapevines""
+      ],
+      [
+        ""grapevines"",
+        ""stretching_across"",
+        ""hills""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""tasting_room"",
+        ""attributes"": [
+          ""rustic""
+        ]
+      },
+      {
+        ""id"": ""barrels"",
+        ""attributes"": [
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""visitors"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""wines"",
+        ""attributes"": [
+          ""red_and_white""
+        ]
+      },
+      {
+        ""id"": ""views"",
+        ""attributes"": [
+          ""picturesque""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""tasting_room"",
+        ""adorned_with"",
+        ""barrels""
+      ],
+      [
+        ""visitors"",
+        ""in"",
+        ""tasting_room""
+      ],
+      [
+        ""visitors"",
+        ""sip"",
+        ""wines""
+      ],
+      [
+        ""visitors"",
+        ""enjoying"",
+        ""views""
+      ]
+    ]
+  }
+]",true,false
+item_0055,"At an animal shelter, the sound of barking dogs fills the air as volunteers tend to the furry residents. Cages are lined with colorful blankets, while a play area outside provides space for socialization.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""animal_shelter"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""dogs"",
+        ""attributes"": [
+          ""barking""
+        ]
+      },
+      {
+        ""id"": ""volunteers"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""residents"",
+        ""attributes"": [
+          ""furry""
+        ]
+      },
+      {
+        ""id"": ""cages"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""blankets"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""play_area"",
+        ""attributes"": [
+          ""outside""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""sound"",
+        ""of"",
+        ""dogs""
+      ],
+      [
+        ""sound"",
+        ""fills"",
+        ""air""
+      ],
+      [
+        ""volunteers"",
+        ""tend_to"",
+        ""residents""
+      ],
+      [
+        ""cages"",
+        ""lined_with"",
+        ""blankets""
+      ],
+      [
+        ""play_area"",
+        ""provides"",
+        ""space""
+      ],
+      [
+        ""space"",
+        ""for"",
+        ""socialization""
+      ]
+    ]
+  }
+]",true,false
+item_0056,"On a serene oceanfront balcony, a table is set for two with plates of fresh seafood and a chilled bottle of white wine. The sound of waves crashing below creates a calming backdrop for an evening.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""balcony"",
+        ""attributes"": [
+          ""serene"",
+          ""oceanfront""
+        ]
+      },
+      {
+        ""id"": ""table"",
+        ""attributes"": [
+          ""set_for_two""
+        ]
+      },
+      {
+        ""id"": ""plates"",
+        ""attributes"": [
+          ""fresh_seafood""
+        ]
+      },
+      {
+        ""id"": ""bottle"",
+        ""attributes"": [
+          ""chilled"",
+          ""white_wine""
+        ]
+      },
+      {
+        ""id"": ""sound"",
+        ""attributes"": [
+          ""waves_crashing""
+        ]
+      },
+      {
+        ""id"": ""backdrop"",
+        ""attributes"": [
+          ""calming"",
+          ""evening""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""table"",
+        ""on"",
+        ""balcony""
+      ],
+      [
+        ""plates"",
+        ""on"",
+        ""table""
+      ],
+      [
+        ""bottle"",
+        ""on"",
+        ""table""
+      ],
+      [
+        ""sound"",
+        ""below"",
+        ""balcony""
+      ],
+      [
+        ""sound"",
+        ""creates"",
+        ""backdrop""
+      ]
+    ]
+  }
+]",true,false
+item_0057,"In a modern hospital room, a neatly made bed with crisp white linens awaits a patient. Various medical equipment stands ready beside, and a soft blue curtain separates the room from the hallway.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""hospital_room"",
+        ""attributes"": [
+          ""modern""
+        ]
+      },
+      {
+        ""id"": ""bed"",
+        ""attributes"": [
+          ""neatly_made"",
+          ""crisp_white_linens""
+        ]
+      },
+      {
+        ""id"": ""medical_equipment"",
+        ""attributes"": [
+          ""various""
+        ]
+      },
+      {
+        ""id"": ""curtain"",
+        ""attributes"": [
+          ""soft_blue""
+        ]
+      },
+      {
+        ""id"": ""hallway"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""bed"",
+        ""in"",
+        ""hospital_room""
+      ],
+      [
+        ""medical_equipment"",
+        ""beside"",
+        ""bed""
+      ],
+      [
+        ""curtain"",
+        ""separates"",
+        ""hospital_room""
+      ],
+      [
+        ""curtain"",
+        ""separates"",
+        ""hallway""
+      ],
+      [
+        ""bed"",
+        ""awaits"",
+        ""patient""
+      ]
+    ]
+  }
+]",true,false
+item_0058,"A lively dance studio features mirrors lining the walls, with wooden floors polished for movement. Ballet barre lines one side, while colorful poles for fitness classes are placed thoughtfully throughout.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""dance_studio"",
+        ""attributes"": [
+          ""lively""
+        ]
+      },
+      {
+        ""id"": ""mirrors"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""walls"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""floors"",
+        ""attributes"": [
+          ""wooden"",
+          ""polished""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""mirrors"",
+        ""lining"",
+        ""walls""
+      ],
+      [
+        ""mirrors"",
+        ""in"",
+        ""dance_studio""
+      ],
+      [
+        ""floors"",
+        ""in"",
+        ""dance_studio""
+      ],
+      [
+        ""floors"",
+        ""polished_for"",
+        ""movement""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""dance_studio"",
+        ""attributes"": [
+          ""lively""
+        ]
+      },
+      {
+        ""id"": ""ballet_barre"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""side"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""ballet_barre"",
+        ""lines"",
+        ""side""
+      ],
+      [
+        ""ballet_barre"",
+        ""in"",
+        ""dance_studio""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T3"",
+    ""nodes"": [
+      {
+        ""id"": ""dance_studio"",
+        ""attributes"": [
+          ""lively""
+        ]
+      },
+      {
+        ""id"": ""poles"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""fitness_classes"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""poles"",
+        ""for"",
+        ""fitness_classes""
+      ],
+      [
+        ""poles"",
+        ""placed_throughout"",
+        ""dance_studio""
+      ],
+      [
+        ""poles"",
+        ""placed"",
+        ""thoughtfully""
+      ]
+    ]
+  }
+]",true,false
+item_0059,"At a family reunion site, picnic tables are adorned with checkered tablecloths, holding bowls of pasta salad and trays of grilled meat. Laughter and joy fill the air as relatives reconnect and celebrate.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""family_reunion_site"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""picnic_tables"",
+        ""attributes"": [
+          ""adorned_with_checkered_tablecloths""
+        ]
+      },
+      {
+        ""id"": ""bowls"",
+        ""attributes"": [
+          ""of_pasta_salad""
+        ]
+      },
+      {
+        ""id"": ""trays"",
+        ""attributes"": [
+          ""of_grilled_meat""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""picnic_tables"",
+        ""at"",
+        ""family_reunion_site""
+      ],
+      [
+        ""bowls"",
+        ""on"",
+        ""picnic_tables""
+      ],
+      [
+        ""trays"",
+        ""on"",
+        ""picnic_tables""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""family_reunion_site"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""laughter"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""joy"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""relatives"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""laughter"",
+        ""fills"",
+        ""air""
+      ],
+      [
+        ""joy"",
+        ""fills"",
+        ""air""
+      ],
+      [
+        ""relatives"",
+        ""reconnect"",
+        ""each_other""
+      ],
+      [
+        ""relatives"",
+        ""celebrate"",
+        ""reunion""
+      ]
+    ]
+  }
+]",true,false
+item_0060,"In a quaint quilting shop, colorful fabrics hang from the walls while baskets filled with threads occupy each corner. Workstations await crafting enthusiasts eager to create their next masterpiece.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""quilting_shop"",
+        ""attributes"": [
+          ""quaint""
+        ]
+      },
+      {
+        ""id"": ""fabrics"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""walls"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""baskets"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""threads"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""corners"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""workstations"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""fabrics"",
+        ""hang_from"",
+        ""walls""
+      ],
+      [
+        ""fabrics"",
+        ""in"",
+        ""quilting_shop""
+      ],
+      [
+        ""baskets"",
+        ""filled_with"",
+        ""threads""
+      ],
+      [
+        ""baskets"",
+        ""occupy"",
+        ""corners""
+      ],
+      [
+        ""baskets"",
+        ""in"",
+        ""quilting_shop""
+      ],
+      [
+        ""workstations"",
+        ""in"",
+        ""quilting_shop""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""quilting_shop"",
+        ""attributes"": [
+          ""quaint""
+        ]
+      },
+      {
+        ""id"": ""fabrics"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""walls"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""baskets"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""threads"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""corners"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""workstations"",
+        ""attributes"": [
+          ""awaiting""
+        ]
+      },
+      {
+        ""id"": ""crafting_enthusiasts"",
+        ""attributes"": [
+          ""eager""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""fabrics"",
+        ""hang_from"",
+        ""walls""
+      ],
+      [
+        ""fabrics"",
+        ""in"",
+        ""quilting_shop""
+      ],
+      [
+        ""baskets"",
+        ""filled_with"",
+        ""threads""
+      ],
+      [
+        ""baskets"",
+        ""occupy"",
+        ""corners""
+      ],
+      [
+        ""baskets"",
+        ""in"",
+        ""quilting_shop""
+      ],
+      [
+        ""workstations"",
+        ""in"",
+        ""quilting_shop""
+      ],
+      [
+        ""workstations"",
+        ""await"",
+        ""crafting_enthusiasts""
+      ],
+      [
+        ""crafting_enthusiasts"",
+        ""eager_to"",
+        ""create""
+      ]
+    ]
+  }
+]",true,false
+item_0061,"A contemporary art studio buzzes with energy, where artists are immersed in their work. Canvases on easels capture the vibrancy of the space, with palettes and brushes scattered across large tables.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""art_studio"",
+        ""attributes"": [
+          ""contemporary"",
+          ""buzzing_with_energy""
+        ]
+      },
+      {
+        ""id"": ""artists"",
+        ""attributes"": [
+          ""immersed_in_work""
+        ]
+      },
+      {
+        ""id"": ""canvases"",
+        ""attributes"": [
+          ""on_easels""
+        ]
+      },
+      {
+        ""id"": ""palettes"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""brushes"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""tables"",
+        ""attributes"": [
+          ""large""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""artists"",
+        ""in"",
+        ""art_studio""
+      ],
+      [
+        ""canvases"",
+        ""in"",
+        ""art_studio""
+      ],
+      [
+        ""canvases"",
+        ""capture"",
+        ""vibrancy""
+      ],
+      [
+        ""palettes"",
+        ""scattered_across"",
+        ""tables""
+      ],
+      [
+        ""brushes"",
+        ""scattered_across"",
+        ""tables""
+      ]
+    ]
+  }
+]",true,false
+item_0062,"On a vibrant city street, a lovely café spills out onto the sidewalk with colorful chairs and tables. Aroma from freshly brewed coffee wafts through the air, inviting passerby’s to sit and relax.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""city_street"",
+        ""attributes"": [
+          ""vibrant""
+        ]
+      },
+      {
+        ""id"": ""cafe"",
+        ""attributes"": [
+          ""lovely""
+        ]
+      },
+      {
+        ""id"": ""sidewalk"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""chairs"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""tables"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""cafe"",
+        ""on"",
+        ""city_street""
+      ],
+      [
+        ""cafe"",
+        ""spills_out_onto"",
+        ""sidewalk""
+      ],
+      [
+        ""chairs"",
+        ""on"",
+        ""sidewalk""
+      ],
+      [
+        ""tables"",
+        ""on"",
+        ""sidewalk""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""city_street"",
+        ""attributes"": [
+          ""vibrant""
+        ]
+      },
+      {
+        ""id"": ""cafe"",
+        ""attributes"": [
+          ""lovely""
+        ]
+      },
+      {
+        ""id"": ""aroma"",
+        ""attributes"": [
+          ""freshly_brewed_coffee""
+        ]
+      },
+      {
+        ""id"": ""air"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""passerby's"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""cafe"",
+        ""on"",
+        ""city_street""
+      ],
+      [
+        ""aroma"",
+        ""from"",
+        ""cafe""
+      ],
+      [
+        ""aroma"",
+        ""wafts_through"",
+        ""air""
+      ],
+      [
+        ""aroma"",
+        ""inviting"",
+        ""passerby's""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T3"",
+    ""nodes"": [
+      {
+        ""id"": ""city_street"",
+        ""attributes"": [
+          ""vibrant""
+        ]
+      },
+      {
+        ""id"": ""cafe"",
+        ""attributes"": [
+          ""lovely""
+        ]
+      },
+      {
+        ""id"": ""passerby's"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""chairs"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""cafe"",
+        ""on"",
+        ""city_street""
+      ],
+      [
+        ""passerby's"",
+        ""invited_to_sit"",
+        ""chairs""
+      ],
+      [
+        ""passerby's"",
+        ""invited_to_relax"",
+        ""chairs""
+      ]
+    ]
+  }
+]",true,false
+item_0063,"An expansive skate park features ramps and rails for skaters to practice their tricks. Spectators line the edges, cheering as talented skaters demonstrate their skills on the concrete platform.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""skate_park"",
+        ""attributes"": [
+          ""expansive""
+        ]
+      },
+      {
+        ""id"": ""ramps"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""rails"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""skaters"",
+        ""attributes"": [
+          ""talented""
+        ]
+      },
+      {
+        ""id"": ""spectators"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""concrete_platform"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""skate_park"",
+        ""features"",
+        ""ramps""
+      ],
+      [
+        ""skate_park"",
+        ""features"",
+        ""rails""
+      ],
+      [
+        ""skaters"",
+        ""practice_tricks_on"",
+        ""ramps""
+      ],
+      [
+        ""skaters"",
+        ""practice_tricks_on"",
+        ""rails""
+      ],
+      [
+        ""spectators"",
+        ""line_edges_of"",
+        ""skate_park""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""skate_park"",
+        ""attributes"": [
+          ""expansive""
+        ]
+      },
+      {
+        ""id"": ""ramps"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""rails"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""skaters"",
+        ""attributes"": [
+          ""talented"",
+          ""demonstrating_skills""
+        ]
+      },
+      {
+        ""id"": ""spectators"",
+        ""attributes"": [
+          ""cheering""
+        ]
+      },
+      {
+        ""id"": ""concrete_platform"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""skaters"",
+        ""demonstrate_skills_on"",
+        ""concrete_platform""
+      ],
+      [
+        ""spectators"",
+        ""cheering_at"",
+        ""skaters""
+      ],
+      [
+        ""spectators"",
+        ""line_edges_of"",
+        ""skate_park""
+      ]
+    ]
+  }
+]",true,false
+item_0064,"In a charming nursery school, colorful artwork adorns the walls, while small tables hold crayons and playdough for artistic expression. A soft reading corner invites children to lose themselves in stories.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""nursery_school"",
+        ""attributes"": [
+          ""charming""
+        ]
+      },
+      {
+        ""id"": ""artwork"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""walls"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""tables"",
+        ""attributes"": [
+          ""small""
+        ]
+      },
+      {
+        ""id"": ""crayons"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""playdough"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""artwork"",
+        ""adorns"",
+        ""walls""
+      ],
+      [
+        ""artwork"",
+        ""in"",
+        ""nursery_school""
+      ],
+      [
+        ""walls"",
+        ""in"",
+        ""nursery_school""
+      ],
+      [
+        ""tables"",
+        ""in"",
+        ""nursery_school""
+      ],
+      [
+        ""tables"",
+        ""hold"",
+        ""crayons""
+      ],
+      [
+        ""tables"",
+        ""hold"",
+        ""playdough""
+      ],
+      [
+        ""crayons"",
+        ""for"",
+        ""artistic_expression""
+      ],
+      [
+        ""playdough"",
+        ""for"",
+        ""artistic_expression""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""nursery_school"",
+        ""attributes"": [
+          ""charming""
+        ]
+      },
+      {
+        ""id"": ""reading_corner"",
+        ""attributes"": [
+          ""soft""
+        ]
+      },
+      {
+        ""id"": ""children"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""reading_corner"",
+        ""in"",
+        ""nursery_school""
+      ],
+      [
+        ""reading_corner"",
+        ""invites"",
+        ""children""
+      ],
+      [
+        ""children"",
+        ""to_read"",
+        ""stories""
+      ]
+    ]
+  }
+]",true,false
+item_0065,"An outdoor pool area features lounge chairs arranged around a sparkling pool, with fluffy towels draped over the sides. Potted plants provide privacy, while a bar offers refreshing tropical drinks.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""pool_area"",
+        ""attributes"": [
+          ""outdoor""
+        ]
+      },
+      {
+        ""id"": ""lounge_chairs"",
+        ""attributes"": [
+          ""arranged_around_pool""
+        ]
+      },
+      {
+        ""id"": ""pool"",
+        ""attributes"": [
+          ""sparkling""
+        ]
+      },
+      {
+        ""id"": ""towels"",
+        ""attributes"": [
+          ""fluffy""
+        ]
+      },
+      {
+        ""id"": ""potted_plants"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""bar"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""lounge_chairs"",
+        ""in"",
+        ""pool_area""
+      ],
+      [
+        ""pool"",
+        ""in"",
+        ""pool_area""
+      ],
+      [
+        ""towels"",
+        ""draped_over"",
+        ""sides""
+      ],
+      [
+        ""potted_plants"",
+        ""in"",
+        ""pool_area""
+      ],
+      [
+        ""bar"",
+        ""in"",
+        ""pool_area""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""pool_area"",
+        ""attributes"": [
+          ""outdoor""
+        ]
+      },
+      {
+        ""id"": ""lounge_chairs"",
+        ""attributes"": [
+          ""arranged_around_pool""
+        ]
+      },
+      {
+        ""id"": ""pool"",
+        ""attributes"": [
+          ""sparkling""
+        ]
+      },
+      {
+        ""id"": ""towels"",
+        ""attributes"": [
+          ""fluffy""
+        ]
+      },
+      {
+        ""id"": ""potted_plants"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""bar"",
+        ""attributes"": [
+          ""offering_drinks""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""lounge_chairs"",
+        ""in"",
+        ""pool_area""
+      ],
+      [
+        ""pool"",
+        ""in"",
+        ""pool_area""
+      ],
+      [
+        ""towels"",
+        ""draped_over"",
+        ""sides""
+      ],
+      [
+        ""potted_plants"",
+        ""provide"",
+        ""privacy""
+      ],
+      [
+        ""bar"",
+        ""in"",
+        ""pool_area""
+      ],
+      [
+        ""bar"",
+        ""offers"",
+        ""tropical_drinks""
+      ]
+    ]
+  }
+]",true,false
+item_0066,"A historic lighthouse stands tall on a rocky shore, surrounded by crashing waves and seagulls flying overhead. An old wooden staircase leads to the top where panoramic views of the ocean await.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""lighthouse"",
+        ""attributes"": [
+          ""historic"",
+          ""tall""
+        ]
+      },
+      {
+        ""id"": ""shore"",
+        ""attributes"": [
+          ""rocky""
+        ]
+      },
+      {
+        ""id"": ""waves"",
+        ""attributes"": [
+          ""crashing""
+        ]
+      },
+      {
+        ""id"": ""seagulls"",
+        ""attributes"": [
+          ""flying""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""lighthouse"",
+        ""on"",
+        ""shore""
+      ],
+      [
+        ""lighthouse"",
+        ""surrounded_by"",
+        ""waves""
+      ],
+      [
+        ""lighthouse"",
+        ""surrounded_by"",
+        ""seagulls""
+      ],
+      [
+        ""seagulls"",
+        ""flying_overhead"",
+        ""lighthouse""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""staircase"",
+        ""attributes"": [
+          ""old"",
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""lighthouse"",
+        ""attributes"": [
+          ""historic""
+        ]
+      },
+      {
+        ""id"": ""top"",
+        ""attributes"": [
+          ""panoramic_views""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""staircase"",
+        ""leads_to"",
+        ""top""
+      ],
+      [
+        ""top"",
+        ""of"",
+        ""lighthouse""
+      ],
+      [
+        ""top"",
+        ""has_views_of"",
+        ""ocean""
+      ]
+    ]
+  }
+]",true,false
+item_0067,"In a serene meditation space, cushions and mats are neatly arranged for tranquility. Soft ambient lighting and calming colors create a perfect atmosphere for relaxation and mindfulness practices.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""cushions"",
+        ""attributes"": [
+          ""neatly_arranged""
+        ]
+      },
+      {
+        ""id"": ""mats"",
+        ""attributes"": [
+          ""neatly_arranged""
+        ]
+      },
+      {
+        ""id"": ""lighting"",
+        ""attributes"": [
+          ""soft"",
+          ""ambient""
+        ]
+      },
+      {
+        ""id"": ""colors"",
+        ""attributes"": [
+          ""calming""
+        ]
+      },
+      {
+        ""id"": ""meditation_space"",
+        ""attributes"": [
+          ""serene""
+        ]
+      },
+      {
+        ""id"": ""atmosphere"",
+        ""attributes"": [
+          ""perfect""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""cushions"",
+        ""in"",
+        ""meditation_space""
+      ],
+      [
+        ""mats"",
+        ""in"",
+        ""meditation_space""
+      ],
+      [
+        ""lighting"",
+        ""in"",
+        ""meditation_space""
+      ],
+      [
+        ""colors"",
+        ""in"",
+        ""meditation_space""
+      ],
+      [
+        ""cushions"",
+        ""arranged_for"",
+        ""tranquility""
+      ],
+      [
+        ""mats"",
+        ""arranged_for"",
+        ""tranquility""
+      ],
+      [
+        ""lighting"",
+        ""creates"",
+        ""atmosphere""
+      ],
+      [
+        ""colors"",
+        ""creates"",
+        ""atmosphere""
+      ],
+      [
+        ""atmosphere"",
+        ""for"",
+        ""relaxation""
+      ],
+      [
+        ""atmosphere"",
+        ""for"",
+        ""mindfulness_practices""
+      ]
+    ]
+  }
+]",true,false
+item_0068,"A stylish clothing boutique showcases racks of dresses, shoes, and accessories, with mirrors positioned throughout for fitting. A cash register near the entrance is attended by friendly staff ready to help.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""boutique"",
+        ""attributes"": [
+          ""stylish"",
+          ""clothing""
+        ]
+      },
+      {
+        ""id"": ""racks"",
+        ""attributes"": [
+          ""dresses"",
+          ""shoes"",
+          ""accessories""
+        ]
+      },
+      {
+        ""id"": ""mirrors"",
+        ""attributes"": [
+          ""positioned_throughout""
+        ]
+      },
+      {
+        ""id"": ""cash_register"",
+        ""attributes"": [
+          ""near_entrance""
+        ]
+      },
+      {
+        ""id"": ""staff"",
+        ""attributes"": [
+          ""friendly"",
+          ""ready_to_help""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""boutique"",
+        ""showcases"",
+        ""racks""
+      ],
+      [
+        ""boutique"",
+        ""has"",
+        ""mirrors""
+      ],
+      [
+        ""mirrors"",
+        ""for"",
+        ""fitting""
+      ],
+      [
+        ""cash_register"",
+        ""attended_by"",
+        ""staff""
+      ]
+    ]
+  }
+]",true,false
+item_0069,"At a picturesque picnic area, a checkered blanket is laid out beneath a shady tree, featuring an assortment of snacks and sparkling juice. Nearby, children chase butterflies fluttering through the warm breeze.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""picnic_area"",
+        ""attributes"": [
+          ""picturesque""
+        ]
+      },
+      {
+        ""id"": ""blanket"",
+        ""attributes"": [
+          ""checkered""
+        ]
+      },
+      {
+        ""id"": ""tree"",
+        ""attributes"": [
+          ""shady""
+        ]
+      },
+      {
+        ""id"": ""snacks"",
+        ""attributes"": [
+          ""assortment""
+        ]
+      },
+      {
+        ""id"": ""juice"",
+        ""attributes"": [
+          ""sparkling""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""blanket"",
+        ""laid_out_beneath"",
+        ""tree""
+      ],
+      [
+        ""blanket"",
+        ""features"",
+        ""snacks""
+      ],
+      [
+        ""blanket"",
+        ""features"",
+        ""juice""
+      ],
+      [
+        ""blanket"",
+        ""in"",
+        ""picnic_area""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""picnic_area"",
+        ""attributes"": [
+          ""picturesque""
+        ]
+      },
+      {
+        ""id"": ""children"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""butterflies"",
+        ""attributes"": [
+          ""fluttering""
+        ]
+      },
+      {
+        ""id"": ""breeze"",
+        ""attributes"": [
+          ""warm""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""children"",
+        ""chase"",
+        ""butterflies""
+      ],
+      [
+        ""butterflies"",
+        ""flutter_through"",
+        ""breeze""
+      ],
+      [
+        ""children"",
+        ""nearby"",
+        ""picnic_area""
+      ]
+    ]
+  }
+]",true,false
+item_0070,"In an expansive warehouse, rows of stacked shelves hold an assortment of materials and supplies. Forklifts beep softly while workers move around efficiently, creating a sense of productivity.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""warehouse"",
+        ""attributes"": [
+          ""expansive""
+        ]
+      },
+      {
+        ""id"": ""shelves"",
+        ""attributes"": [
+          ""rows"",
+          ""stacked""
+        ]
+      },
+      {
+        ""id"": ""materials_supplies"",
+        ""attributes"": [
+          ""assortment""
+        ]
+      },
+      {
+        ""id"": ""forklifts"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""workers"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""shelves"",
+        ""in"",
+        ""warehouse""
+      ],
+      [
+        ""shelves"",
+        ""hold"",
+        ""materials_supplies""
+      ],
+      [
+        ""forklifts"",
+        ""in"",
+        ""warehouse""
+      ],
+      [
+        ""workers"",
+        ""in"",
+        ""warehouse""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""warehouse"",
+        ""attributes"": [
+          ""expansive""
+        ]
+      },
+      {
+        ""id"": ""shelves"",
+        ""attributes"": [
+          ""rows"",
+          ""stacked""
+        ]
+      },
+      {
+        ""id"": ""materials_supplies"",
+        ""attributes"": [
+          ""assortment""
+        ]
+      },
+      {
+        ""id"": ""forklifts"",
+        ""attributes"": [
+          ""beeping_softly""
+        ]
+      },
+      {
+        ""id"": ""workers"",
+        ""attributes"": [
+          ""moving_around"",
+          ""efficiently""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""shelves"",
+        ""in"",
+        ""warehouse""
+      ],
+      [
+        ""shelves"",
+        ""hold"",
+        ""materials_supplies""
+      ],
+      [
+        ""forklifts"",
+        ""in"",
+        ""warehouse""
+      ],
+      [
+        ""workers"",
+        ""in"",
+        ""warehouse""
+      ],
+      [
+        ""forklifts"",
+        ""beep"",
+        ""softly""
+      ],
+      [
+        ""workers"",
+        ""move_around"",
+        ""efficiently""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T3"",
+    ""nodes"": [
+      {
+        ""id"": ""warehouse"",
+        ""attributes"": [
+          ""expansive"",
+          ""productive""
+        ]
+      },
+      {
+        ""id"": ""shelves"",
+        ""attributes"": [
+          ""rows"",
+          ""stacked""
+        ]
+      },
+      {
+        ""id"": ""materials_supplies"",
+        ""attributes"": [
+          ""assortment""
+        ]
+      },
+      {
+        ""id"": ""forklifts"",
+        ""attributes"": [
+          ""beeping_softly""
+        ]
+      },
+      {
+        ""id"": ""workers"",
+        ""attributes"": [
+          ""moving_around"",
+          ""efficiently""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""shelves"",
+        ""in"",
+        ""warehouse""
+      ],
+      [
+        ""shelves"",
+        ""hold"",
+        ""materials_supplies""
+      ],
+      [
+        ""forklifts"",
+        ""in"",
+        ""warehouse""
+      ],
+      [
+        ""workers"",
+        ""in"",
+        ""warehouse""
+      ],
+      [
+        ""forklifts"",
+        ""beep"",
+        ""softly""
+      ],
+      [
+        ""workers"",
+        ""move_around"",
+        ""efficiently""
+      ],
+      [
+        ""warehouse"",
+        ""has"",
+        ""sense_of_productivity""
+      ]
+    ]
+  }
+]",true,false
+item_0071,"A charming chocolate shop tempts customers with glass cases filled with artisan chocolates and pastries. The air is rich with chocolate aroma, while beautifully wrapped gifts sit in colorful boxes.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""chocolate_shop"",
+        ""attributes"": [
+          ""charming""
+        ]
+      },
+      {
+        ""id"": ""glass_cases"",
+        ""attributes"": [
+          ""filled""
+        ]
+      },
+      {
+        ""id"": ""artisan_chocolates"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""pastries"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""air"",
+        ""attributes"": [
+          ""rich""
+        ]
+      },
+      {
+        ""id"": ""chocolate_aroma"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""gifts"",
+        ""attributes"": [
+          ""beautifully_wrapped""
+        ]
+      },
+      {
+        ""id"": ""colorful_boxes"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""chocolate_shop"",
+        ""tempts"",
+        ""customers""
+      ],
+      [
+        ""glass_cases"",
+        ""filled_with"",
+        ""artisan_chocolates""
+      ],
+      [
+        ""glass_cases"",
+        ""filled_with"",
+        ""pastries""
+      ],
+      [
+        ""glass_cases"",
+        ""in"",
+        ""chocolate_shop""
+      ],
+      [
+        ""air"",
+        ""rich_with"",
+        ""chocolate_aroma""
+      ],
+      [
+        ""air"",
+        ""in"",
+        ""chocolate_shop""
+      ],
+      [
+        ""gifts"",
+        ""sit_in"",
+        ""colorful_boxes""
+      ],
+      [
+        ""colorful_boxes"",
+        ""in"",
+        ""chocolate_shop""
+      ]
+    ]
+  }
+]",true,false
+item_0072,"In a botanical research lab, various plants are neatly arranged under bright grow lights. Cloning equipment and soil samples are meticulously organized on countertops, reflecting a commitment to research.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""plants"",
+        ""attributes"": [
+          ""various"",
+          ""neatly_arranged""
+        ]
+      },
+      {
+        ""id"": ""grow_lights"",
+        ""attributes"": [
+          ""bright""
+        ]
+      },
+      {
+        ""id"": ""cloning_equipment"",
+        ""attributes"": [
+          ""meticulously_organized""
+        ]
+      },
+      {
+        ""id"": ""soil_samples"",
+        ""attributes"": [
+          ""meticulously_organized""
+        ]
+      },
+      {
+        ""id"": ""countertops"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""botanical_research_lab"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""plants"",
+        ""under"",
+        ""grow_lights""
+      ],
+      [
+        ""plants"",
+        ""in"",
+        ""botanical_research_lab""
+      ],
+      [
+        ""grow_lights"",
+        ""in"",
+        ""botanical_research_lab""
+      ],
+      [
+        ""cloning_equipment"",
+        ""on"",
+        ""countertops""
+      ],
+      [
+        ""soil_samples"",
+        ""on"",
+        ""countertops""
+      ],
+      [
+        ""countertops"",
+        ""in"",
+        ""botanical_research_lab""
+      ]
+    ]
+  }
+]",true,false
+item_0073,"At a scenic lookout point, wooden benches face beautiful mountain vistas, offering visitors a place to pause and soak in the view. A signpost with direction arrows points to nearby trails and landmarks.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""lookout_point"",
+        ""attributes"": [
+          ""scenic""
+        ]
+      },
+      {
+        ""id"": ""benches"",
+        ""attributes"": [
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""mountain_vistas"",
+        ""attributes"": [
+          ""beautiful""
+        ]
+      },
+      {
+        ""id"": ""visitors"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""benches"",
+        ""at"",
+        ""lookout_point""
+      ],
+      [
+        ""benches"",
+        ""face"",
+        ""mountain_vistas""
+      ],
+      [
+        ""benches"",
+        ""offering"",
+        ""place_to_pause""
+      ],
+      [
+        ""visitors"",
+        ""soak_in"",
+        ""view""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""lookout_point"",
+        ""attributes"": [
+          ""scenic""
+        ]
+      },
+      {
+        ""id"": ""signpost"",
+        ""attributes"": [
+          ""with_direction_arrows""
+        ]
+      },
+      {
+        ""id"": ""trails"",
+        ""attributes"": [
+          ""nearby""
+        ]
+      },
+      {
+        ""id"": ""landmarks"",
+        ""attributes"": [
+          ""nearby""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""signpost"",
+        ""at"",
+        ""lookout_point""
+      ],
+      [
+        ""signpost"",
+        ""points_to"",
+        ""trails""
+      ],
+      [
+        ""signpost"",
+        ""points_to"",
+        ""landmarks""
+      ]
+    ]
+  }
+]",true,false
+item_0074,"In a cozy knitting circle, balls of vibrant yarn sit in baskets, while members chat softly about their projects. Patterns spread across tables as knitters bring their ideas to life, surrounded by laughter.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""knitting_circle"",
+        ""attributes"": [
+          ""cozy""
+        ]
+      },
+      {
+        ""id"": ""yarn_balls"",
+        ""attributes"": [
+          ""vibrant""
+        ]
+      },
+      {
+        ""id"": ""baskets"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""members"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""yarn_balls"",
+        ""sit_in"",
+        ""baskets""
+      ],
+      [
+        ""yarn_balls"",
+        ""in"",
+        ""knitting_circle""
+      ],
+      [
+        ""baskets"",
+        ""in"",
+        ""knitting_circle""
+      ],
+      [
+        ""members"",
+        ""in"",
+        ""knitting_circle""
+      ],
+      [
+        ""members"",
+        ""chat_about"",
+        ""projects""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""knitting_circle"",
+        ""attributes"": [
+          ""cozy""
+        ]
+      },
+      {
+        ""id"": ""patterns"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""tables"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""knitters"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""laughter"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""patterns"",
+        ""spread_across"",
+        ""tables""
+      ],
+      [
+        ""patterns"",
+        ""in"",
+        ""knitting_circle""
+      ],
+      [
+        ""tables"",
+        ""in"",
+        ""knitting_circle""
+      ],
+      [
+        ""knitters"",
+        ""in"",
+        ""knitting_circle""
+      ],
+      [
+        ""knitters"",
+        ""bring_to_life"",
+        ""ideas""
+      ],
+      [
+        ""knitters"",
+        ""surrounded_by"",
+        ""laughter""
+      ]
+    ]
+  }
+]",true,false
+item_0075,"A trendy rooftop bar showcases stunning city views as customers sip cocktails surrounded by flickering string lights. Modern furniture provides a stylish environment, complete with a DJ spinning tunes.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""rooftop_bar"",
+        ""attributes"": [
+          ""trendy""
+        ]
+      },
+      {
+        ""id"": ""city_views"",
+        ""attributes"": [
+          ""stunning""
+        ]
+      },
+      {
+        ""id"": ""customers"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""cocktails"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""string_lights"",
+        ""attributes"": [
+          ""flickering""
+        ]
+      },
+      {
+        ""id"": ""modern_furniture"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""environment"",
+        ""attributes"": [
+          ""stylish""
+        ]
+      },
+      {
+        ""id"": ""DJ"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""rooftop_bar"",
+        ""showcases"",
+        ""city_views""
+      ],
+      [
+        ""customers"",
+        ""sip"",
+        ""cocktails""
+      ],
+      [
+        ""customers"",
+        ""surrounded_by"",
+        ""string_lights""
+      ],
+      [
+        ""modern_furniture"",
+        ""provides"",
+        ""environment""
+      ],
+      [
+        ""DJ"",
+        ""spinning"",
+        ""tunes""
+      ]
+    ]
+  }
+]",true,false
+item_0076,"On a sunny balcony, potted herbs thrive in sunlight next to a grill. A bistro table is set for brunch with freshly baked bread and a pitcher of lemonade, inviting relaxation and enjoyment.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""balcony"",
+        ""attributes"": [
+          ""sunny""
+        ]
+      },
+      {
+        ""id"": ""herbs"",
+        ""attributes"": [
+          ""potted"",
+          ""thriving""
+        ]
+      },
+      {
+        ""id"": ""sunlight"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""grill"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""bistro_table"",
+        ""attributes"": [
+          ""set_for_brunch""
+        ]
+      },
+      {
+        ""id"": ""bread"",
+        ""attributes"": [
+          ""freshly_baked""
+        ]
+      },
+      {
+        ""id"": ""pitcher"",
+        ""attributes"": [
+          ""lemonade""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""herbs"",
+        ""on"",
+        ""balcony""
+      ],
+      [
+        ""herbs"",
+        ""in"",
+        ""sunlight""
+      ],
+      [
+        ""herbs"",
+        ""next_to"",
+        ""grill""
+      ],
+      [
+        ""grill"",
+        ""on"",
+        ""balcony""
+      ],
+      [
+        ""bistro_table"",
+        ""on"",
+        ""balcony""
+      ],
+      [
+        ""bread"",
+        ""on"",
+        ""bistro_table""
+      ],
+      [
+        ""pitcher"",
+        ""on"",
+        ""bistro_table""
+      ],
+      [
+        ""bistro_table"",
+        ""inviting"",
+        ""relaxation""
+      ],
+      [
+        ""bistro_table"",
+        ""inviting"",
+        ""enjoyment""
+      ]
+    ]
+  }
+]",true,false
+item_0077,"In a well-stocked library, reinforced shelves line the walls filled with categorically organized books. Cozy armchairs invite quiet reading, while sunlight streams through large windows illuminating the space.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""library"",
+        ""attributes"": [
+          ""well-stocked""
+        ]
+      },
+      {
+        ""id"": ""shelves"",
+        ""attributes"": [
+          ""reinforced""
+        ]
+      },
+      {
+        ""id"": ""books"",
+        ""attributes"": [
+          ""categorically_organized""
+        ]
+      },
+      {
+        ""id"": ""armchairs"",
+        ""attributes"": [
+          ""cozy""
+        ]
+      },
+      {
+        ""id"": ""windows"",
+        ""attributes"": [
+          ""large""
+        ]
+      },
+      {
+        ""id"": ""sunlight"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""shelves"",
+        ""line"",
+        ""walls""
+      ],
+      [
+        ""shelves"",
+        ""filled_with"",
+        ""books""
+      ],
+      [
+        ""armchairs"",
+        ""invite"",
+        ""reading""
+      ],
+      [
+        ""sunlight"",
+        ""streams_through"",
+        ""windows""
+      ],
+      [
+        ""sunlight"",
+        ""illuminating"",
+        ""space""
+      ]
+    ]
+  }
+]",true,false
+item_0078,An inviting sushi restaurant features wooden sushi counter seating where chefs prepare fresh rolls. Elegantly arranged plates overflowing with food create a visual feast for diners as they indulge.,"[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""sushi_restaurant"",
+        ""attributes"": [
+          ""inviting""
+        ]
+      },
+      {
+        ""id"": ""sushi_counter_seating"",
+        ""attributes"": [
+          ""wooden""
+        ]
+      },
+      {
+        ""id"": ""chefs"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""sushi_restaurant"",
+        ""features"",
+        ""sushi_counter_seating""
+      ],
+      [
+        ""chefs"",
+        ""at"",
+        ""sushi_counter_seating""
+      ],
+      [
+        ""chefs"",
+        ""prepare"",
+        ""fresh_rolls""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""plates"",
+        ""attributes"": [
+          ""elegantly_arranged"",
+          ""overflowing_with_food""
+        ]
+      },
+      {
+        ""id"": ""diners"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""plates"",
+        ""create"",
+        ""visual_feast""
+      ],
+      [
+        ""diners"",
+        ""indulge"",
+        ""food""
+      ],
+      [
+        ""visual_feast"",
+        ""for"",
+        ""diners""
+      ]
+    ]
+  }
+]",true,false
+item_0079,"In a dynamic science classroom, lab benches are equipped with beakers and scientific apparatus. Students are engaged in hands-on experiments, while colorful posters illustrating the scientific method adorn the walls.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""science_classroom"",
+        ""attributes"": [
+          ""dynamic""
+        ]
+      },
+      {
+        ""id"": ""lab_benches"",
+        ""attributes"": [
+          ""equipped_with_beakers"",
+          ""equipped_with_scientific_apparatus""
+        ]
+      },
+      {
+        ""id"": ""students"",
+        ""attributes"": [
+          ""engaged_in_experiments""
+        ]
+      },
+      {
+        ""id"": ""posters"",
+        ""attributes"": [
+          ""colorful"",
+          ""illustrating_scientific_method""
+        ]
+      },
+      {
+        ""id"": ""walls"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""lab_benches"",
+        ""in"",
+        ""science_classroom""
+      ],
+      [
+        ""students"",
+        ""in"",
+        ""science_classroom""
+      ],
+      [
+        ""posters"",
+        ""on"",
+        ""walls""
+      ],
+      [
+        ""walls"",
+        ""part_of"",
+        ""science_classroom""
+      ],
+      [
+        ""students"",
+        ""conducting"",
+        ""experiments""
+      ]
+    ]
+  }
+]",true,false
+item_0080,"A tranquil zen garden features meticulously raked gravel paths surrounded by smooth stones and carefully placed shrubs. A small water feature adds soothing sounds, inviting contemplation and peace.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""zen_garden"",
+        ""attributes"": [
+          ""tranquil""
+        ]
+      },
+      {
+        ""id"": ""gravel_paths"",
+        ""attributes"": [
+          ""meticulously_raked""
+        ]
+      },
+      {
+        ""id"": ""stones"",
+        ""attributes"": [
+          ""smooth""
+        ]
+      },
+      {
+        ""id"": ""shrubs"",
+        ""attributes"": [
+          ""carefully_placed""
+        ]
+      },
+      {
+        ""id"": ""water_feature"",
+        ""attributes"": [
+          ""small""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""gravel_paths"",
+        ""surrounded_by"",
+        ""stones""
+      ],
+      [
+        ""gravel_paths"",
+        ""surrounded_by"",
+        ""shrubs""
+      ],
+      [
+        ""gravel_paths"",
+        ""in"",
+        ""zen_garden""
+      ],
+      [
+        ""stones"",
+        ""in"",
+        ""zen_garden""
+      ],
+      [
+        ""shrubs"",
+        ""in"",
+        ""zen_garden""
+      ],
+      [
+        ""water_feature"",
+        ""in"",
+        ""zen_garden""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""zen_garden"",
+        ""attributes"": [
+          ""tranquil""
+        ]
+      },
+      {
+        ""id"": ""gravel_paths"",
+        ""attributes"": [
+          ""meticulously_raked""
+        ]
+      },
+      {
+        ""id"": ""stones"",
+        ""attributes"": [
+          ""smooth""
+        ]
+      },
+      {
+        ""id"": ""shrubs"",
+        ""attributes"": [
+          ""carefully_placed""
+        ]
+      },
+      {
+        ""id"": ""water_feature"",
+        ""attributes"": [
+          ""small"",
+          ""producing_soothing_sounds""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""gravel_paths"",
+        ""surrounded_by"",
+        ""stones""
+      ],
+      [
+        ""gravel_paths"",
+        ""surrounded_by"",
+        ""shrubs""
+      ],
+      [
+        ""gravel_paths"",
+        ""in"",
+        ""zen_garden""
+      ],
+      [
+        ""stones"",
+        ""in"",
+        ""zen_garden""
+      ],
+      [
+        ""shrubs"",
+        ""in"",
+        ""zen_garden""
+      ],
+      [
+        ""water_feature"",
+        ""in"",
+        ""zen_garden""
+      ],
+      [
+        ""water_feature"",
+        ""adds"",
+        ""soothing_sounds""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T3"",
+    ""nodes"": [
+      {
+        ""id"": ""zen_garden"",
+        ""attributes"": [
+          ""tranquil"",
+          ""inviting_contemplation"",
+          ""inviting_peace""
+        ]
+      },
+      {
+        ""id"": ""gravel_paths"",
+        ""attributes"": [
+          ""meticulously_raked""
+        ]
+      },
+      {
+        ""id"": ""stones"",
+        ""attributes"": [
+          ""smooth""
+        ]
+      },
+      {
+        ""id"": ""shrubs"",
+        ""attributes"": [
+          ""carefully_placed""
+        ]
+      },
+      {
+        ""id"": ""water_feature"",
+        ""attributes"": [
+          ""small"",
+          ""producing_soothing_sounds""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""gravel_paths"",
+        ""surrounded_by"",
+        ""stones""
+      ],
+      [
+        ""gravel_paths"",
+        ""surrounded_by"",
+        ""shrubs""
+      ],
+      [
+        ""gravel_paths"",
+        ""in"",
+        ""zen_garden""
+      ],
+      [
+        ""stones"",
+        ""in"",
+        ""zen_garden""
+      ],
+      [
+        ""shrubs"",
+        ""in"",
+        ""zen_garden""
+      ],
+      [
+        ""water_feature"",
+        ""in"",
+        ""zen_garden""
+      ],
+      [
+        ""water_feature"",
+        ""adds"",
+        ""soothing_sounds""
+      ],
+      [
+        ""zen_garden"",
+        ""invites"",
+        ""contemplation""
+      ],
+      [
+        ""zen_garden"",
+        ""invites"",
+        ""peace""
+      ]
+    ]
+  }
+]",true,false
+item_0081,"In a botanical garden’s tropical section, exotic plants flourish under a glass dome. Visitors wander through lush greenery and vibrant blooms, taking in the beauty of nature preserved within.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""botanical_garden"",
+        ""attributes"": [
+          ""tropical_section""
+        ]
+      },
+      {
+        ""id"": ""exotic_plants"",
+        ""attributes"": [
+          ""flourishing""
+        ]
+      },
+      {
+        ""id"": ""glass_dome"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""exotic_plants"",
+        ""in"",
+        ""botanical_garden""
+      ],
+      [
+        ""exotic_plants"",
+        ""under"",
+        ""glass_dome""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""visitors"",
+        ""attributes"": [
+          ""wandering""
+        ]
+      },
+      {
+        ""id"": ""greenery"",
+        ""attributes"": [
+          ""lush""
+        ]
+      },
+      {
+        ""id"": ""blooms"",
+        ""attributes"": [
+          ""vibrant""
+        ]
+      },
+      {
+        ""id"": ""botanical_garden"",
+        ""attributes"": [
+          ""tropical_section""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""visitors"",
+        ""in"",
+        ""botanical_garden""
+      ],
+      [
+        ""visitors"",
+        ""wander_through"",
+        ""greenery""
+      ],
+      [
+        ""visitors"",
+        ""wander_through"",
+        ""blooms""
+      ],
+      [
+        ""greenery"",
+        ""in"",
+        ""botanical_garden""
+      ],
+      [
+        ""blooms"",
+        ""in"",
+        ""botanical_garden""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T3"",
+    ""nodes"": [
+      {
+        ""id"": ""visitors"",
+        ""attributes"": [
+          ""taking_in_beauty""
+        ]
+      },
+      {
+        ""id"": ""nature"",
+        ""attributes"": [
+          ""preserved""
+        ]
+      },
+      {
+        ""id"": ""botanical_garden"",
+        ""attributes"": [
+          ""tropical_section""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""visitors"",
+        ""in"",
+        ""botanical_garden""
+      ],
+      [
+        ""nature"",
+        ""preserved_within"",
+        ""botanical_garden""
+      ],
+      [
+        ""visitors"",
+        ""taking_in"",
+        ""nature""
+      ]
+    ]
+  }
+]",true,false
+item_0082,"A lively festival ground bursts with colors from stalls selling crafts and artisan foods. Crowds gather around a stage for live music, while balloons float gently in the air under warm sun.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""festival_ground"",
+        ""attributes"": [
+          ""lively""
+        ]
+      },
+      {
+        ""id"": ""stalls"",
+        ""attributes"": [
+          ""selling_crafts"",
+          ""selling_artisan_foods""
+        ]
+      },
+      {
+        ""id"": ""colors"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""festival_ground"",
+        ""bursts_with"",
+        ""colors""
+      ],
+      [
+        ""colors"",
+        ""from"",
+        ""stalls""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""crowds"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""stage"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""live_music"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""crowds"",
+        ""gather_around"",
+        ""stage""
+      ],
+      [
+        ""stage"",
+        ""for"",
+        ""live_music""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T3"",
+    ""nodes"": [
+      {
+        ""id"": ""balloons"",
+        ""attributes"": [
+          ""floating"",
+          ""gently""
+        ]
+      },
+      {
+        ""id"": ""air"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""sun"",
+        ""attributes"": [
+          ""warm""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""balloons"",
+        ""float_in"",
+        ""air""
+      ],
+      [
+        ""air"",
+        ""under"",
+        ""sun""
+      ]
+    ]
+  }
+]",true,false
+item_0083,"In a historic train station, ornate architecture enchants with intricate moldings and benches for waiting travelers. Platforms bustle with activity as trains arrive and depart against a backdrop of vintage signs.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""train_station"",
+        ""attributes"": [
+          ""historic"",
+          ""ornate_architecture"",
+          ""intricate_moldings""
+        ]
+      },
+      {
+        ""id"": ""benches"",
+        ""attributes"": [
+          ""for_waiting_travelers""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""benches"",
+        ""in"",
+        ""train_station""
+      ],
+      [
+        ""architecture"",
+        ""enchants"",
+        ""null""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""platforms"",
+        ""attributes"": [
+          ""bustling_with_activity""
+        ]
+      },
+      {
+        ""id"": ""trains"",
+        ""attributes"": [
+          ""arriving"",
+          ""departing""
+        ]
+      },
+      {
+        ""id"": ""vintage_signs"",
+        ""attributes"": [
+          ""backdrop""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""platforms"",
+        ""in"",
+        ""train_station""
+      ],
+      [
+        ""trains"",
+        ""on"",
+        ""platforms""
+      ],
+      [
+        ""vintage_signs"",
+        ""as_backdrop_for"",
+        ""scene""
+      ]
+    ]
+  }
+]",true,false
+item_0084,"A retro video game arcade features rows of bright machines and pinball tables buzzing with activity. Players are immersed in their games, with neon lights flickering and music pulsating in the air.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""arcade"",
+        ""attributes"": [
+          ""retro"",
+          ""video_game""
+        ]
+      },
+      {
+        ""id"": ""machines"",
+        ""attributes"": [
+          ""bright""
+        ]
+      },
+      {
+        ""id"": ""pinball_tables"",
+        ""attributes"": [
+          ""buzzing_with_activity""
+        ]
+      },
+      {
+        ""id"": ""players"",
+        ""attributes"": [
+          ""immersed""
+        ]
+      },
+      {
+        ""id"": ""neon_lights"",
+        ""attributes"": [
+          ""flickering""
+        ]
+      },
+      {
+        ""id"": ""music"",
+        ""attributes"": [
+          ""pulsating""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""arcade"",
+        ""features"",
+        ""machines""
+      ],
+      [
+        ""arcade"",
+        ""features"",
+        ""pinball_tables""
+      ],
+      [
+        ""machines"",
+        ""arranged_in"",
+        ""rows""
+      ],
+      [
+        ""pinball_tables"",
+        ""arranged_in"",
+        ""rows""
+      ],
+      [
+        ""players"",
+        ""in"",
+        ""arcade""
+      ],
+      [
+        ""players"",
+        ""playing"",
+        ""games""
+      ],
+      [
+        ""neon_lights"",
+        ""in"",
+        ""arcade""
+      ],
+      [
+        ""music"",
+        ""in"",
+        ""air""
+      ]
+    ]
+  }
+]",true,false
+item_0085,"In a busy restaurant kitchen, chefs move efficiently among sizzling pans and chopping boards. The atmosphere buzzes with coordinated chaos as orders are shouted and dishes are plated beautifully.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""restaurant_kitchen"",
+        ""attributes"": [
+          ""busy""
+        ]
+      },
+      {
+        ""id"": ""chefs"",
+        ""attributes"": [
+          ""moving_efficiently""
+        ]
+      },
+      {
+        ""id"": ""pans"",
+        ""attributes"": [
+          ""sizzling""
+        ]
+      },
+      {
+        ""id"": ""chopping_boards"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""chefs"",
+        ""move_among"",
+        ""pans""
+      ],
+      [
+        ""chefs"",
+        ""move_among"",
+        ""chopping_boards""
+      ],
+      [
+        ""pans"",
+        ""in"",
+        ""restaurant_kitchen""
+      ],
+      [
+        ""chopping_boards"",
+        ""in"",
+        ""restaurant_kitchen""
+      ],
+      [
+        ""chefs"",
+        ""in"",
+        ""restaurant_kitchen""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""restaurant_kitchen"",
+        ""attributes"": [
+          ""busy""
+        ]
+      },
+      {
+        ""id"": ""atmosphere"",
+        ""attributes"": [
+          ""buzzing"",
+          ""coordinated_chaos""
+        ]
+      },
+      {
+        ""id"": ""orders"",
+        ""attributes"": [
+          ""shouted""
+        ]
+      },
+      {
+        ""id"": ""dishes"",
+        ""attributes"": [
+          ""plated_beautifully""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""atmosphere"",
+        ""in"",
+        ""restaurant_kitchen""
+      ],
+      [
+        ""orders"",
+        ""in"",
+        ""restaurant_kitchen""
+      ],
+      [
+        ""dishes"",
+        ""in"",
+        ""restaurant_kitchen""
+      ]
+    ]
+  }
+]",true,false
+item_0086,"At a traditional holiday market, stalls brim with handmade ornaments and festive treats, while cheerful music fills the air. Families stroll through, absorbing the warm atmosphere and seasonal spirit.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""market"",
+        ""attributes"": [
+          ""traditional"",
+          ""holiday""
+        ]
+      },
+      {
+        ""id"": ""stalls"",
+        ""attributes"": [
+          ""brimming""
+        ]
+      },
+      {
+        ""id"": ""ornaments"",
+        ""attributes"": [
+          ""handmade""
+        ]
+      },
+      {
+        ""id"": ""treats"",
+        ""attributes"": [
+          ""festive""
+        ]
+      },
+      {
+        ""id"": ""music"",
+        ""attributes"": [
+          ""cheerful""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""stalls"",
+        ""in"",
+        ""market""
+      ],
+      [
+        ""stalls"",
+        ""brim_with"",
+        ""ornaments""
+      ],
+      [
+        ""stalls"",
+        ""brim_with"",
+        ""treats""
+      ],
+      [
+        ""music"",
+        ""fills"",
+        ""air""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""market"",
+        ""attributes"": [
+          ""traditional"",
+          ""holiday""
+        ]
+      },
+      {
+        ""id"": ""families"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""atmosphere"",
+        ""attributes"": [
+          ""warm""
+        ]
+      },
+      {
+        ""id"": ""spirit"",
+        ""attributes"": [
+          ""seasonal""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""families"",
+        ""stroll_through"",
+        ""market""
+      ],
+      [
+        ""families"",
+        ""absorbing"",
+        ""atmosphere""
+      ],
+      [
+        ""families"",
+        ""absorbing"",
+        ""spirit""
+      ]
+    ]
+  }
+]",true,false
+item_0087,"A cozy reading room features a large bay window with soft cushions, inviting readers to curl up with a book. Shelves filled with novels frame the space, while soft lighting creates a peaceful environment.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""reading_room"",
+        ""attributes"": [
+          ""cozy""
+        ]
+      },
+      {
+        ""id"": ""bay_window"",
+        ""attributes"": [
+          ""large""
+        ]
+      },
+      {
+        ""id"": ""cushions"",
+        ""attributes"": [
+          ""soft""
+        ]
+      },
+      {
+        ""id"": ""shelves"",
+        ""attributes"": [
+          ""filled_with_novels""
+        ]
+      },
+      {
+        ""id"": ""lighting"",
+        ""attributes"": [
+          ""soft""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""bay_window"",
+        ""has"",
+        ""cushions""
+      ],
+      [
+        ""bay_window"",
+        ""part_of"",
+        ""reading_room""
+      ],
+      [
+        ""shelves"",
+        ""frame"",
+        ""reading_room""
+      ],
+      [
+        ""lighting"",
+        ""creates"",
+        ""peaceful_environment""
+      ]
+    ]
+  }
+]",true,false
+item_0088,"On a sandy beach at sunset, a group of friends gathers around a bonfire, roasting marshmallows. A guitar strums softly, while the sky is filled with warm hues of orange and pink, painting the horizon.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""beach"",
+        ""attributes"": [
+          ""sandy"",
+          ""sunset""
+        ]
+      },
+      {
+        ""id"": ""group_of_friends"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""bonfire"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""marshmallows"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""guitar"",
+        ""attributes"": [
+          ""strumming_softly""
+        ]
+      },
+      {
+        ""id"": ""sky"",
+        ""attributes"": [
+          ""warm_hues_orange_pink""
+        ]
+      },
+      {
+        ""id"": ""horizon"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""group_of_friends"",
+        ""gathers_around"",
+        ""bonfire""
+      ],
+      [
+        ""group_of_friends"",
+        ""roasting"",
+        ""marshmallows""
+      ],
+      [
+        ""group_of_friends"",
+        ""on"",
+        ""beach""
+      ],
+      [
+        ""bonfire"",
+        ""on"",
+        ""beach""
+      ],
+      [
+        ""sky"",
+        ""filled_with"",
+        ""warm_hues_orange_pink""
+      ],
+      [
+        ""sky"",
+        ""painting"",
+        ""horizon""
+      ]
+    ]
+  }
+]",true,false
+item_0089,"In an expansive botanical garden, a fragrant rose garden bursts with an array of colors. Visitors stroll along winding paths, capturing the beauty of peonies and lilies in bloom under the sunlight.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""botanical_garden"",
+        ""attributes"": [
+          ""expansive""
+        ]
+      },
+      {
+        ""id"": ""rose_garden"",
+        ""attributes"": [
+          ""fragrant""
+        ]
+      },
+      {
+        ""id"": ""visitors"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""paths"",
+        ""attributes"": [
+          ""winding""
+        ]
+      },
+      {
+        ""id"": ""peonies"",
+        ""attributes"": [
+          ""in_bloom""
+        ]
+      },
+      {
+        ""id"": ""lilies"",
+        ""attributes"": [
+          ""in_bloom""
+        ]
+      },
+      {
+        ""id"": ""sunlight"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""rose_garden"",
+        ""in"",
+        ""botanical_garden""
+      ],
+      [
+        ""rose_garden"",
+        ""bursts_with"",
+        ""colors""
+      ],
+      [
+        ""visitors"",
+        ""stroll_along"",
+        ""paths""
+      ],
+      [
+        ""peonies"",
+        ""under"",
+        ""sunlight""
+      ],
+      [
+        ""lilies"",
+        ""under"",
+        ""sunlight""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""botanical_garden"",
+        ""attributes"": [
+          ""expansive""
+        ]
+      },
+      {
+        ""id"": ""rose_garden"",
+        ""attributes"": [
+          ""fragrant""
+        ]
+      },
+      {
+        ""id"": ""visitors"",
+        ""attributes"": [
+          ""capturing_beauty""
+        ]
+      },
+      {
+        ""id"": ""paths"",
+        ""attributes"": [
+          ""winding""
+        ]
+      },
+      {
+        ""id"": ""peonies"",
+        ""attributes"": [
+          ""in_bloom""
+        ]
+      },
+      {
+        ""id"": ""lilies"",
+        ""attributes"": [
+          ""in_bloom""
+        ]
+      },
+      {
+        ""id"": ""sunlight"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""rose_garden"",
+        ""in"",
+        ""botanical_garden""
+      ],
+      [
+        ""rose_garden"",
+        ""bursts_with"",
+        ""colors""
+      ],
+      [
+        ""visitors"",
+        ""stroll_along"",
+        ""paths""
+      ],
+      [
+        ""visitors"",
+        ""capturing"",
+        ""peonies""
+      ],
+      [
+        ""visitors"",
+        ""capturing"",
+        ""lilies""
+      ],
+      [
+        ""peonies"",
+        ""under"",
+        ""sunlight""
+      ],
+      [
+        ""lilies"",
+        ""under"",
+        ""sunlight""
+      ]
+    ]
+  }
+]",true,false
+item_0090,"A colorful toy store sparkles with shelves lined with action figures, dolls, and puzzles. A play area invites children to explore new toys, while adults browse happily amidst the cheerful decor.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""toy_store"",
+        ""attributes"": [
+          ""colorful"",
+          ""sparkling""
+        ]
+      },
+      {
+        ""id"": ""shelves"",
+        ""attributes"": [
+          ""lined_with_action_figures"",
+          ""lined_with_dolls"",
+          ""lined_with_puzzles""
+        ]
+      },
+      {
+        ""id"": ""play_area"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""children"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""adults"",
+        ""attributes"": [
+          ""browsing"",
+          ""happy""
+        ]
+      },
+      {
+        ""id"": ""decor"",
+        ""attributes"": [
+          ""cheerful""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""shelves"",
+        ""in"",
+        ""toy_store""
+      ],
+      [
+        ""play_area"",
+        ""in"",
+        ""toy_store""
+      ],
+      [
+        ""children"",
+        ""in"",
+        ""toy_store""
+      ],
+      [
+        ""adults"",
+        ""in"",
+        ""toy_store""
+      ],
+      [
+        ""decor"",
+        ""in"",
+        ""toy_store""
+      ],
+      [
+        ""play_area"",
+        ""invites"",
+        ""children""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""toy_store"",
+        ""attributes"": [
+          ""colorful"",
+          ""sparkling""
+        ]
+      },
+      {
+        ""id"": ""shelves"",
+        ""attributes"": [
+          ""lined_with_action_figures"",
+          ""lined_with_dolls"",
+          ""lined_with_puzzles""
+        ]
+      },
+      {
+        ""id"": ""play_area"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""children"",
+        ""attributes"": [
+          ""exploring""
+        ]
+      },
+      {
+        ""id"": ""adults"",
+        ""attributes"": [
+          ""browsing"",
+          ""happy""
+        ]
+      },
+      {
+        ""id"": ""decor"",
+        ""attributes"": [
+          ""cheerful""
+        ]
+      },
+      {
+        ""id"": ""toys"",
+        ""attributes"": [
+          ""new""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""shelves"",
+        ""in"",
+        ""toy_store""
+      ],
+      [
+        ""play_area"",
+        ""in"",
+        ""toy_store""
+      ],
+      [
+        ""children"",
+        ""in"",
+        ""toy_store""
+      ],
+      [
+        ""adults"",
+        ""in"",
+        ""toy_store""
+      ],
+      [
+        ""decor"",
+        ""in"",
+        ""toy_store""
+      ],
+      [
+        ""children"",
+        ""explore"",
+        ""toys""
+      ],
+      [
+        ""adults"",
+        ""browse"",
+        ""toys""
+      ]
+    ]
+  }
+]",true,false
+item_0091,"In a modern co-working space, sleek desks are occupied by professionals focused on their work. Large windows fill the area with light, while collaborative spaces encourage networking and creativity.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""co-working_space"",
+        ""attributes"": [
+          ""modern""
+        ]
+      },
+      {
+        ""id"": ""desks"",
+        ""attributes"": [
+          ""sleek""
+        ]
+      },
+      {
+        ""id"": ""professionals"",
+        ""attributes"": [
+          ""focused""
+        ]
+      },
+      {
+        ""id"": ""windows"",
+        ""attributes"": [
+          ""large""
+        ]
+      },
+      {
+        ""id"": ""collaborative_spaces"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""desks"",
+        ""in"",
+        ""co-working_space""
+      ],
+      [
+        ""professionals"",
+        ""in"",
+        ""co-working_space""
+      ],
+      [
+        ""windows"",
+        ""in"",
+        ""co-working_space""
+      ],
+      [
+        ""collaborative_spaces"",
+        ""in"",
+        ""co-working_space""
+      ],
+      [
+        ""professionals"",
+        ""occupied"",
+        ""desks""
+      ],
+      [
+        ""professionals"",
+        ""focused_on"",
+        ""work""
+      ],
+      [
+        ""windows"",
+        ""fill"",
+        ""area""
+      ],
+      [
+        ""windows"",
+        ""with"",
+        ""light""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""co-working_space"",
+        ""attributes"": [
+          ""modern""
+        ]
+      },
+      {
+        ""id"": ""collaborative_spaces"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""professionals"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""collaborative_spaces"",
+        ""in"",
+        ""co-working_space""
+      ],
+      [
+        ""professionals"",
+        ""in"",
+        ""co-working_space""
+      ],
+      [
+        ""collaborative_spaces"",
+        ""encourage"",
+        ""networking""
+      ],
+      [
+        ""collaborative_spaces"",
+        ""encourage"",
+        ""creativity""
+      ]
+    ]
+  }
+]",true,false
+item_0092,"A grand opera house features an ornate stage adorned with lavish curtains and gilded decorations. The anticipation of an audience fills the air, as chandeliers shimmer overhead with elegance.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""opera_house"",
+        ""attributes"": [
+          ""grand""
+        ]
+      },
+      {
+        ""id"": ""stage"",
+        ""attributes"": [
+          ""ornate"",
+          ""adorned_with_lavish_curtains"",
+          ""gilded_decorations""
+        ]
+      },
+      {
+        ""id"": ""audience"",
+        ""attributes"": [
+          ""anticipation""
+        ]
+      },
+      {
+        ""id"": ""chandeliers"",
+        ""attributes"": [
+          ""shimmering"",
+          ""elegant""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""stage"",
+        ""in"",
+        ""opera_house""
+      ],
+      [
+        ""audience"",
+        ""in"",
+        ""opera_house""
+      ],
+      [
+        ""chandeliers"",
+        ""overhead"",
+        ""opera_house""
+      ]
+    ]
+  }
+]",true,false
+item_0093,"At a cozy outdoor café, wrought iron tables are adorned with flower vases, while patrons sip espresso. Potted plants and string lights create a charming atmosphere that invites socializing.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""cafe"",
+        ""attributes"": [
+          ""cozy"",
+          ""outdoor""
+        ]
+      },
+      {
+        ""id"": ""tables"",
+        ""attributes"": [
+          ""wrought_iron""
+        ]
+      },
+      {
+        ""id"": ""flower_vases"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""patrons"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""potted_plants"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""string_lights"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""tables"",
+        ""in"",
+        ""cafe""
+      ],
+      [
+        ""tables"",
+        ""adorned_with"",
+        ""flower_vases""
+      ],
+      [
+        ""patrons"",
+        ""in"",
+        ""cafe""
+      ],
+      [
+        ""potted_plants"",
+        ""in"",
+        ""cafe""
+      ],
+      [
+        ""string_lights"",
+        ""in"",
+        ""cafe""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""cafe"",
+        ""attributes"": [
+          ""cozy"",
+          ""outdoor"",
+          ""charming_atmosphere""
+        ]
+      },
+      {
+        ""id"": ""tables"",
+        ""attributes"": [
+          ""wrought_iron""
+        ]
+      },
+      {
+        ""id"": ""flower_vases"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""patrons"",
+        ""attributes"": [
+          ""sipping_espresso""
+        ]
+      },
+      {
+        ""id"": ""potted_plants"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""string_lights"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""tables"",
+        ""in"",
+        ""cafe""
+      ],
+      [
+        ""tables"",
+        ""adorned_with"",
+        ""flower_vases""
+      ],
+      [
+        ""patrons"",
+        ""in"",
+        ""cafe""
+      ],
+      [
+        ""patrons"",
+        ""sip"",
+        ""espresso""
+      ],
+      [
+        ""potted_plants"",
+        ""in"",
+        ""cafe""
+      ],
+      [
+        ""string_lights"",
+        ""in"",
+        ""cafe""
+      ],
+      [
+        ""potted_plants"",
+        ""create"",
+        ""charming_atmosphere""
+      ],
+      [
+        ""string_lights"",
+        ""create"",
+        ""charming_atmosphere""
+      ],
+      [
+        ""charming_atmosphere"",
+        ""invites"",
+        ""socializing""
+      ]
+    ]
+  }
+]",true,false
+item_0094,"A colorful carnival fills the fairgrounds with flashing lights and joyful laughter. Rides whir around and food stalls brim with candy and popcorn, while families enjoy games and treats together.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""carnival"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""fairgrounds"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""lights"",
+        ""attributes"": [
+          ""flashing""
+        ]
+      },
+      {
+        ""id"": ""laughter"",
+        ""attributes"": [
+          ""joyful""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""carnival"",
+        ""fills"",
+        ""fairgrounds""
+      ],
+      [
+        ""carnival"",
+        ""has"",
+        ""lights""
+      ],
+      [
+        ""carnival"",
+        ""has"",
+        ""laughter""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""rides"",
+        ""attributes"": [
+          ""whirring""
+        ]
+      },
+      {
+        ""id"": ""food_stalls"",
+        ""attributes"": [
+          ""brimming""
+        ]
+      },
+      {
+        ""id"": ""candy"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""popcorn"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""rides"",
+        ""whir_around"",
+        ""null""
+      ],
+      [
+        ""food_stalls"",
+        ""brim_with"",
+        ""candy""
+      ],
+      [
+        ""food_stalls"",
+        ""brim_with"",
+        ""popcorn""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T3"",
+    ""nodes"": [
+      {
+        ""id"": ""families"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""games"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""treats"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""families"",
+        ""enjoy"",
+        ""games""
+      ],
+      [
+        ""families"",
+        ""enjoy"",
+        ""treats""
+      ],
+      [
+        ""families"",
+        ""together"",
+        ""null""
+      ]
+    ]
+  }
+]",true,false
+item_0095,"In an expansive gymnasium, basketball players race down the court, practicing drills. Colorful banners hang from the rafters, while bleachers are filled with enthusiastic supporters cheering on their teams.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""gymnasium"",
+        ""attributes"": [
+          ""expansive""
+        ]
+      },
+      {
+        ""id"": ""basketball_players"",
+        ""attributes"": [
+          ""racing_down_court"",
+          ""practicing_drills""
+        ]
+      },
+      {
+        ""id"": ""banners"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""rafters"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""bleachers"",
+        ""attributes"": [
+          ""filled""
+        ]
+      },
+      {
+        ""id"": ""supporters"",
+        ""attributes"": [
+          ""enthusiastic"",
+          ""cheering""
+        ]
+      },
+      {
+        ""id"": ""teams"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""basketball_players"",
+        ""in"",
+        ""gymnasium""
+      ],
+      [
+        ""banners"",
+        ""hang_from"",
+        ""rafters""
+      ],
+      [
+        ""rafters"",
+        ""in"",
+        ""gymnasium""
+      ],
+      [
+        ""bleachers"",
+        ""in"",
+        ""gymnasium""
+      ],
+      [
+        ""supporters"",
+        ""on"",
+        ""bleachers""
+      ],
+      [
+        ""supporters"",
+        ""cheering_on"",
+        ""teams""
+      ],
+      [
+        ""basketball_players"",
+        ""part_of"",
+        ""teams""
+      ]
+    ]
+  }
+]",true,false
+item_0096,"At a modern art exhibit, large sculptures line the floors while exhibit walls display thought-provoking pieces. Patrons leisurely stroll through, appreciating the creativity of each unique work.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""exhibit"",
+        ""attributes"": [
+          ""modern_art""
+        ]
+      },
+      {
+        ""id"": ""sculptures"",
+        ""attributes"": [
+          ""large""
+        ]
+      },
+      {
+        ""id"": ""walls"",
+        ""attributes"": [
+          ""exhibit""
+        ]
+      },
+      {
+        ""id"": ""pieces"",
+        ""attributes"": [
+          ""thought-provoking""
+        ]
+      },
+      {
+        ""id"": ""patrons"",
+        ""attributes"": [
+          ""strolling"",
+          ""leisurely""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""sculptures"",
+        ""line"",
+        ""floors""
+      ],
+      [
+        ""walls"",
+        ""display"",
+        ""pieces""
+      ],
+      [
+        ""patrons"",
+        ""in"",
+        ""exhibit""
+      ],
+      [
+        ""patrons"",
+        ""stroll_through"",
+        ""exhibit""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""exhibit"",
+        ""attributes"": [
+          ""modern_art""
+        ]
+      },
+      {
+        ""id"": ""sculptures"",
+        ""attributes"": [
+          ""large""
+        ]
+      },
+      {
+        ""id"": ""walls"",
+        ""attributes"": [
+          ""exhibit""
+        ]
+      },
+      {
+        ""id"": ""pieces"",
+        ""attributes"": [
+          ""thought-provoking"",
+          ""unique""
+        ]
+      },
+      {
+        ""id"": ""patrons"",
+        ""attributes"": [
+          ""appreciating"",
+          ""creativity""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""sculptures"",
+        ""line"",
+        ""floors""
+      ],
+      [
+        ""walls"",
+        ""display"",
+        ""pieces""
+      ],
+      [
+        ""patrons"",
+        ""in"",
+        ""exhibit""
+      ],
+      [
+        ""patrons"",
+        ""appreciate"",
+        ""creativity""
+      ],
+      [
+        ""patrons"",
+        ""appreciate"",
+        ""work""
+      ]
+    ]
+  }
+]",true,false
+item_0097,"A scenic hike features a winding path through dense forest, where sunlight filters through the leaves. A backpack rests against a tree, and a clear stream bubbles nearby, inviting peaceful contemplation.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""hike"",
+        ""attributes"": [
+          ""scenic""
+        ]
+      },
+      {
+        ""id"": ""path"",
+        ""attributes"": [
+          ""winding""
+        ]
+      },
+      {
+        ""id"": ""forest"",
+        ""attributes"": [
+          ""dense""
+        ]
+      },
+      {
+        ""id"": ""sunlight"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""leaves"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""path"",
+        ""through"",
+        ""forest""
+      ],
+      [
+        ""sunlight"",
+        ""filters_through"",
+        ""leaves""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""backpack"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""tree"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""stream"",
+        ""attributes"": [
+          ""clear"",
+          ""bubbling""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""backpack"",
+        ""rests_against"",
+        ""tree""
+      ],
+      [
+        ""stream"",
+        ""nearby"",
+        ""hike""
+      ]
+    ]
+  }
+]",true,false
+item_0098,"In a bustling flower shop, bright blooms fill the shelves with vases ready for delivery. A soft scent of flowers wafts through the air as customers discuss arrangements with knowledgeable staff members.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""flower_shop"",
+        ""attributes"": [
+          ""bustling""
+        ]
+      },
+      {
+        ""id"": ""blooms"",
+        ""attributes"": [
+          ""bright""
+        ]
+      },
+      {
+        ""id"": ""shelves"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""vases"",
+        ""attributes"": [
+          ""ready_for_delivery""
+        ]
+      },
+      {
+        ""id"": ""scent"",
+        ""attributes"": [
+          ""soft"",
+          ""of_flowers""
+        ]
+      },
+      {
+        ""id"": ""air"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""customers"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""staff_members"",
+        ""attributes"": [
+          ""knowledgeable""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""blooms"",
+        ""fill"",
+        ""shelves""
+      ],
+      [
+        ""vases"",
+        ""on"",
+        ""shelves""
+      ],
+      [
+        ""scent"",
+        ""wafts_through"",
+        ""air""
+      ],
+      [
+        ""customers"",
+        ""discuss_arrangements_with"",
+        ""staff_members""
+      ]
+    ]
+  }
+]",true,false
+item_0099,"In a large recreational center, families enjoy swimming at the indoor pool. Laughter and splashes fill the air, with colorful floaties and pool toys adding to the cheerful atmosphere.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""recreational_center"",
+        ""attributes"": [
+          ""large""
+        ]
+      },
+      {
+        ""id"": ""pool"",
+        ""attributes"": [
+          ""indoor""
+        ]
+      },
+      {
+        ""id"": ""families"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""floaties"",
+        ""attributes"": [
+          ""colorful""
+        ]
+      },
+      {
+        ""id"": ""pool_toys"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""laughter"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""splashes"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""atmosphere"",
+        ""attributes"": [
+          ""cheerful""
+        ]
+      }
+    ],
+    ""edges"": [
+      [
+        ""pool"",
+        ""in"",
+        ""recreational_center""
+      ],
+      [
+        ""families"",
+        ""in"",
+        ""recreational_center""
+      ],
+      [
+        ""families"",
+        ""enjoy_swimming_at"",
+        ""pool""
+      ],
+      [
+        ""floaties"",
+        ""in"",
+        ""pool""
+      ],
+      [
+        ""pool_toys"",
+        ""in"",
+        ""pool""
+      ],
+      [
+        ""laughter"",
+        ""fill"",
+        ""air""
+      ],
+      [
+        ""splashes"",
+        ""fill"",
+        ""air""
+      ],
+      [
+        ""floaties"",
+        ""add_to"",
+        ""atmosphere""
+      ],
+      [
+        ""pool_toys"",
+        ""add_to"",
+        ""atmosphere""
+      ]
+    ]
+  }
+]",true,false
+item_0100,"A peaceful meditation garden features stone pathways leading to tranquil spots adorned with lanterns and calming water features. Lush plants surround the area, inviting visitors to reflect and relax.","[
+  {
+    ""time"": ""T1"",
+    ""nodes"": [
+      {
+        ""id"": ""meditation_garden"",
+        ""attributes"": [
+          ""peaceful""
+        ]
+      },
+      {
+        ""id"": ""stone_pathways"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""tranquil_spots"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""lanterns"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""water_features"",
+        ""attributes"": [
+          ""calming""
+        ]
+      },
+      {
+        ""id"": ""lush_plants"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""stone_pathways"",
+        ""lead_to"",
+        ""tranquil_spots""
+      ],
+      [
+        ""tranquil_spots"",
+        ""adorned_with"",
+        ""lanterns""
+      ],
+      [
+        ""tranquil_spots"",
+        ""adorned_with"",
+        ""water_features""
+      ],
+      [
+        ""lush_plants"",
+        ""surround"",
+        ""meditation_garden""
+      ]
+    ]
+  },
+  {
+    ""time"": ""T2"",
+    ""nodes"": [
+      {
+        ""id"": ""meditation_garden"",
+        ""attributes"": [
+          ""peaceful""
+        ]
+      },
+      {
+        ""id"": ""visitors"",
+        ""attributes"": []
+      },
+      {
+        ""id"": ""lush_plants"",
+        ""attributes"": []
+      }
+    ],
+    ""edges"": [
+      [
+        ""lush_plants"",
+        ""surround"",
+        ""meditation_garden""
+      ],
+      [
+        ""meditation_garden"",
+        ""invites"",
+        ""visitors""
+      ],
+      [
+        ""visitors"",
+        ""reflect"",
+        ""null""
+      ],
+      [
+        ""visitors"",
+        ""relax"",
+        ""null""
+      ]
+    ]
+  }
+]",true,false

@@ -1,0 +1,1 @@
+2025-09-12 09:19:01,068 - ERROR - API connection test failed: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions

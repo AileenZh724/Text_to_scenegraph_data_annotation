@@ -1,1 +1,11 @@
+# 忽略 Node.js 依赖包
+node_modules/
+
+# 忽略构建输出
+dist/
+
+# 忽略 Python 缓存
 __pycache__/
+
+# 忽略 Python 虚拟环境
+venv/
