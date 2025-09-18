@@ -1,11 +1,30 @@
-# Python dependencies for Data Annotator project
+# Python dependencies for Text2SG project
 
 # Core dependencies
+typer[all]>=0.9.0
+rich>=13.0.0
+pandas>=2.0.0
 requests>=2.31.0
+pydantic>=2.0.0
 python-dotenv>=1.0.0
 
+# Google AI dependencies
+google-generativeai>=0.3.0
+
 # Optional: For better JSON handling
-# ujson>=5.8.0
+ujson>=5.8.0
 
 # Optional: For progress bars
-# tqdm>=4.66.0
+tqdm>=4.66.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Documentation (optional)
+mkdocs>=1.5.0
+mkdocs-material>=9.0.0

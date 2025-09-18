@@ -1,0 +1,2 @@
+[console_scripts]
+text2sg = text2sg.cli:app

@@ -104,17 +104,16 @@ class CSVHandler:
                 if 'attributes' in node and not isinstance(node['attributes'], list):
                     raise ValueError(f"时间组{i}节点{j}的attributes必须是数组")
             
-            # 验证边（跳过节点存在性检查）
+            # 验证边
             for j, edge in enumerate(time_group['edges']):
                 if not isinstance(edge, list) or len(edge) != 3:
                     raise ValueError(f"时间组{i}边{j}必须是包含3个元素的数组")
                 
-                # 注释掉节点存在性验证，允许引用不存在的节点
-                # src_id, relation, dst_id = edge
-                # if src_id not in node_ids:
-                #     raise ValueError(f"时间组{i}边{j}的源节点'{src_id}'不存在")
-                # if dst_id not in node_ids:
-                #     raise ValueError(f"时间组{i}边{j}的目标节点'{dst_id}'不存在")
+                src_id, relation, dst_id = edge
+                if src_id not in node_ids:
+                    raise ValueError(f"时间组{i}边{j}的源节点'{src_id}'不存在")
+                if dst_id not in node_ids:
+                    raise ValueError(f"时间组{i}边{j}的目标节点'{dst_id}'不存在")
         
         return True
     

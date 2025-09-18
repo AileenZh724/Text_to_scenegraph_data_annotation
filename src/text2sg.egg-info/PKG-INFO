@@ -1,3 +1,45 @@
+Metadata-Version: 2.4
+Name: text2sg
+Version: 0.1.0
+Summary: Text to Scene Graph Generator - A unified CLI tool for generating scene graphs from text descriptions
+Home-page: https://github.com/your-org/text2sg
+Author: COMP5703 Team
+Author-email: Data Annotator Team <team@example.com>
+Project-URL: Homepage, https://github.com/your-org/text2sg
+Project-URL: Repository, https://github.com/your-org/text2sg
+Project-URL: Issues, https://github.com/your-org/text2sg/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: typer[all]>=0.9.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: requests>=2.28.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: pandas>=1.5.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: isort>=5.12.0; extra == "dev"
+Requires-Dist: flake8>=6.0.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Requires-Dist: pre-commit>=3.0.0; extra == "dev"
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
 # Text2SG - Text to Scene Graph Generation Tool
 
 一个强大的文本到场景图生成工具，支持CSV数据处理、多行JSON修复、场景图生成和完整的数据处理管道。

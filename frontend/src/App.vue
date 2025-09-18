@@ -89,18 +89,6 @@
           </button>
         </div>
       </div>
-
-      <!-- Scenegraph可视化区域 -->
-      <div class="visualization-section">
-        <h3>场景图可视化</h3>
-        
-        <div class="full-visualization">
-          <!-- 场景图可视化区域 -->
-          <div class="visualization-full">
-            <div ref="graphContainer" class="graph-container"></div>
-          </div>
-        </div>
-      </div>
     </div>
     
     <!-- 加载状态 -->

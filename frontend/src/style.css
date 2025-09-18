@@ -153,7 +153,6 @@ body {
   background: #f9f9f9;
   user-select: none;
   pointer-events: auto;
-  margin-bottom: 20px;
 }
 
 .controls-section {
@@ -267,14 +266,12 @@ input:checked + .slider:before {
 .full-visualization {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .visualization-full {
   width: 100%;
-}
-
-.visualization-section {
-  margin-top: 20px;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
