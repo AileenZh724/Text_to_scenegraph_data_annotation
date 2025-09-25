@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "scenegraph": [
+            {
+                "time": 0,
+                "nodes": ["person", "chair", "table", "book"],
+                "edges": [
+                    ["person", "sits_on", "chair"],
+                    ["chair", "next_to", "table"],
+                    ["book", "on", "table"]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "scenegraph": [
+            {
+                "time": 0,
+                "nodes": ["dog", "ball", "park", "tree"],
+                "edges": [
+                    ["dog", "plays_with", "ball"],
+                    ["dog", "in", "park"],
+                    ["tree", "in", "park"]
+                ]
+            }
+        ]
+    }
+]

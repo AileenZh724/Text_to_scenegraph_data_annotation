@@ -87,6 +87,181 @@
           >
             {{ saving ? '保存中...' : '保存' }}
           </button>
+          
+          <button
+            @click="showEvaluationModal = true"
+            class="btn btn-info"
+            :disabled="!fileLoaded"
+          >
+            评估
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 评估模态框 -->
+    <div v-if="showEvaluationModal" class="modal-overlay" @click="closeEvaluationModal">
+      <div class="modal" @click.stop>
+        <div class="modal-header">
+          <h3>场景图评估</h3>
+          <button @click="closeEvaluationModal" class="close-btn">&times;</button>
+        </div>
+        
+        <div class="modal-body">
+          <div class="evaluation-tabs">
+            <button 
+              @click="evaluationTab = 'current'"
+              :class="['tab-btn', { active: evaluationTab === 'current' }]"
+            >
+              当前数据评估
+            </button>
+            <button 
+              @click="evaluationTab = 'file'"
+              :class="['tab-btn', { active: evaluationTab === 'file' }]"
+            >
+              文件比较评估
+            </button>
+          </div>
+          
+          <!-- 当前数据评估 -->
+          <div v-if="evaluationTab === 'current'" class="evaluation-content">
+            <div class="form-group">
+              <label>K值设置（用于Recall@K）:</label>
+              <input 
+                v-model="evaluationSettings.kValues" 
+                type="text" 
+                placeholder="例如: 1,5,10,20,50,100"
+                class="form-input"
+              />
+              <small>用逗号分隔多个K值</small>
+            </div>
+            
+            <div class="form-group">
+              <label>已见谓词（用于Zero-shot评估，可选）:</label>
+              <textarea 
+                v-model="evaluationSettings.seenPredicatesText" 
+                placeholder='输入已见谓词列表，每行一个，例如：&#10;on&#10;in&#10;next to'
+                class="form-textarea"
+                rows="4"
+              ></textarea>
+            </div>
+            
+            <button 
+              @click="runCurrentDataEvaluation" 
+              class="btn btn-primary"
+              :disabled="evaluating"
+            >
+              {{ evaluating ? '评估中...' : '开始评估' }}
+            </button>
+          </div>
+          
+          <!-- 文件比较评估 -->
+          <div v-if="evaluationTab === 'file'" class="evaluation-content">
+            <div class="form-group">
+              <label>预测数据文件路径:</label>
+              <input 
+                v-model="evaluationSettings.predFile" 
+                type="text" 
+                placeholder="预测结果JSON文件路径"
+                class="form-input"
+              />
+            </div>
+            
+            <div class="form-group">
+              <label>真实数据文件路径:</label>
+              <input 
+                v-model="evaluationSettings.gtFile" 
+                type="text" 
+                placeholder="真实标签JSON文件路径"
+                class="form-input"
+              />
+            </div>
+            
+            <div class="form-group">
+              <label>对齐方式:</label>
+              <select v-model="evaluationSettings.alignBy" class="form-select">
+                <option value="index">按索引对齐</option>
+                <option value="id">按ID对齐</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label>长度不匹配处理:</label>
+              <select v-model="evaluationSettings.alignMode" class="form-select">
+                <option value="error">报错</option>
+                <option value="min">取最小长度</option>
+                <option value="gt">以真实数据为准</option>
+                <option value="pred">以预测数据为准</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label>K值设置:</label>
+              <input 
+                v-model="evaluationSettings.kValues" 
+                type="text" 
+                placeholder="例如: 1,5,10,20,50,100"
+                class="form-input"
+              />
+            </div>
+            
+            <div class="form-group">
+              <label>已见谓词（可选）:</label>
+              <textarea 
+                v-model="evaluationSettings.seenPredicatesText" 
+                placeholder='输入已见谓词列表，每行一个'
+                class="form-textarea"
+                rows="3"
+              ></textarea>
+            </div>
+            
+            <button 
+              @click="runFileEvaluation" 
+              class="btn btn-primary"
+              :disabled="evaluating"
+            >
+              {{ evaluating ? '评估中...' : '开始评估' }}
+            </button>
+          </div>
+          
+          <!-- 评估结果 -->
+          <div v-if="evaluationResults" class="evaluation-results">
+            <h4>评估结果</h4>
+            <div class="results-grid">
+              <div v-for="(value, key) in filteredResults" :key="key" class="result-item">
+                <span class="result-label">{{ formatMetricName(key) }}:</span>
+                <span class="result-value">{{ formatValue(value) }}</span>
+              </div>
+            </div>
+            
+            <div v-if="evaluationResults.statistics" class="statistics">
+              <h5>统计信息</h5>
+              <div class="stats-grid">
+                <div v-for="(value, key) in evaluationResults.statistics" :key="key" class="stat-item">
+                  <span class="stat-label">{{ formatStatName(key) }}:</span>
+                  <span class="stat-value">{{ formatValue(value) }}</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="export-section">
+              <h5>导出结果</h5>
+              <div class="export-controls">
+                <select v-model="exportFormat" class="form-select">
+                  <option value="json">JSON</option>
+                  <option value="csv">CSV</option>
+                  <option value="txt">TXT</option>
+                </select>
+                <input 
+                  v-model="exportFilename" 
+                  type="text" 
+                  placeholder="输出文件名（不含扩展名）"
+                  class="form-input"
+                />
+                <button @click="exportResults" class="btn btn-secondary">导出</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -135,6 +310,23 @@ export default {
     // DOM引用
     const graphContainer = ref(null)
     
+    // 评估相关的响应式数据
+    const showEvaluationModal = ref(false)
+    const evaluationTab = ref('current')
+    const evaluating = ref(false)
+    const evaluationResults = ref(null)
+    const exportFormat = ref('json')
+    const exportFilename = ref('evaluation_results')
+    
+    const evaluationSettings = reactive({
+      kValues: '1,5,10,20,50,100',
+      seenPredicatesText: '',
+      predFile: '',
+      gtFile: '',
+      alignBy: 'index',
+      alignMode: 'error'
+    })
+    
     // 计算属性
     const timeGroups = computed(() => {
       try {
@@ -143,6 +335,19 @@ export default {
       } catch {
         return []
       }
+    })
+    
+    const filteredResults = computed(() => {
+      if (!evaluationResults.value) return {}
+      
+      // 过滤掉statistics字段，只显示指标结果
+      const filtered = {}
+      for (const [key, value] of Object.entries(evaluationResults.value)) {
+        if (key !== 'statistics' && typeof value === 'number') {
+          filtered[key] = value
+        }
+      }
+      return filtered
     })
     
     // API配置
@@ -483,6 +688,142 @@ export default {
       renderGraph()
     }
     
+    // 评估相关方法
+    const closeEvaluationModal = () => {
+      showEvaluationModal.value = false
+      evaluationResults.value = null
+    }
+    
+    const parseKValues = (kValuesStr) => {
+      try {
+        return kValuesStr.split(',').map(k => parseInt(k.trim())).filter(k => !isNaN(k))
+      } catch {
+        return [1, 5, 10, 20, 50, 100]
+      }
+    }
+    
+    const parseSeenPredicates = (seenPredicatesText) => {
+      if (!seenPredicatesText.trim()) return null
+      return seenPredicatesText.split('\n').map(line => line.trim()).filter(line => line)
+    }
+    
+    const runCurrentDataEvaluation = async () => {
+      evaluating.value = true
+      try {
+        const kValues = parseKValues(evaluationSettings.kValues)
+        const seenPredicates = parseSeenPredicates(evaluationSettings.seenPredicatesText)
+        
+        const response = await api.post('/evaluate', {
+          type: 'current',
+          k_values: kValues,
+          seen_predicates: seenPredicates
+        })
+        
+        evaluationResults.value = response.data.results
+        showSuccess('当前数据评估完成')
+      } catch (error) {
+        showError(error.response?.data?.error || '评估失败: ' + error.message)
+      } finally {
+        evaluating.value = false
+      }
+    }
+    
+    const runFileEvaluation = async () => {
+      if (!evaluationSettings.predFile || !evaluationSettings.gtFile) {
+        showError('请输入预测文件和真实数据文件路径')
+        return
+      }
+      
+      evaluating.value = true
+      try {
+        const kValues = parseKValues(evaluationSettings.kValues)
+        const seenPredicates = parseSeenPredicates(evaluationSettings.seenPredicatesText)
+        
+        const response = await api.post('/evaluate', {
+          type: 'file',
+          pred_file: evaluationSettings.predFile,
+          gt_file: evaluationSettings.gtFile,
+          k_values: kValues,
+          seen_predicates: seenPredicates,
+          align_by: evaluationSettings.alignBy,
+          align_mode: evaluationSettings.alignMode
+        })
+        
+        evaluationResults.value = response.data.results
+        showSuccess('文件评估完成')
+      } catch (error) {
+        showError(error.response?.data?.error || '评估失败: ' + error.message)
+      } finally {
+        evaluating.value = false
+      }
+    }
+    
+    const exportResults = async () => {
+      if (!evaluationResults.value) {
+        showError('没有可导出的评估结果')
+        return
+      }
+      
+      try {
+        const response = await api.post('/evaluate/export', {
+          results: evaluationResults.value,
+          format: exportFormat.value,
+          output_file: exportFilename.value
+        })
+        
+        showSuccess(response.data.message)
+      } catch (error) {
+        showError(error.response?.data?.error || '导出失败: ' + error.message)
+      }
+    }
+    
+    const formatMetricName = (key) => {
+      const names = {
+        'precision': '精确率',
+        'recall': '召回率',
+        'f1': 'F1分数'
+      }
+      
+      if (names[key]) return names[key]
+      
+      if (key.startsWith('recall@')) {
+        const k = key.substring(7)
+        return `Recall@${k}`
+      }
+      
+      if (key.startsWith('mean_recall@')) {
+        const k = key.substring(12)
+        return `Mean Recall@${k}`
+      }
+      
+      if (key.startsWith('zero_shot_recall@')) {
+        const k = key.substring(17)
+        return `Zero-shot Recall@${k}`
+      }
+      
+      return key
+    }
+    
+    const formatStatName = (key) => {
+      const names = {
+        'total_items': '总项目数',
+        'total_pred_triples': '预测三元组总数',
+        'total_gt_triples': '真实三元组总数',
+        'avg_pred_triples_per_item': '平均预测三元组数/项目',
+        'avg_gt_triples_per_item': '平均真实三元组数/项目'
+      }
+      return names[key] || key
+    }
+    
+    const formatValue = (value) => {
+      if (typeof value === 'number') {
+        if (value < 1 && value > 0) {
+          return value.toFixed(4)
+        }
+        return value.toString()
+      }
+      return value
+    }
 
     
     return {
@@ -505,7 +846,23 @@ export default {
       previousRow,
       nextRow,
       switchTimeGroup,
-      markAsModified
+      markAsModified,
+      // 评估相关
+      showEvaluationModal,
+      evaluationTab,
+      evaluating,
+      evaluationResults,
+      evaluationSettings,
+      exportFormat,
+      exportFilename,
+      filteredResults,
+      closeEvaluationModal,
+      runCurrentDataEvaluation,
+      runFileEvaluation,
+      exportResults,
+      formatMetricName,
+      formatStatName,
+      formatValue
     }
   }
 }
@@ -656,6 +1013,246 @@ export default {
 .status {
   font-size: 14px;
   color: #666;
+}
+
+/* 评估模态框样式 */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  border-radius: 8px;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  width: 800px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  background: #f8f9fa;
+  border-radius: 8px 8px 0 0;
+}
+
+.modal-header h3 {
+  margin: 0;
+  color: #333;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #999;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.close-btn:hover {
+  background-color: #f0f0f0;
+  color: #666;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.evaluation-tabs {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s;
+}
+
+.tab-btn.active {
+  color: #007bff;
+  border-bottom-color: #007bff;
+  font-weight: 600;
+}
+
+.tab-btn:hover {
+  color: #007bff;
+  background-color: #f8f9fa;
+}
+
+.evaluation-content {
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-input, .form-textarea, .form-select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.form-input:focus, .form-textarea:focus, .form-select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.form-group small {
+  display: block;
+  margin-top: 5px;
+  color: #666;
+  font-size: 12px;
+}
+
+.evaluation-results {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.evaluation-results h4 {
+  margin: 0 0 20px 0;
+  color: #333;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  border-left: 4px solid #007bff;
+}
+
+.result-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.result-value {
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.statistics {
+  margin-bottom: 30px;
+}
+
+.statistics h5 {
+  margin: 0 0 15px 0;
+  color: #666;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.stat-label {
+  color: #666;
+}
+
+.stat-value {
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  color: #333;
+}
+
+.export-section {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 20px;
+}
+
+.export-section h5 {
+  margin: 0 0 15px 0;
+  color: #666;
+}
+
+.export-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.export-controls .form-select,
+.export-controls .form-input {
+  flex: 1;
+  min-width: 150px;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+}
+
+.btn-info:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
 }
 
 .error {
