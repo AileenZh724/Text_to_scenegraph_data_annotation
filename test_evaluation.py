@@ -8,21 +8,21 @@ import json
 def test_evaluator():
     evaluator = SceneGraphEvaluator()
     
-    # 测试JSON文件评估
+    # Test JSON file evaluation
     pred_file = "test_pred_data.json"
     gt_file = "test_gt_data.json"
     
     try:
-        # 加载测试数据
+        # Load test data
         pred_data = evaluator.load_json(pred_file)
         gt_data = evaluator.load_json(gt_file)
         
-        print("预测数据:")
+        print("Predicted data:")
         print(json.dumps(pred_data, indent=2, ensure_ascii=False))
-        print("\n真实数据:")
+        print("\nGround truth data:")
         print(json.dumps(gt_data, indent=2, ensure_ascii=False))
         
-        # 运行评估
+        # Run evaluation
         results = evaluator.evaluate_from_json(
             pred_data, gt_data, 
             seen_predicates=None,
@@ -31,10 +31,10 @@ def test_evaluator():
             align_mode='min'
         )
         
-        print("\n评估结果:")
+        print("\nEvaluation results:")
         for key, value in results.items():
             if key == 'statistics':
-                print(f"\n统计信息:")
+                print(f"\nStatistics:")
                 for stat_key, stat_value in value.items():
                     print(f"  {stat_key}: {stat_value}")
             else:
@@ -43,10 +43,10 @@ def test_evaluator():
                 else:
                     print(f"{key}: {value}")
         
-        print("\n测试成功完成！")
+        print("\nTest completed successfully!")
         
     except Exception as e:
-        print(f"测试失败: {e}")
+        print(f"Test failed: {e}")
         import traceback
         traceback.print_exc()
 
